@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ascender</key>
+	<integer>800</integer>
+	<key>capHeight</key>
+	<integer>700</integer>
+	<key>copyright</key>
+	<string>Copyright © 2013 by BSozoo. All rights reserved. SIL OPEN FONT LICENSE </string>
+	<key>descender</key>
+	<integer>-200</integer>
+	<key>familyName</key>
+	<string>LilGrotesk</string>
+	<key>italicAngle</key>
+	<real>0.0</real>
+	<key>openTypeHeadCreated</key>
+	<string>2013/01/17 15:35:18</string>
+	<key>openTypeHheaAscender</key>
+	<integer>800</integer>
+	<key>openTypeHheaDescender</key>
+	<integer>-200</integer>
+	<key>openTypeNameDesigner</key>
+	<string>BSozoo</string>
+	<key>openTypeNameDesignerURL</key>
+	<string>http://www.sozoo.fr</string>
+	<key>openTypeNameLicense</key>
+	<string>SIL OPEN FONT LICENSE </string>
+	<key>openTypeNameManufacturer</key>
+	<string>BSozoo</string>
+	<key>openTypeNameManufacturerURL</key>
+	<string>http://www.sozoo.fr</string>
+	<key>openTypeNamePreferredFamilyName</key>
+	<string>LilGrotesk</string>
+	<key>openTypeNamePreferredSubfamilyName</key>
+	<string>Regular</string>
+	<key>openTypeNameSampleText</key>
+	<string>Il réussit car il le devait
+De l'argent comme s'il en pleuvait
+Parle d'amour comme s'il en rêvait
+Vit sa vie comme s'il en crevait</string>
+	<key>openTypeOS2WeightClass</key>
+	<integer>400</integer>
+	<key>openTypeOS2WidthClass</key>
+	<integer>5</integer>
+	<key>postscriptBlueValues</key>
+	<array>
+	</array>
+	<key>postscriptOtherBlues</key>
+	<array>
+	</array>
+	<key>postscriptWeightName</key>
+	<string>Regular</string>
+	<key>styleName</key>
+	<string>Regular</string>
+	<key>unitsPerEm</key>
+	<integer>1000</integer>
+	<key>versionMajor</key>
+	<integer>1</integer>
+	<key>versionMinor</key>
+	<integer>1</integer>
+	<key>xHeight</key>
+	<integer>500</integer>
+</dict>
+</plist>
