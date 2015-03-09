@@ -17,4 +17,3 @@ http://scripts.sil.org/OFL
 This font repository follows the Unified Font Repository v2.0, 
 a standard way to organize font project source files. Learn more at 
 https://github.com/raphaelbastide/Unified-Font-Repository
-
