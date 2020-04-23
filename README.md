@@ -3,8 +3,7 @@
 Lil Grotesk is a sans-serif typeface in two weight.
 
 ## Specimen
-![Specimen 1](https://raw.github.com/bsozoo/LilGrotesk/master/documentation/images/sample1.jpeg)
-![Specimen 2](https://raw.github.com/bsozoo/LilGrotesk/master/documentation/images/sample2.jpeg)
+![Specimen 1](https://raw.githubusercontent.com/noirblancrouge/LilGrotesk/master/documentation/images/sample.jpg)
 
 ## License
 

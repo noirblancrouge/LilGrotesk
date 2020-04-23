@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="backslash" format="2">
+  <advance width="600.0"/>
+  <unicode hex="005C"/>
+  <note>
+backslash
+</note>
+  <outline>
+    <contour>
+      <point x="408.0" y="-87.0" type="line"/>
+      <point x="115.0" y="711.0" type="line"/>
+      <point x="50.0" y="689.0" type="line"/>
+      <point x="342.0" y="-109.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>-109.0</real>
+            <real>820.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>50.0</real>
+            <real>358.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

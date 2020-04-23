@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acute" format="2">
+  <advance width="600.0"/>
+  <unicode hex="00B4"/>
+  <note>
+acute
+</note>
+  <outline>
+    <contour>
+      <point x="163.0" y="530.0" type="line"/>
+      <point x="368.0" y="610.0" type="line"/>
+      <point x="334.0" y="724.0" type="line"/>
+      <point x="137.0" y="615.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>530.0</real>
+            <real>194.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>137.0</real>
+            <real>231.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

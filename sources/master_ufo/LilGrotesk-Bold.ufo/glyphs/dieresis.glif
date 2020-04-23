@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresis" format="2">
+  <advance width="574.0"/>
+  <unicode hex="00A8"/>
+  <note>
+dieresis
+</note>
+  <outline>
+    <contour>
+      <point x="30.0" y="621.0" type="curve" smooth="yes"/>
+      <point x="30.0" y="584.0"/>
+      <point x="63.0" y="552.0"/>
+      <point x="102.0" y="552.0" type="curve" smooth="yes"/>
+      <point x="140.0" y="552.0"/>
+      <point x="173.0" y="584.0"/>
+      <point x="173.0" y="621.0" type="curve" smooth="yes"/>
+      <point x="173.0" y="657.0"/>
+      <point x="140.0" y="690.0"/>
+      <point x="102.0" y="690.0" type="curve" smooth="yes"/>
+      <point x="63.0" y="690.0"/>
+      <point x="30.0" y="657.0"/>
+    </contour>
+    <contour>
+      <point x="400.0" y="621.0" type="curve" smooth="yes"/>
+      <point x="400.0" y="584.0"/>
+      <point x="433.0" y="552.0"/>
+      <point x="472.0" y="552.0" type="curve" smooth="yes"/>
+      <point x="511.0" y="552.0"/>
+      <point x="544.0" y="584.0"/>
+      <point x="544.0" y="621.0" type="curve" smooth="yes"/>
+      <point x="544.0" y="657.0"/>
+      <point x="511.0" y="690.0"/>
+      <point x="472.0" y="690.0" type="curve" smooth="yes"/>
+      <point x="433.0" y="690.0"/>
+      <point x="400.0" y="657.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>552.0</real>
+            <real>138.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>30.0</real>
+            <real>143.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>400.0</real>
+            <real>144.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

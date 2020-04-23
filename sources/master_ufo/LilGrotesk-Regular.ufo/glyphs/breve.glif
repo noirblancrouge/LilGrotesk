@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="breve" format="2">
+  <advance width="600.0"/>
+  <unicode hex="02D8"/>
+  <note>
+breve
+</note>
+  <outline>
+    <contour>
+      <point x="430.0" y="719.0" type="curve"/>
+      <point x="366.0" y="719.0" type="line"/>
+      <point x="366.0" y="682.0"/>
+      <point x="336.0" y="651.0"/>
+      <point x="298.0" y="651.0" type="curve" smooth="yes"/>
+      <point x="260.0" y="651.0"/>
+      <point x="229.0" y="682.0"/>
+      <point x="229.0" y="719.0" type="curve"/>
+      <point x="165.0" y="719.0" type="line"/>
+      <point x="165.0" y="647.0"/>
+      <point x="225.0" y="587.0"/>
+      <point x="298.0" y="587.0" type="curve" smooth="yes"/>
+      <point x="370.0" y="587.0"/>
+      <point x="430.0" y="647.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>587.0</real>
+            <real>64.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>165.0</real>
+            <real>64.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>366.0</real>
+            <real>64.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

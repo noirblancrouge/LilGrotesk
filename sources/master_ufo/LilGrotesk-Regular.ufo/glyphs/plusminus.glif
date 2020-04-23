@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="plusminus" format="2">
+  <advance width="600.0"/>
+  <unicode hex="00B1"/>
+  <note>
+plusminus
+</note>
+  <outline>
+    <contour>
+      <point x="336.0" y="163.0" type="line"/>
+      <point x="336.0" y="334.0" type="line"/>
+      <point x="572.0" y="334.0" type="line"/>
+      <point x="572.0" y="398.0" type="line"/>
+      <point x="336.0" y="398.0" type="line"/>
+      <point x="336.0" y="569.0" type="line"/>
+      <point x="266.0" y="569.0" type="line"/>
+      <point x="266.0" y="398.0" type="line"/>
+      <point x="31.0" y="398.0" type="line"/>
+      <point x="31.0" y="334.0" type="line"/>
+      <point x="266.0" y="334.0" type="line"/>
+      <point x="266.0" y="163.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="31.0" y="-32.0" type="line"/>
+      <point x="572.0" y="-32.0" type="line"/>
+      <point x="572.0" y="32.0" type="line"/>
+      <point x="31.0" y="32.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>-32.0</real>
+            <real>64.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>334.0</real>
+            <real>64.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>266.0</real>
+            <real>70.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="guillemotleft" format="2">
+  <advance width="761.0"/>
+  <unicode hex="00AB"/>
+  <note>
+guillemotleft
+</note>
+  <outline>
+    <contour>
+      <point x="373.0" y="422.0" type="line"/>
+      <point x="269.0" y="510.0" type="line"/>
+      <point x="30.0" y="273.0" type="line"/>
+      <point x="269.0" y="37.0" type="line"/>
+      <point x="373.0" y="124.0" type="line"/>
+      <point x="237.0" y="273.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="636.0" y="422.0" type="line"/>
+      <point x="532.0" y="510.0" type="line"/>
+      <point x="293.0" y="273.0" type="line"/>
+      <point x="532.0" y="37.0" type="line"/>
+      <point x="636.0" y="124.0" type="line"/>
+      <point x="500.0" y="273.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>37.0</real>
+            <real>473.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>30.0</real>
+            <real>606.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

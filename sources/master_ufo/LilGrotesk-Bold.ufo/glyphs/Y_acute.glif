@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Yacute" format="2">
+  <advance width="738.0"/>
+  <unicode hex="00DD"/>
+  <note>
+Yacute
+</note>
+  <outline>
+    <contour>
+      <point x="287.0" y="730.0" type="line"/>
+      <point x="492.0" y="810.0" type="line"/>
+      <point x="458.0" y="924.0" type="line"/>
+      <point x="261.0" y="815.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="729.0" y="700.0" type="line"/>
+      <point x="553.0" y="700.0" type="line"/>
+      <point x="369.0" y="463.0" type="line"/>
+      <point x="185.0" y="700.0" type="line"/>
+      <point x="9.0" y="700.0" type="line"/>
+      <point x="298.0" y="328.0" type="line"/>
+      <point x="298.0" y="0.0" type="line"/>
+      <point x="440.0" y="0.0" type="line"/>
+      <point x="440.0" y="328.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>0.0</real>
+            <real>924.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>298.0</real>
+            <real>142.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="daggerdbl" format="2">
+  <advance width="600.0"/>
+  <unicode hex="2021"/>
+  <note>
+daggerdbl
+</note>
+  <outline>
+    <contour>
+      <point x="464.0" y="73.0" type="line"/>
+      <point x="464.0" y="137.0" type="line"/>
+      <point x="312.0" y="137.0" type="line"/>
+      <point x="312.0" y="468.0" type="line"/>
+      <point x="464.0" y="468.0" type="line"/>
+      <point x="464.0" y="532.0" type="line"/>
+      <point x="312.0" y="532.0" type="line"/>
+      <point x="312.0" y="739.0" type="line"/>
+      <point x="242.0" y="739.0" type="line"/>
+      <point x="242.0" y="532.0" type="line"/>
+      <point x="90.0" y="532.0" type="line"/>
+      <point x="90.0" y="468.0" type="line"/>
+      <point x="242.0" y="468.0" type="line"/>
+      <point x="242.0" y="137.0" type="line"/>
+      <point x="90.0" y="137.0" type="line"/>
+      <point x="90.0" y="73.0" type="line"/>
+      <point x="242.0" y="73.0" type="line"/>
+      <point x="242.0" y="-139.0" type="line"/>
+      <point x="312.0" y="-139.0" type="line"/>
+      <point x="312.0" y="73.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>73.0</real>
+            <real>64.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>468.0</real>
+            <real>64.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>242.0</real>
+            <real>70.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

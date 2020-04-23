@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fraction" format="2">
+  <advance width="650.0"/>
+  <unicode hex="2044"/>
+  <note>
+fraction
+</note>
+  <outline>
+    <contour>
+      <point x="69.0" y="-18.0" type="line"/>
+      <point x="642.0" y="841.0" type="line"/>
+      <point x="585.0" y="878.0" type="line"/>
+      <point x="11.0" y="18.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>-18.0</real>
+            <real>896.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>11.0</real>
+            <real>631.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

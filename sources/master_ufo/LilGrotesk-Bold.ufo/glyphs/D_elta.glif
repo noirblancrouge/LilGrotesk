@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Delta" format="2">
+  <advance width="600.0"/>
+  <unicode hex="0394"/>
+  <note>
+Delta
+</note>
+  <outline>
+    <contour>
+      <point x="636.0" y="4.0" type="line"/>
+      <point x="322.0" y="762.0" type="line"/>
+      <point x="7.0" y="4.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="215.0" y="136.0" type="line"/>
+      <point x="322.0" y="393.0" type="line"/>
+      <point x="429.0" y="136.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>4.0</real>
+            <real>132.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>7.0</real>
+            <real>629.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="multiply" format="2">
+  <advance width="651.0"/>
+  <unicode hex="00D7"/>
+  <note>
+multiply
+</note>
+  <outline>
+    <contour>
+      <point x="640.0" y="47.0" type="line"/>
+      <point x="113.0" y="575.0" type="line"/>
+      <point x="11.0" y="482.0" type="line"/>
+      <point x="539.0" y="-46.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>-46.0</real>
+            <real>621.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>11.0</real>
+            <real>629.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

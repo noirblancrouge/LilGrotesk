@@ -1,0 +1,43 @@
+# Prefix: Languagesystems
+# automatic
+languagesystem DFLT dflt;
+
+
+feature aalt {
+# automatic
+feature sups;
+feature frac;
+feature ordn;
+
+} aalt;
+
+feature sups {
+# automatic
+sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+sub four by foursuperior;
+
+} sups;
+
+feature frac {
+# automatic
+sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
+
+} frac;
+
+feature ordn {
+# automatic
+sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+
+} ordn;
+
+feature liga {
+# automatic
+sub f i by fi;
+sub f l by fl;
+
+} liga;
