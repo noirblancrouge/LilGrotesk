@@ -1,51 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="grave" format="2">
-  <advance width="600.0"/>
+  <advance width="600"/>
   <unicode hex="0060"/>
-  <note>
-grave
-</note>
   <outline>
-    <contour>
-      <point x="345.0" y="554.0" type="line"/>
-      <point x="361.0" y="614.0" type="line"/>
-      <point x="164.0" y="708.0" type="line"/>
-      <point x="142.0" y="634.0" type="line"/>
-    </contour>
+    <component base="gravecomb"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
           <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>554.0</real>
-            <real>154.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>142.0</real>
-            <real>219.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
+          <key>name</key>
+          <string>gravecomb</string>
         </dict>
       </array>
     </dict>

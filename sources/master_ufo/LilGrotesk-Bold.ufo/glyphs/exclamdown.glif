@@ -1,65 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="exclamdown" format="2">
-  <advance width="600.0"/>
+  <advance width="318"/>
   <unicode hex="00A1"/>
-  <note>
-exclamdown
-</note>
   <outline>
-    <contour>
-      <point x="207.0" y="822.0" type="curve" smooth="yes"/>
-      <point x="261.0" y="822.0"/>
-      <point x="303.0" y="779.0"/>
-      <point x="303.0" y="728.0" type="curve" smooth="yes"/>
-      <point x="303.0" y="677.0"/>
-      <point x="261.0" y="635.0"/>
-      <point x="207.0" y="635.0" type="curve" smooth="yes"/>
-      <point x="153.0" y="635.0"/>
-      <point x="111.0" y="677.0"/>
-      <point x="111.0" y="728.0" type="curve" smooth="yes"/>
-      <point x="111.0" y="779.0"/>
-      <point x="153.0" y="822.0"/>
-    </contour>
-    <contour>
-      <point x="137.0" y="563.0" type="line"/>
-      <point x="277.0" y="563.0" type="line"/>
-      <point x="296.0" y="70.0" type="line"/>
-      <point x="118.0" y="70.0" type="line"/>
-    </contour>
+    <component base="exclam" yScale="-1" yOffset="500"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
           <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>563.0</real>
-            <real>72.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>111.0</real>
-            <real>192.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
+          <key>name</key>
+          <string>exclam</string>
         </dict>
       </array>
     </dict>

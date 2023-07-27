@@ -1,93 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="onequarter" format="2">
-  <advance width="789.0"/>
+  <advance width="800"/>
   <unicode hex="00BC"/>
-  <note>
-onequarter
-</note>
   <outline>
-    <contour>
-      <point x="278.0" y="487.0" type="line"/>
-      <point x="278.0" y="918.0" type="line"/>
-      <point x="170.0" y="918.0" type="line"/>
-      <point x="53.0" y="851.0" type="line"/>
-      <point x="53.0" y="678.0" type="line"/>
-      <point x="135.0" y="739.0" type="line"/>
-      <point x="135.0" y="487.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="71.0" y="52.0" type="line"/>
-      <point x="189.0" y="-23.0" type="line"/>
-      <point x="744.0" y="808.0" type="line"/>
-      <point x="626.0" y="883.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="563.0" y="60.0" type="line"/>
-      <point x="563.0" y="-17.0" type="line"/>
-      <point x="688.0" y="-17.0" type="line"/>
-      <point x="688.0" y="60.0" type="line"/>
-      <point x="731.0" y="60.0" type="line"/>
-      <point x="731.0" y="157.0" type="line"/>
-      <point x="688.0" y="157.0" type="line"/>
-      <point x="688.0" y="414.0" type="line"/>
-      <point x="580.0" y="414.0" type="line"/>
-      <point x="414.0" y="157.0" type="line"/>
-      <point x="414.0" y="60.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="568.0" y="233.0" type="line"/>
-      <point x="568.0" y="156.0" type="line"/>
-      <point x="519.0" y="156.0" type="line"/>
-    </contour>
+    <component base="fraction"/>
+    <component base="one.numr" xOffset="15"/>
+    <component base="four.dnom" xOffset="387"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
           <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>60.0</real>
-            <real>96.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
+          <key>name</key>
+          <string>fraction</string>
         </dict>
         <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>135.0</real>
-            <real>143.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>568.0</real>
-            <real>120.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>one.numr</string>
         </dict>
       </array>
     </dict>

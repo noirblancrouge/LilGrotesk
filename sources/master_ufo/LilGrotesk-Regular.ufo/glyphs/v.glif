@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="v" format="2">
-  <advance width="469.0"/>
+  <advance width="492"/>
   <unicode hex="0076"/>
-  <note>
-v
-</note>
+  <anchor x="246" y="0" name="bottom"/>
+  <anchor x="246" y="500" name="top"/>
   <outline>
     <contour>
-      <point x="85.0" y="500.0" type="line"/>
-      <point x="10.0" y="500.0" type="line"/>
-      <point x="219.0" y="0.0" type="line"/>
-      <point x="249.0" y="0.0" type="line"/>
-      <point x="459.0" y="500.0" type="line"/>
-      <point x="384.0" y="500.0" type="line"/>
-      <point x="234.0" y="143.0" type="line"/>
+      <point x="217" y="0" type="line"/>
+      <point x="275" y="0" type="line"/>
+      <point x="482" y="500" type="line"/>
+      <point x="407" y="500" type="line"/>
+      <point x="241" y="92" type="line"/>
+      <point x="251" y="92" type="line"/>
+      <point x="85" y="500" type="line"/>
+      <point x="10" y="500" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -23,12 +23,14 @@ v
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>0.0</real>
-            <real>500.0</real>
+            <integer>0</integer>
+            <integer>500</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -38,12 +40,14 @@ v
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>10.0</real>
-            <real>449.0</real>
+            <integer>10</integer>
+            <integer>449</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

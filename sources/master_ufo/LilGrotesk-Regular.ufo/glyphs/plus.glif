@@ -1,24 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="plus" format="2">
-  <advance width="600.0"/>
+  <advance width="600"/>
   <unicode hex="002B"/>
-  <note>
-plus
-</note>
   <outline>
     <contour>
-      <point x="256.0" y="0.0" type="line"/>
-      <point x="326.0" y="0.0" type="line"/>
-      <point x="326.0" y="239.0" type="line"/>
-      <point x="561.0" y="239.0" type="line"/>
-      <point x="561.0" y="303.0" type="line"/>
-      <point x="326.0" y="303.0" type="line"/>
-      <point x="326.0" y="541.0" type="line"/>
-      <point x="256.0" y="541.0" type="line"/>
-      <point x="256.0" y="303.0" type="line"/>
-      <point x="20.0" y="303.0" type="line"/>
-      <point x="20.0" y="239.0" type="line"/>
-      <point x="256.0" y="239.0" type="line"/>
+      <point x="256" y="0" type="line"/>
+      <point x="326" y="0" type="line"/>
+      <point x="326" y="239" type="line"/>
+      <point x="561" y="239" type="line"/>
+      <point x="561" y="303" type="line"/>
+      <point x="326" y="303" type="line"/>
+      <point x="326" y="541" type="line"/>
+      <point x="256" y="541" type="line"/>
+      <point x="256" y="303" type="line"/>
+      <point x="20" y="303" type="line"/>
+      <point x="20" y="239" type="line"/>
+      <point x="256" y="239" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -28,12 +25,14 @@ plus
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>239.0</real>
-            <real>64.0</real>
+            <integer>239</integer>
+            <integer>64</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -43,12 +42,14 @@ plus
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>256.0</real>
-            <real>70.0</real>
+            <integer>256</integer>
+            <integer>70</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

@@ -1,26 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="guillemotright" format="2">
-  <advance width="595.0"/>
+  <advance width="595"/>
   <unicode hex="00BB"/>
-  <note>
-guillemotright
-</note>
   <outline>
     <contour>
-      <point x="268.0" y="273.0" type="line"/>
-      <point x="119.0" y="436.0" type="line"/>
-      <point x="171.0" y="479.0" type="line"/>
-      <point x="379.0" y="273.0" type="line"/>
-      <point x="171.0" y="67.0" type="line"/>
-      <point x="119.0" y="110.0" type="line"/>
+      <point x="357" y="67" type="line"/>
+      <point x="565" y="273" type="line"/>
+      <point x="357" y="479" type="line"/>
+      <point x="305" y="436" type="line"/>
+      <point x="454" y="273" type="line"/>
+      <point x="305" y="110" type="line"/>
     </contour>
     <contour>
-      <point x="454.0" y="273.0" type="line"/>
-      <point x="305.0" y="436.0" type="line"/>
-      <point x="357.0" y="479.0" type="line"/>
-      <point x="565.0" y="273.0" type="line"/>
-      <point x="357.0" y="67.0" type="line"/>
-      <point x="305.0" y="110.0" type="line"/>
+      <point x="171" y="67" type="line"/>
+      <point x="379" y="273" type="line"/>
+      <point x="171" y="479" type="line"/>
+      <point x="119" y="436" type="line"/>
+      <point x="268" y="273" type="line"/>
+      <point x="119" y="110" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -30,12 +27,14 @@ guillemotright
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>67.0</real>
-            <real>412.0</real>
+            <integer>67</integer>
+            <integer>412</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -45,12 +44,14 @@ guillemotright
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>119.0</real>
-            <real>446.0</real>
+            <integer>119</integer>
+            <integer>446</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

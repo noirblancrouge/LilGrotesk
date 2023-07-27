@@ -1,58 +1,59 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Euro" format="2">
-  <advance width="649.0"/>
+  <advance width="649"/>
   <unicode hex="20AC"/>
-  <note>
-Euro
-</note>
   <outline>
     <contour>
-      <point x="617.0" y="74.0" type="curve"/>
-      <point x="569.0" y="120.0" type="line"/>
-      <point x="525.0" y="78.0"/>
-      <point x="479.0" y="58.0"/>
-      <point x="424.0" y="58.0" type="curve" smooth="yes"/>
-      <point x="338.0" y="58.0"/>
-      <point x="260.0" y="116.0"/>
-      <point x="220.0" y="206.0" type="curve"/>
-      <point x="466.0" y="206.0" type="line"/>
-      <point x="466.0" y="270.0" type="line"/>
-      <point x="198.0" y="270.0" type="line"/>
-      <point x="193.0" y="295.0"/>
-      <point x="190.0" y="321.0"/>
-      <point x="190.0" y="349.0" type="curve" smooth="yes"/>
-      <point x="190.0" y="376.0" type="line"/>
-      <point x="466.0" y="376.0" type="line"/>
-      <point x="466.0" y="440.0" type="line"/>
-      <point x="201.0" y="440.0" type="line"/>
-      <point x="232.0" y="558.0"/>
-      <point x="323.0" y="640.0"/>
-      <point x="424.0" y="640.0" type="curve" smooth="yes"/>
-      <point x="479.0" y="640.0"/>
-      <point x="525.0" y="620.0"/>
-      <point x="569.0" y="578.0" type="curve"/>
-      <point x="617.0" y="625.0" type="line"/>
-      <point x="565.0" y="674.0"/>
-      <point x="497.0" y="704.0"/>
-      <point x="424.0" y="704.0" type="curve" smooth="yes"/>
-      <point x="283.0" y="704.0"/>
-      <point x="164.0" y="591.0"/>
-      <point x="130.0" y="440.0" type="curve"/>
-      <point x="20.0" y="440.0" type="line"/>
-      <point x="20.0" y="376.0" type="line"/>
-      <point x="120.0" y="376.0" type="line"/>
-      <point x="120.0" y="349.0" type="line" smooth="yes"/>
-      <point x="120.0" y="322.0"/>
-      <point x="122.0" y="296.0"/>
-      <point x="127.0" y="270.0" type="curve"/>
-      <point x="20.0" y="270.0" type="line"/>
-      <point x="20.0" y="206.0" type="line"/>
-      <point x="145.0" y="206.0" type="line"/>
-      <point x="193.0" y="82.0"/>
-      <point x="300.0" y="-6.0"/>
-      <point x="424.0" y="-6.0" type="curve" smooth="yes"/>
-      <point x="497.0" y="-6.0"/>
-      <point x="565.0" y="24.0"/>
+      <point x="424" y="-6" type="curve" smooth="yes"/>
+      <point x="497" y="-6"/>
+      <point x="565" y="24"/>
+      <point x="617" y="74" type="curve"/>
+      <point x="569" y="120" type="line"/>
+      <point x="525" y="78"/>
+      <point x="479" y="58"/>
+      <point x="424" y="58" type="curve" smooth="yes"/>
+      <point x="338" y="58"/>
+      <point x="260" y="116"/>
+      <point x="220" y="206" type="curve"/>
+      <point x="466" y="206" type="line"/>
+      <point x="466" y="270" type="line"/>
+      <point x="198" y="270" type="line"/>
+      <point x="193" y="295"/>
+      <point x="190" y="321"/>
+      <point x="190" y="349" type="curve" smooth="yes"/>
+      <point x="190" y="358"/>
+      <point x="190" y="367"/>
+      <point x="190" y="376" type="curve"/>
+      <point x="466" y="376" type="line"/>
+      <point x="466" y="440" type="line"/>
+      <point x="201" y="440" type="line"/>
+      <point x="232" y="558"/>
+      <point x="323" y="640"/>
+      <point x="424" y="640" type="curve" smooth="yes"/>
+      <point x="479" y="640"/>
+      <point x="525" y="620"/>
+      <point x="569" y="578" type="curve"/>
+      <point x="617" y="625" type="line"/>
+      <point x="565" y="674"/>
+      <point x="497" y="704"/>
+      <point x="424" y="704" type="curve" smooth="yes"/>
+      <point x="283" y="704"/>
+      <point x="164" y="591"/>
+      <point x="130" y="440" type="curve"/>
+      <point x="20" y="440" type="line"/>
+      <point x="20" y="376" type="line"/>
+      <point x="120" y="376" type="line"/>
+      <point x="120" y="367"/>
+      <point x="120" y="358"/>
+      <point x="120" y="349" type="curve" smooth="yes"/>
+      <point x="120" y="322"/>
+      <point x="122" y="296"/>
+      <point x="127" y="270" type="curve"/>
+      <point x="20" y="270" type="line"/>
+      <point x="20" y="206" type="line"/>
+      <point x="145" y="206" type="line"/>
+      <point x="193" y="82"/>
+      <point x="300" y="-6"/>
     </contour>
   </outline>
   <lib>
@@ -62,12 +63,14 @@ Euro
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>-6.0</real>
-            <real>64.0</real>
+            <integer>-6</integer>
+            <integer>64</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -77,12 +80,14 @@ Euro
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>206.0</real>
-            <real>64.0</real>
+            <integer>206</integer>
+            <integer>64</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -92,12 +97,14 @@ Euro
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>376.0</real>
-            <real>64.0</real>
+            <integer>376</integer>
+            <integer>64</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -107,12 +114,14 @@ Euro
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>640.0</real>
-            <real>64.0</real>
+            <integer>640</integer>
+            <integer>64</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -122,12 +131,14 @@ Euro
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>120.0</real>
-            <real>70.0</real>
+            <integer>120</integer>
+            <integer>70</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

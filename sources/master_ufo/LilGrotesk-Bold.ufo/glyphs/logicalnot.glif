@@ -1,18 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="logicalnot" format="2">
-  <advance width="744.0"/>
+  <advance width="744"/>
   <unicode hex="00AC"/>
-  <note>
-logicalnot
-</note>
   <outline>
     <contour>
-      <point x="561.0" y="135.0" type="line"/>
-      <point x="704.0" y="135.0" type="line"/>
-      <point x="704.0" y="465.0" type="line"/>
-      <point x="43.0" y="465.0" type="line"/>
-      <point x="43.0" y="333.0" type="line"/>
-      <point x="561.0" y="333.0" type="line"/>
+      <point x="561" y="135" type="line"/>
+      <point x="704" y="135" type="line"/>
+      <point x="704" y="465" type="line"/>
+      <point x="43" y="465" type="line"/>
+      <point x="43" y="333" type="line"/>
+      <point x="561" y="333" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -22,12 +19,14 @@ logicalnot
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>333.0</real>
-            <real>132.0</real>
+            <integer>333</integer>
+            <integer>132</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -37,12 +36,14 @@ logicalnot
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>561.0</real>
-            <real>143.0</real>
+            <integer>561</integer>
+            <integer>143</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

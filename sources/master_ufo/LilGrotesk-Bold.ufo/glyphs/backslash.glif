@@ -1,31 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="backslash" format="2">
-  <advance width="600.0"/>
+  <advance width="600"/>
   <unicode hex="005C"/>
-  <note>
-backslash
-</note>
   <outline>
-    <contour>
-      <point x="439.0" y="-68.0" type="line"/>
-      <point x="152.0" y="715.0" type="line"/>
-      <point x="18.0" y="670.0" type="line"/>
-      <point x="305.0" y="-113.0" type="line"/>
-    </contour>
+    <component base="slash" xScale="-1" xOffset="600"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>slash</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.hints</key>
       <array>
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>-113.0</real>
-            <real>828.0</real>
+            <integer>-113</integer>
+            <integer>828</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -35,12 +40,14 @@ backslash
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>18.0</real>
-            <real>421.0</real>
+            <integer>18</integer>
+            <integer>421</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

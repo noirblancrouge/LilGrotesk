@@ -1,16 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="emdash" format="2">
-  <advance width="906.0"/>
+  <advance width="906"/>
   <unicode hex="2014"/>
-  <note>
-emdash
-</note>
   <outline>
     <contour>
-      <point x="891.0" y="347.0" type="line"/>
-      <point x="14.0" y="347.0" type="line"/>
-      <point x="14.0" y="283.0" type="line"/>
-      <point x="891.0" y="283.0" type="line"/>
+      <point x="14" y="283" type="line"/>
+      <point x="891" y="283" type="line"/>
+      <point x="891" y="347" type="line"/>
+      <point x="14" y="347" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -20,12 +17,14 @@ emdash
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>283.0</real>
-            <real>64.0</real>
+            <integer>283</integer>
+            <integer>64</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -35,12 +34,14 @@ emdash
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>14.0</real>
-            <real>877.0</real>
+            <integer>14</integer>
+            <integer>877</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

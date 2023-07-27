@@ -1,32 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="U" format="2">
-  <advance width="671.0"/>
+  <advance width="728"/>
   <unicode hex="0055"/>
-  <note>
-U
-</note>
+  <anchor x="364" y="0" name="bottom"/>
+  <anchor x="342" y="-11" name="ogonek"/>
+  <anchor x="364" y="700" name="top"/>
   <outline>
     <contour>
-      <point x="210.0" y="274.0" type="curve" smooth="yes"/>
-      <point x="210.0" y="699.0" type="line"/>
-      <point x="67.0" y="699.0" type="line"/>
-      <point x="67.0" y="278.0" type="line"/>
-      <point x="67.0" y="279.0"/>
-      <point x="56.0" y="1.0"/>
-      <point x="333.0" y="-9.0" type="curve"/>
-      <point x="353.0" y="-9.0" type="line"/>
-      <point x="629.0" y="1.0"/>
-      <point x="619.0" y="279.0"/>
-      <point x="619.0" y="279.0" type="curve"/>
-      <point x="619.0" y="699.0" type="line"/>
-      <point x="476.0" y="699.0" type="line"/>
-      <point x="476.0" y="260.0" type="line"/>
-      <point x="472.0" y="219.0"/>
-      <point x="455.0" y="128.0"/>
-      <point x="350.0" y="123.0" type="curve"/>
-      <point x="336.0" y="123.0" type="line"/>
-      <point x="215.0" y="129.0"/>
-      <point x="210.0" y="249.0"/>
+      <point x="364" y="-6" type="curve" smooth="yes"/>
+      <point x="519" y="-6"/>
+      <point x="648" y="70"/>
+      <point x="648" y="265" type="curve" smooth="yes"/>
+      <point x="648" y="700" type="line"/>
+      <point x="508" y="700" type="line"/>
+      <point x="508" y="259" type="line" smooth="yes"/>
+      <point x="508" y="167"/>
+      <point x="450" y="123"/>
+      <point x="364" y="123" type="curve" smooth="yes"/>
+      <point x="278" y="123"/>
+      <point x="220" y="167"/>
+      <point x="220" y="259" type="curve" smooth="yes"/>
+      <point x="220" y="700" type="line"/>
+      <point x="80" y="700" type="line"/>
+      <point x="80" y="265" type="line" smooth="yes"/>
+      <point x="80" y="70"/>
+      <point x="209" y="-6"/>
     </contour>
   </outline>
   <lib>
@@ -36,12 +34,14 @@ U
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>-9.0</real>
-            <real>132.0</real>
+            <integer>-9</integer>
+            <integer>132</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -51,12 +51,14 @@ U
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>67.0</real>
-            <real>143.0</real>
+            <integer>67</integer>
+            <integer>143</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -66,12 +68,14 @@ U
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>476.0</real>
-            <real>143.0</real>
+            <integer>476</integer>
+            <integer>143</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

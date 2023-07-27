@@ -1,49 +1,48 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="n" format="2">
-  <advance width="561.0"/>
+  <advance width="526"/>
   <unicode hex="006E"/>
-  <note>
-n
-</note>
+  <anchor x="258" y="0" name="bottom"/>
+  <anchor x="258" y="500" name="top"/>
   <outline>
     <contour>
-      <point x="146.0" y="424.0" type="curve"/>
-      <point x="146.0" y="507.0" type="line"/>
-      <point x="76.0" y="507.0" type="line"/>
-      <point x="76.0" y="0.0" type="line"/>
-      <point x="146.0" y="0.0" type="line"/>
-      <point x="146.0" y="325.0" type="line"/>
-      <point x="156.0" y="383.0"/>
-      <point x="217.0" y="450.0"/>
-      <point x="297.0" y="450.0" type="curve" smooth="yes"/>
-      <point x="384.0" y="450.0"/>
-      <point x="432.0" y="411.0"/>
-      <point x="432.0" y="291.0" type="curve" smooth="yes"/>
-      <point x="432.0" y="0.0" type="line"/>
-      <point x="502.0" y="0.0" type="line"/>
-      <point x="502.0" y="291.0" type="line" smooth="yes"/>
-      <point x="502.0" y="444.0"/>
-      <point x="423.0" y="513.0"/>
-      <point x="297.0" y="513.0" type="curve" smooth="yes"/>
-      <point x="241.0" y="513.0"/>
-      <point x="182.0" y="487.0"/>
+      <point x="50" y="0" type="line"/>
+      <point x="120" y="0" type="line"/>
+      <point x="120" y="318" type="line"/>
+      <point x="130" y="376"/>
+      <point x="191" y="442"/>
+      <point x="271" y="442" type="curve" smooth="yes"/>
+      <point x="359" y="442"/>
+      <point x="406" y="396"/>
+      <point x="406" y="293" type="curve" smooth="yes"/>
+      <point x="406" y="0" type="line"/>
+      <point x="476" y="0" type="line"/>
+      <point x="476" y="294" type="line" smooth="yes"/>
+      <point x="476" y="437"/>
+      <point x="411" y="506"/>
+      <point x="281" y="506" type="curve" smooth="yes"/>
+      <point x="202" y="506"/>
+      <point x="140" y="449"/>
+      <point x="120" y="396" type="curve"/>
+      <point x="120" y="500" type="line"/>
+      <point x="50" y="500" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/02/04 10:47:44</string>
       <key>com.schriftgestaltung.hints</key>
       <array>
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>450.0</real>
-            <real>63.0</real>
+            <integer>450</integer>
+            <integer>63</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -53,12 +52,14 @@ n
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>76.0</real>
-            <real>70.0</real>
+            <integer>76</integer>
+            <integer>70</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -68,12 +69,14 @@ n
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>432.0</real>
-            <real>70.0</real>
+            <integer>432</integer>
+            <integer>70</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

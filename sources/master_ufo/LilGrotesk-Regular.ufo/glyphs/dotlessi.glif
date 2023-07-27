@@ -1,53 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotlessi" format="2">
-  <advance width="176.0"/>
+  <advance width="193"/>
   <unicode hex="0131"/>
-  <note>
-dotlessi
-</note>
+  <anchor x="96" y="0" name="bottom"/>
+  <anchor x="96" y="500" name="top"/>
   <outline>
     <contour>
-      <point x="56.0" y="502.0" type="line"/>
-      <point x="56.0" y="0.0" type="line"/>
-      <point x="120.0" y="0.0" type="line"/>
-      <point x="120.0" y="502.0" type="line"/>
+      <point x="62" y="0" type="line"/>
+      <point x="132" y="0" type="line"/>
+      <point x="132" y="500" type="line"/>
+      <point x="62" y="500" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>0.0</real>
-            <real>502.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>56.0</real>
-            <real>64.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

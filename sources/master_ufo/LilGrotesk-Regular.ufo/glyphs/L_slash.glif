@@ -1,41 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Lslash" format="2">
-  <advance width="456.0"/>
+  <advance width="489"/>
   <unicode hex="0141"/>
-  <note>
-Lslash
-</note>
+  <anchor x="279" y="0" name="bottom"/>
+  <anchor x="249" y="700" name="top"/>
   <outline>
     <contour>
-      <point x="117.0" y="343.0" type="line"/>
-      <point x="117.0" y="0.0" type="line"/>
-      <point x="441.0" y="0.0" type="line"/>
-      <point x="441.0" y="64.0" type="line"/>
-      <point x="187.0" y="64.0" type="line"/>
-      <point x="187.0" y="373.0" type="line"/>
-      <point x="344.0" y="442.0" type="line"/>
-      <point x="344.0" y="513.0" type="line"/>
-      <point x="187.0" y="443.0" type="line"/>
-      <point x="187.0" y="700.0" type="line"/>
-      <point x="117.0" y="700.0" type="line"/>
-      <point x="117.0" y="413.0" type="line"/>
-      <point x="19.0" y="369.0" type="line"/>
-      <point x="19.0" y="299.0" type="line"/>
+      <point x="19" y="299" type="line"/>
+      <point x="344" y="442" type="line"/>
+      <point x="344" y="513" type="line"/>
+      <point x="19" y="369" type="line"/>
     </contour>
+    <component base="L"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
       <key>com.schriftgestaltung.hints</key>
       <array>
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>0.0</real>
-            <real>64.0</real>
+            <integer>0</integer>
+            <integer>64</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -45,12 +39,14 @@ Lslash
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>117.0</real>
-            <real>70.0</real>
+            <integer>117</integer>
+            <integer>70</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

@@ -1,44 +1,41 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Omega" format="2">
-  <advance width="835.0"/>
+  <advance width="835"/>
   <unicode hex="03A9"/>
-  <note>
-Omega
-</note>
   <outline>
     <contour>
-      <point x="522.0" y="131.0" type="curve"/>
-      <point x="522.0" y="-1.0" type="line"/>
-      <point x="804.0" y="-1.0" type="line"/>
-      <point x="804.0" y="131.0" type="line"/>
-      <point x="700.0" y="131.0" type="line"/>
-      <point x="740.0" y="187.0"/>
-      <point x="766.0" y="254.0"/>
-      <point x="766.0" y="323.0" type="curve" smooth="yes"/>
-      <point x="766.0" y="500.0"/>
-      <point x="612.0" y="669.0"/>
-      <point x="418.0" y="669.0" type="curve" smooth="yes"/>
-      <point x="223.0" y="669.0"/>
-      <point x="69.0" y="500.0"/>
-      <point x="69.0" y="323.0" type="curve" smooth="yes"/>
-      <point x="69.0" y="253.0"/>
-      <point x="95.0" y="187.0"/>
-      <point x="136.0" y="131.0" type="curve"/>
-      <point x="31.0" y="131.0" type="line"/>
-      <point x="31.0" y="-1.0" type="line"/>
-      <point x="313.0" y="-1.0" type="line"/>
-      <point x="313.0" y="131.0" type="line"/>
-      <point x="262.0" y="164.0"/>
-      <point x="212.0" y="240.0"/>
-      <point x="212.0" y="323.0" type="curve" smooth="yes"/>
-      <point x="212.0" y="432.0"/>
-      <point x="309.0" y="537.0"/>
-      <point x="418.0" y="537.0" type="curve" smooth="yes"/>
-      <point x="527.0" y="537.0"/>
-      <point x="623.0" y="432.0"/>
-      <point x="623.0" y="323.0" type="curve" smooth="yes"/>
-      <point x="623.0" y="238.0"/>
-      <point x="573.0" y="163.0"/>
+      <point x="31" y="-1" type="line"/>
+      <point x="313" y="-1" type="line"/>
+      <point x="313" y="131" type="line"/>
+      <point x="262" y="164"/>
+      <point x="212" y="240"/>
+      <point x="212" y="323" type="curve" smooth="yes"/>
+      <point x="212" y="432"/>
+      <point x="309" y="537"/>
+      <point x="418" y="537" type="curve" smooth="yes"/>
+      <point x="527" y="537"/>
+      <point x="623" y="432"/>
+      <point x="623" y="323" type="curve" smooth="yes"/>
+      <point x="623" y="238"/>
+      <point x="573" y="163"/>
+      <point x="522" y="131" type="curve"/>
+      <point x="522" y="-1" type="line"/>
+      <point x="804" y="-1" type="line"/>
+      <point x="804" y="121" type="line"/>
+      <point x="700" y="121" type="line"/>
+      <point x="740" y="177"/>
+      <point x="766" y="254"/>
+      <point x="766" y="323" type="curve" smooth="yes"/>
+      <point x="766" y="500"/>
+      <point x="612" y="669"/>
+      <point x="418" y="669" type="curve" smooth="yes"/>
+      <point x="223" y="669"/>
+      <point x="69" y="500"/>
+      <point x="69" y="323" type="curve" smooth="yes"/>
+      <point x="69" y="253"/>
+      <point x="95" y="177"/>
+      <point x="136" y="121" type="curve"/>
+      <point x="31" y="121" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -48,12 +45,14 @@ Omega
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>-1.0</real>
-            <real>132.0</real>
+            <integer>-1</integer>
+            <integer>132</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -63,12 +62,14 @@ Omega
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>537.0</real>
-            <real>132.0</real>
+            <integer>537</integer>
+            <integer>132</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -78,12 +79,14 @@ Omega
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>69.0</real>
-            <real>143.0</real>
+            <integer>69</integer>
+            <integer>143</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -93,12 +96,14 @@ Omega
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>522.0</real>
-            <real>282.0</real>
+            <integer>522</integer>
+            <integer>282</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -108,12 +113,14 @@ Omega
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>623.0</real>
-            <real>143.0</real>
+            <integer>623</integer>
+            <integer>143</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -123,12 +130,14 @@ Omega
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>31.0</real>
-            <real>282.0</real>
+            <integer>31</integer>
+            <integer>282</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

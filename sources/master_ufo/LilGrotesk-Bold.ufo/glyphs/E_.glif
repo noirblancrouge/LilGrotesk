@@ -1,24 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="E" format="2">
-  <advance width="600.0"/>
+  <advance width="610"/>
   <unicode hex="0045"/>
-  <note>
-E
-</note>
+  <anchor x="339" y="0" name="bottom"/>
+  <anchor x="422" y="-6" name="ogonek"/>
+  <anchor x="310" y="700" name="top"/>
   <outline>
     <contour>
-      <point x="70.0" y="700.0" type="line"/>
-      <point x="70.0" y="0.0" type="line"/>
-      <point x="555.0" y="0.0" type="line"/>
-      <point x="555.0" y="132.0" type="line"/>
-      <point x="213.0" y="132.0" type="line"/>
-      <point x="213.0" y="287.0" type="line"/>
-      <point x="488.0" y="287.0" type="line"/>
-      <point x="488.0" y="419.0" type="line"/>
-      <point x="213.0" y="419.0" type="line"/>
-      <point x="213.0" y="568.0" type="line"/>
-      <point x="554.0" y="568.0" type="line"/>
-      <point x="554.0" y="700.0" type="line"/>
+      <point x="80" y="0" type="line"/>
+      <point x="565" y="0" type="line"/>
+      <point x="565" y="132" type="line"/>
+      <point x="223" y="132" type="line"/>
+      <point x="223" y="287" type="line"/>
+      <point x="498" y="287" type="line"/>
+      <point x="498" y="419" type="line"/>
+      <point x="223" y="419" type="line"/>
+      <point x="223" y="568" type="line"/>
+      <point x="564" y="568" type="line"/>
+      <point x="564" y="700" type="line"/>
+      <point x="80" y="700" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -28,12 +28,14 @@ E
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>0.0</real>
-            <real>132.0</real>
+            <integer>0</integer>
+            <integer>132</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -43,12 +45,14 @@ E
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>287.0</real>
-            <real>132.0</real>
+            <integer>287</integer>
+            <integer>132</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -58,12 +62,14 @@ E
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>568.0</real>
-            <real>132.0</real>
+            <integer>568</integer>
+            <integer>132</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -73,12 +79,14 @@ E
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>70.0</real>
-            <real>143.0</real>
+            <integer>70</integer>
+            <integer>143</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

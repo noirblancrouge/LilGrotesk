@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hbar" format="2">
+  <advance width="526"/>
+  <unicode hex="0127"/>
+  <anchor x="280" y="0" name="bottom"/>
+  <anchor x="280" y="500" name="top"/>
+  <outline>
+    <component base="h"/>
+    <component base="bar" xScale="0" xyScale="-1" yxScale="0.3" yScale="0" xOffset="48" yOffset="925"/>
+  </outline>
+</glyph>

@@ -1,100 +1,63 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name=".notdef" format="2">
-  <advance width="500.0"/>
-  <note>
-.notdef
-</note>
+  <advance width="1013"/>
+  <anchor x="720.0" y="-15.151200000000017" name="bottom_1"/>
+  <anchor x="719.0" y="258.51189999999997" name="bottom_2"/>
+  <anchor x="719.0" y="521.3294" name="bottom_3"/>
+  <anchor x="417.11" y="-15.151200000000017" name="top_1"/>
+  <anchor x="416.11" y="258.51189999999997" name="top_2"/>
+  <anchor x="416.11" y="521.3294" name="top_3"/>
   <outline>
-    <contour>
-      <point x="500.0" y="0.0" type="line"/>
-      <point x="500.0" y="700.0" type="line"/>
-      <point x="0.0" y="700.0" type="line"/>
-      <point x="0.0" y="0.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="250.0" y="395.0" type="line"/>
-      <point x="80.0" y="650.0" type="line"/>
-      <point x="420.0" y="650.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="50.0" y="605.0" type="line"/>
-      <point x="220.0" y="350.0" type="line"/>
-      <point x="50.0" y="95.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="280.0" y="350.0" type="line"/>
-      <point x="450.0" y="605.0" type="line"/>
-      <point x="450.0" y="95.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="80.0" y="50.0" type="line"/>
-      <point x="250.0" y="305.0" type="line"/>
-      <point x="420.0" y="50.0" type="line"/>
-    </contour>
+    <component base="braceleft" xOffset="25"/>
+    <component base="braceright" xOffset="704"/>
+    <component base="N" xScale="0" xyScale="0.4327" yxScale="-0.4327" yScale="0" xOffset="720" yOffset="-164"/>
+    <component base="B" xScale="0" xyScale="0.4327" yxScale="-0.4327" yScale="0" xOffset="719" yOffset="130"/>
+    <component base="R" xScale="0" xyScale="0.4327" yxScale="-0.4327" yScale="0" xOffset="719" yOffset="382"/>
+    <component base="period" xScale="0" xyScale="0.432" yxScale="-0.432" yScale="0" xOffset="718" yOffset="676"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
           <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>0.0</real>
-            <real>50.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
+          <key>name</key>
+          <string>braceleft</string>
         </dict>
         <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>650.0</real>
-            <real>50.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>braceright</string>
         </dict>
         <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>0.0</real>
-            <real>50.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>N</string>
         </dict>
         <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>450.0</real>
-            <real>50.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>3</integer>
+          <key>name</key>
+          <string>B</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>4</integer>
+          <key>name</key>
+          <string>R</string>
         </dict>
       </array>
     </dict>

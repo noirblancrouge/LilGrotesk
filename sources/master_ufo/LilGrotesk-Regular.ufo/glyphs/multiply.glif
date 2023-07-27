@@ -1,16 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="multiply" format="2">
-  <advance width="609.0"/>
+  <advance width="609"/>
   <unicode hex="00D7"/>
-  <note>
-multiply
-</note>
   <outline>
     <contour>
-      <point x="594.0" y="23.0" type="line"/>
-      <point x="65.0" y="552.0" type="line"/>
-      <point x="15.0" y="507.0" type="line"/>
-      <point x="545.0" y="-23.0" type="line"/>
+      <point x="545" y="-23" type="line"/>
+      <point x="594" y="23" type="line"/>
+      <point x="65" y="552" type="line"/>
+      <point x="15" y="507" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -20,12 +17,14 @@ multiply
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>-23.0</real>
-            <real>575.0</real>
+            <integer>-23</integer>
+            <integer>575</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -35,12 +34,14 @@ multiply
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>15.0</real>
-            <real>579.0</real>
+            <integer>15</integer>
+            <integer>579</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

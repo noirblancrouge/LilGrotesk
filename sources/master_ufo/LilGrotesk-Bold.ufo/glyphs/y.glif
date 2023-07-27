@@ -1,20 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="y" format="2">
-  <advance width="653.0"/>
+  <advance width="654"/>
   <unicode hex="0079"/>
-  <note>
-y
-</note>
+  <anchor x="327" y="0" name="bottom"/>
+  <anchor x="327" y="500" name="top"/>
   <outline>
     <contour>
-      <point x="9.0" y="506.0" type="line"/>
-      <point x="252.0" y="86.0" type="line"/>
-      <point x="93.0" y="-186.0" type="line"/>
-      <point x="249.0" y="-186.0" type="line"/>
-      <point x="647.0" y="506.0" type="line"/>
-      <point x="492.0" y="506.0" type="line"/>
-      <point x="330.0" y="219.0" type="line"/>
-      <point x="166.0" y="506.0" type="line"/>
+      <point x="87" y="-200" type="line"/>
+      <point x="243" y="-200" type="line"/>
+      <point x="644" y="500" type="line"/>
+      <point x="489" y="500" type="line"/>
+      <point x="331" y="219" type="line"/>
+      <point x="167" y="500" type="line"/>
+      <point x="10" y="500" type="line"/>
+      <point x="253" y="86" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -24,12 +23,14 @@ y
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>-186.0</real>
-            <real>692.0</real>
+            <integer>-186</integer>
+            <integer>692</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -39,12 +40,14 @@ y
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>9.0</real>
-            <real>638.0</real>
+            <integer>9</integer>
+            <integer>638</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

@@ -1,33 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="AE" format="2">
-  <advance width="1102.0"/>
+  <advance width="1102"/>
   <unicode hex="00C6"/>
-  <note>
-AE
-</note>
+  <anchor x="551" y="0" name="bottom"/>
+  <anchor x="777" y="700" name="top"/>
   <outline>
     <contour>
-      <point x="347.0" y="200.0" type="line"/>
-      <point x="558.0" y="200.0" type="line"/>
-      <point x="558.0" y="0.0" type="line"/>
-      <point x="1043.0" y="0.0" type="line"/>
-      <point x="1043.0" y="132.0" type="line"/>
-      <point x="701.0" y="132.0" type="line"/>
-      <point x="701.0" y="287.0" type="line"/>
-      <point x="976.0" y="287.0" type="line"/>
-      <point x="976.0" y="419.0" type="line"/>
-      <point x="701.0" y="419.0" type="line"/>
-      <point x="701.0" y="568.0" type="line"/>
-      <point x="1043.0" y="568.0" type="line"/>
-      <point x="1043.0" y="700.0" type="line"/>
-      <point x="571.0" y="700.0" type="line"/>
-      <point x="13.0" y="1.0" type="line"/>
-      <point x="192.0" y="1.0" type="line"/>
+      <point x="13" y="1" type="line"/>
+      <point x="192" y="1" type="line"/>
+      <point x="347" y="200" type="line"/>
+      <point x="558" y="200" type="line"/>
+      <point x="558" y="0" type="line"/>
+      <point x="1043" y="0" type="line"/>
+      <point x="1043" y="132" type="line"/>
+      <point x="701" y="132" type="line"/>
+      <point x="701" y="287" type="line"/>
+      <point x="976" y="287" type="line"/>
+      <point x="976" y="419" type="line"/>
+      <point x="701" y="419" type="line"/>
+      <point x="701" y="568" type="line"/>
+      <point x="1043" y="568" type="line"/>
+      <point x="1043" y="700" type="line"/>
+      <point x="569" y="700" type="line"/>
     </contour>
     <contour>
-      <point x="558.0" y="473.0" type="line"/>
-      <point x="558.0" y="332.0" type="line"/>
-      <point x="450.0" y="332.0" type="line"/>
+      <point x="450" y="332" type="line"/>
+      <point x="558" y="473" type="line"/>
+      <point x="558" y="332" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -37,12 +36,14 @@ AE
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>0.0</real>
-            <real>132.0</real>
+            <integer>0</integer>
+            <integer>132</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -52,12 +53,14 @@ AE
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>200.0</real>
-            <real>132.0</real>
+            <integer>200</integer>
+            <integer>132</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -67,12 +70,14 @@ AE
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>568.0</real>
-            <real>132.0</real>
+            <integer>568</integer>
+            <integer>132</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -82,12 +87,14 @@ AE
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>558.0</real>
-            <real>143.0</real>
+            <integer>558</integer>
+            <integer>143</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -97,12 +104,14 @@ AE
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>287.0</real>
-            <real>132.0</real>
+            <integer>287</integer>
+            <integer>132</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

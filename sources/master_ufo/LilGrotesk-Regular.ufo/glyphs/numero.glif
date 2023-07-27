@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="numero" format="2">
+  <advance width="1122"/>
+  <unicode hex="2116"/>
+  <anchor x="344" y="0" name="bottom_1"/>
+  <anchor x="875.5177" y="249.0" name="bottom_2"/>
+  <anchor x="344" y="700" name="top_1"/>
+  <anchor x="875.5177" y="688.45" name="top_2"/>
+  <outline>
+    <contour>
+      <point x="1025" y="161" type="line"/>
+      <point x="1025" y="210" type="line"/>
+      <point x="726" y="210" type="line"/>
+      <point x="726" y="161" type="line"/>
+    </contour>
+    <component base="N"/>
+    <component base="o" xScale="0.8789" yScale="0.8789" xOffset="618" yOffset="249"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>o</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CCP</string>
+    </dict>
+  </lib>
+</glyph>

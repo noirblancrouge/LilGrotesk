@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="400">
+      <map input="100" output="200"/>
+      <map input="200" output="250"/>
+      <map input="300" output="300"/>
+      <map input="400" output="400"/>
+      <map input="700" output="600"/>
+      <map input="900" output="750"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="LilGrotesk-Regular.ufo" name="LilGrotesk Regular" familyname="LilGrotesk" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </source>
+    <source filename="LilGrotesk-Bold.ufo" name="LilGrotesk Bold" familyname="LilGrotesk" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="LilGrotesk Thin" familyname="LilGrotesk" stylename="Thin" filename="../instance_ufo/LilGrotesk-Thin.ufo" stylemapfamilyname="LilGrotesk Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+      </location>
+    </instance>
+    <instance name="LilGrotesk UltraLight" familyname="LilGrotesk" stylename="UltraLight" filename="../instance_ufo/LilGrotesk-UltraLight.ufo" stylemapfamilyname="LilGrotesk UltraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="250"/>
+      </location>
+    </instance>
+    <instance name="LilGrotesk Light" familyname="LilGrotesk" stylename="Light" filename="../instance_ufo/LilGrotesk-Light.ufo" stylemapfamilyname="LilGrotesk Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+      </location>
+    </instance>
+    <instance name="LilGrotesk Regular" familyname="LilGrotesk" stylename="Regular" filename="../instance_ufo/LilGrotesk-Regular.ufo" postscriptfontname="LilGrotesk-Regular" stylemapfamilyname="LilGrotesk" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>postscriptFullName</string>
+              <string>LilGrotesk</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="LilGrotesk Bold" familyname="LilGrotesk" stylename="Bold" filename="../instance_ufo/LilGrotesk-Bold.ufo" stylemapfamilyname="LilGrotesk Bold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+      </location>
+    </instance>
+    <instance name="LilGrotesk Heavy" familyname="LilGrotesk" stylename="Heavy" filename="../instance_ufo/LilGrotesk-Heavy.ufo" stylemapfamilyname="LilGrotesk Heavy" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="750"/>
+      </location>
+    </instance>
+  </instances>
+</designspace>

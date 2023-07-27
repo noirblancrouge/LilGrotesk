@@ -1,25 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="greaterequal" format="2">
-  <advance width="631.0"/>
+  <advance width="631"/>
   <unicode hex="2265"/>
-  <note>
-greaterequal
-</note>
   <outline>
     <contour>
-      <point x="132.0" y="640.0" type="line"/>
-      <point x="78.0" y="522.0" type="line"/>
-      <point x="360.0" y="388.0" type="line"/>
-      <point x="79.0" y="254.0" type="line"/>
-      <point x="133.0" y="136.0" type="line"/>
-      <point x="502.0" y="326.0" type="line"/>
-      <point x="502.0" y="450.0" type="line"/>
+      <point x="133" y="136" type="line"/>
+      <point x="502" y="326" type="line"/>
+      <point x="502" y="450" type="line"/>
+      <point x="132" y="640" type="line"/>
+      <point x="78" y="522" type="line"/>
+      <point x="360" y="388" type="line"/>
+      <point x="79" y="254" type="line"/>
     </contour>
     <contour>
-      <point x="593.0" y="108.0" type="line"/>
-      <point x="54.0" y="108.0" type="line"/>
-      <point x="54.0" y="-10.0" type="line"/>
-      <point x="593.0" y="-10.0" type="line"/>
+      <point x="54" y="-10" type="line"/>
+      <point x="593" y="-10" type="line"/>
+      <point x="593" y="108" type="line"/>
+      <point x="54" y="108" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -29,12 +26,14 @@ greaterequal
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>-10.0</real>
-            <real>118.0</real>
+            <integer>-10</integer>
+            <integer>118</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -44,12 +43,14 @@ greaterequal
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>54.0</real>
-            <real>539.0</real>
+            <integer>54</integer>
+            <integer>539</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

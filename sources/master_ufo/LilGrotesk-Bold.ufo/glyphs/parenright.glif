@@ -1,26 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="parenright" format="2">
-  <advance width="324.0"/>
+  <advance width="324"/>
   <unicode hex="0029"/>
-  <note>
-parenright
-</note>
   <outline>
     <contour>
-      <point x="174.0" y="-98.0" type="curve"/>
-      <point x="50.0" y="-32.0" type="line"/>
-      <point x="50.0" y="-32.0"/>
-      <point x="151.0" y="139.0"/>
-      <point x="151.0" y="324.0" type="curve" smooth="yes"/>
-      <point x="151.0" y="507.0"/>
-      <point x="51.0" y="663.0"/>
-      <point x="51.0" y="663.0" type="curve"/>
-      <point x="172.0" y="733.0" type="line"/>
-      <point x="172.0" y="733.0"/>
-      <point x="294.0" y="543.0"/>
-      <point x="294.0" y="324.0" type="curve" smooth="yes"/>
-      <point x="294.0" y="106.0"/>
-      <point x="174.0" y="-98.0"/>
+      <point x="174" y="-98" type="line"/>
+      <point x="174" y="-98"/>
+      <point x="294" y="106"/>
+      <point x="294" y="324" type="curve" smooth="yes"/>
+      <point x="294" y="543"/>
+      <point x="172" y="733"/>
+      <point x="172" y="733" type="curve"/>
+      <point x="51" y="663" type="line"/>
+      <point x="51" y="663"/>
+      <point x="151" y="507"/>
+      <point x="151" y="324" type="curve" smooth="yes"/>
+      <point x="151" y="139"/>
+      <point x="50" y="-32"/>
+      <point x="50" y="-32" type="curve"/>
     </contour>
   </outline>
   <lib>
@@ -30,12 +27,14 @@ parenright
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>-98.0</real>
-            <real>831.0</real>
+            <integer>-98</integer>
+            <integer>831</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -45,12 +44,14 @@ parenright
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>50.0</real>
-            <real>244.0</real>
+            <integer>50</integer>
+            <integer>244</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

@@ -1,22 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="equal" format="2">
-  <advance width="600.0"/>
+  <advance width="600"/>
   <unicode hex="003D"/>
-  <note>
-equal
-</note>
   <outline>
     <contour>
-      <point x="520.0" y="452.0" type="line"/>
-      <point x="88.0" y="452.0" type="line"/>
-      <point x="88.0" y="388.0" type="line"/>
-      <point x="520.0" y="388.0" type="line"/>
+      <point x="88" y="388" type="line"/>
+      <point x="520" y="388" type="line"/>
+      <point x="520" y="452" type="line"/>
+      <point x="88" y="452" type="line"/>
     </contour>
     <contour>
-      <point x="520.0" y="192.0" type="line"/>
-      <point x="88.0" y="192.0" type="line"/>
-      <point x="88.0" y="128.0" type="line"/>
-      <point x="520.0" y="128.0" type="line"/>
+      <point x="88" y="128" type="line"/>
+      <point x="520" y="128" type="line"/>
+      <point x="520" y="192" type="line"/>
+      <point x="88" y="192" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -26,12 +23,14 @@ equal
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>128.0</real>
-            <real>64.0</real>
+            <integer>128</integer>
+            <integer>64</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -41,12 +40,14 @@ equal
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>388.0</real>
-            <real>64.0</real>
+            <integer>388</integer>
+            <integer>64</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -56,12 +57,14 @@ equal
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>88.0</real>
-            <real>432.0</real>
+            <integer>88</integer>
+            <integer>432</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

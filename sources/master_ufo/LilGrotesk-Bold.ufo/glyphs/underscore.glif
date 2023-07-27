@@ -1,16 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="underscore" format="2">
-  <advance width="600.0"/>
+  <advance width="600"/>
   <unicode hex="005F"/>
-  <note>
-underscore
-</note>
   <outline>
     <contour>
-      <point x="22.0" y="-161.0" type="line"/>
-      <point x="561.0" y="-161.0" type="line"/>
-      <point x="561.0" y="-29.0" type="line"/>
-      <point x="22.0" y="-29.0" type="line"/>
+      <point x="22" y="-161" type="line"/>
+      <point x="561" y="-161" type="line"/>
+      <point x="561" y="-29" type="line"/>
+      <point x="22" y="-29" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -20,12 +17,14 @@ underscore
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>-161.0</real>
-            <real>132.0</real>
+            <integer>-161</integer>
+            <integer>132</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -35,12 +34,14 @@ underscore
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>22.0</real>
-            <real>539.0</real>
+            <integer>22</integer>
+            <integer>539</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

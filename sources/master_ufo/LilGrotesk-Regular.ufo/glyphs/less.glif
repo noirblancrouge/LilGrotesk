@@ -1,19 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="less" format="2">
-  <advance width="600.0"/>
+  <advance width="600"/>
   <unicode hex="003C"/>
-  <note>
-less
-</note>
   <outline>
     <contour>
-      <point x="489.0" y="521.0" type="line"/>
-      <point x="519.0" y="459.0" type="line"/>
-      <point x="198.0" y="308.0" type="line"/>
-      <point x="519.0" y="157.0" type="line"/>
-      <point x="489.0" y="94.0" type="line"/>
-      <point x="138.0" y="267.0" type="line"/>
-      <point x="138.0" y="348.0" type="line"/>
+      <point x="489" y="94" type="line"/>
+      <point x="519" y="157" type="line"/>
+      <point x="198" y="308" type="line"/>
+      <point x="519" y="459" type="line"/>
+      <point x="489" y="521" type="line"/>
+      <point x="138" y="348" type="line"/>
+      <point x="138" y="267" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -23,12 +20,14 @@ less
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>94.0</real>
-            <real>427.0</real>
+            <integer>94</integer>
+            <integer>427</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -38,12 +37,14 @@ less
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>138.0</real>
-            <real>381.0</real>
+            <integer>138</integer>
+            <integer>381</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

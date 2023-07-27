@@ -1,99 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ecircumflex" format="2">
-  <advance width="600.0"/>
+  <advance width="610"/>
   <unicode hex="00CA"/>
-  <note>
-Ecircumflex
-</note>
+  <anchor x="339" y="0" name="bottom"/>
+  <anchor x="422" y="-6" name="ogonek"/>
+  <anchor x="309" y="922" name="top"/>
   <outline>
-    <contour>
-      <point x="164.0" y="745.0" type="line"/>
-      <point x="315.0" y="804.0" type="line"/>
-      <point x="466.0" y="745.0" type="line"/>
-      <point x="492.0" y="831.0" type="line"/>
-      <point x="315.0" y="930.0" type="line"/>
-      <point x="138.0" y="831.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="554.0" y="700.0" type="line"/>
-      <point x="70.0" y="700.0" type="line"/>
-      <point x="70.0" y="0.0" type="line"/>
-      <point x="555.0" y="0.0" type="line"/>
-      <point x="555.0" y="132.0" type="line"/>
-      <point x="213.0" y="132.0" type="line"/>
-      <point x="213.0" y="287.0" type="line"/>
-      <point x="488.0" y="287.0" type="line"/>
-      <point x="488.0" y="419.0" type="line"/>
-      <point x="213.0" y="419.0" type="line"/>
-      <point x="213.0" y="568.0" type="line"/>
-      <point x="554.0" y="568.0" type="line"/>
-    </contour>
+    <component base="E"/>
+    <component base="circumflexcomb" xOffset="26" yOffset="200"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>0.0</real>
-            <real>132.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>287.0</real>
-            <real>132.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>568.0</real>
-            <real>132.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>70.0</real>
-            <real>143.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

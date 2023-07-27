@@ -1,57 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hungarumlaut" format="2">
-  <advance width="600.0"/>
+  <advance width="600"/>
   <unicode hex="02DD"/>
-  <note>
-hungarumlaut
-</note>
   <outline>
-    <contour>
-      <point x="232.0" y="544.0" type="line"/>
-      <point x="288.0" y="742.0" type="line"/>
-      <point x="226.0" y="760.0" type="line"/>
-      <point x="170.0" y="562.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="434.0" y="544.0" type="line"/>
-      <point x="490.0" y="742.0" type="line"/>
-      <point x="429.0" y="760.0" type="line"/>
-      <point x="373.0" y="562.0" type="line"/>
-    </contour>
+    <component base="hungarumlautcomb"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
           <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>544.0</real>
-            <real>216.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>170.0</real>
-            <real>320.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
+          <key>name</key>
+          <string>hungarumlautcomb</string>
         </dict>
       </array>
     </dict>

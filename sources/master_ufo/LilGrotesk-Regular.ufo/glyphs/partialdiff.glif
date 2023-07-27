@@ -1,57 +1,55 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="partialdiff" format="2">
-  <advance width="600.0"/>
+  <advance width="600"/>
   <unicode hex="2202"/>
-  <note>
-partialdiff
-</note>
   <outline>
     <contour>
-      <point x="64.0" y="836.0" type="curve"/>
-      <point x="64.0" y="772.0" type="line"/>
-      <point x="237.0" y="772.0"/>
-      <point x="364.0" y="660.0"/>
-      <point x="425.0" y="495.0" type="curve"/>
-      <point x="385.0" y="526.0"/>
-      <point x="336.0" y="545.0"/>
-      <point x="283.0" y="545.0" type="curve" smooth="yes"/>
-      <point x="216.0" y="545.0"/>
-      <point x="149.0" y="510.0"/>
-      <point x="107.0" y="462.0" type="curve" smooth="yes"/>
-      <point x="61.0" y="410.0"/>
-      <point x="32.0" y="334.0"/>
-      <point x="32.0" y="256.0" type="curve" smooth="yes"/>
-      <point x="32.0" y="100.0"/>
-      <point x="143.0" y="-32.0"/>
-      <point x="283.0" y="-32.0" type="curve" smooth="yes"/>
-      <point x="354.0" y="-32.0"/>
-      <point x="423.0" y="6.0"/>
-      <point x="466.0" y="58.0" type="curve" smooth="yes"/>
-      <point x="508.0" y="109.0"/>
-      <point x="535.0" y="182.0"/>
-      <point x="535.0" y="256.0" type="curve" smooth="yes"/>
-      <point x="535.0" y="568.0"/>
-      <point x="359.0" y="836.0"/>
+      <point x="283" y="-32" type="curve" smooth="yes"/>
+      <point x="354" y="-32"/>
+      <point x="423" y="6"/>
+      <point x="466" y="58" type="curve" smooth="yes"/>
+      <point x="508" y="109"/>
+      <point x="535" y="182"/>
+      <point x="535" y="256" type="curve" smooth="yes"/>
+      <point x="535" y="568"/>
+      <point x="359" y="836"/>
+      <point x="64" y="836" type="curve"/>
+      <point x="64" y="772" type="line"/>
+      <point x="236" y="772"/>
+      <point x="400" y="620"/>
+      <point x="433" y="442" type="curve"/>
+      <point x="494" y="424" type="line"/>
+      <point x="438" y="515"/>
+      <point x="377" y="545"/>
+      <point x="283" y="545" type="curve" smooth="yes"/>
+      <point x="216" y="545"/>
+      <point x="149" y="510"/>
+      <point x="107" y="462" type="curve" smooth="yes"/>
+      <point x="61" y="410"/>
+      <point x="32" y="334"/>
+      <point x="32" y="256" type="curve" smooth="yes"/>
+      <point x="32" y="100"/>
+      <point x="143" y="-32"/>
     </contour>
     <contour>
-      <point x="412.0" y="98.0" type="curve" smooth="yes"/>
-      <point x="377.0" y="56.0"/>
-      <point x="333.0" y="32.0"/>
-      <point x="283.0" y="32.0" type="curve" smooth="yes"/>
-      <point x="185.0" y="32.0"/>
-      <point x="102.0" y="130.0"/>
-      <point x="102.0" y="256.0" type="curve" smooth="yes"/>
-      <point x="102.0" y="321.0"/>
-      <point x="125.0" y="380.0"/>
-      <point x="159.0" y="420.0" type="curve" smooth="yes"/>
-      <point x="194.0" y="459.0"/>
-      <point x="236.0" y="481.0"/>
-      <point x="283.0" y="481.0" type="curve" smooth="yes"/>
-      <point x="382.0" y="481.0"/>
-      <point x="465.0" y="383.0"/>
-      <point x="465.0" y="256.0" type="curve" smooth="yes"/>
-      <point x="465.0" y="192.0"/>
-      <point x="445.0" y="139.0"/>
+      <point x="283" y="32" type="curve" smooth="yes"/>
+      <point x="185" y="32"/>
+      <point x="102" y="130"/>
+      <point x="102" y="256" type="curve" smooth="yes"/>
+      <point x="102" y="321"/>
+      <point x="125" y="380"/>
+      <point x="159" y="420" type="curve" smooth="yes"/>
+      <point x="194" y="459"/>
+      <point x="236" y="481"/>
+      <point x="283" y="481" type="curve" smooth="yes"/>
+      <point x="382" y="481"/>
+      <point x="465" y="383"/>
+      <point x="465" y="256" type="curve" smooth="yes"/>
+      <point x="465" y="192"/>
+      <point x="445" y="139"/>
+      <point x="412" y="98" type="curve" smooth="yes"/>
+      <point x="377" y="56"/>
+      <point x="333" y="32"/>
     </contour>
   </outline>
   <lib>
@@ -61,12 +59,14 @@ partialdiff
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>-32.0</real>
-            <real>64.0</real>
+            <integer>-32</integer>
+            <integer>64</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -76,12 +76,14 @@ partialdiff
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>481.0</real>
-            <real>64.0</real>
+            <integer>481</integer>
+            <integer>64</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -91,12 +93,14 @@ partialdiff
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>772.0</real>
-            <real>64.0</real>
+            <integer>772</integer>
+            <integer>64</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -106,12 +110,14 @@ partialdiff
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>32.0</real>
-            <real>70.0</real>
+            <integer>32</integer>
+            <integer>70</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -121,12 +127,14 @@ partialdiff
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>465.0</real>
-            <real>70.0</real>
+            <integer>465</integer>
+            <integer>70</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

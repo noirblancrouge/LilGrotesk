@@ -1,26 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quotedblleft" format="2">
-  <advance width="336.0"/>
+  <advance width="336"/>
   <unicode hex="201C"/>
-  <note>
-quotedblleft
-</note>
   <outline>
     <contour>
-      <point x="60.0" y="636.0" type="line"/>
-      <point x="99.0" y="541.0" type="line"/>
-      <point x="149.0" y="568.0" type="line"/>
-      <point x="122.0" y="640.0" type="line"/>
-      <point x="126.0" y="720.0" type="line"/>
-      <point x="60.0" y="720.0" type="line"/>
+      <point x="246" y="541" type="line"/>
+      <point x="296" y="568" type="line"/>
+      <point x="270" y="640" type="line"/>
+      <point x="273" y="720" type="line"/>
+      <point x="207" y="720" type="line"/>
+      <point x="207" y="636" type="line"/>
     </contour>
     <contour>
-      <point x="207.0" y="636.0" type="line"/>
-      <point x="246.0" y="541.0" type="line"/>
-      <point x="296.0" y="568.0" type="line"/>
-      <point x="270.0" y="640.0" type="line"/>
-      <point x="273.0" y="720.0" type="line"/>
-      <point x="207.0" y="720.0" type="line"/>
+      <point x="99" y="541" type="line"/>
+      <point x="149" y="568" type="line"/>
+      <point x="122" y="640" type="line"/>
+      <point x="126" y="720" type="line"/>
+      <point x="60" y="720" type="line"/>
+      <point x="60" y="636" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -30,12 +27,14 @@ quotedblleft
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>541.0</real>
-            <real>179.0</real>
+            <integer>541</integer>
+            <integer>179</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -45,12 +44,14 @@ quotedblleft
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>60.0</real>
-            <real>64.0</real>
+            <integer>60</integer>
+            <integer>64</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -60,11 +61,13 @@ quotedblleft
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>207.0</real>
+            <integer>207</integer>
             <real>64.5</real>
           </array>
           <key>stem</key>

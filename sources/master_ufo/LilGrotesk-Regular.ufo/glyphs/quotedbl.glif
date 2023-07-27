@@ -1,22 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quotedbl" format="2">
-  <advance width="360.0"/>
+  <advance width="360"/>
   <unicode hex="0022"/>
-  <note>
-quotedbl
-</note>
   <outline>
     <contour>
-      <point x="77.0" y="548.0" type="line"/>
-      <point x="87.0" y="766.0" type="line"/>
-      <point x="11.0" y="766.0" type="line"/>
-      <point x="27.0" y="548.0" type="line"/>
+      <point x="250" y="548" type="line"/>
+      <point x="300" y="548" type="line"/>
+      <point x="310" y="766" type="line"/>
+      <point x="234" y="766" type="line"/>
     </contour>
     <contour>
-      <point x="300.0" y="548.0" type="line"/>
-      <point x="310.0" y="766.0" type="line"/>
-      <point x="234.0" y="766.0" type="line"/>
-      <point x="250.0" y="548.0" type="line"/>
+      <point x="27" y="548" type="line"/>
+      <point x="77" y="548" type="line"/>
+      <point x="87" y="766" type="line"/>
+      <point x="11" y="766" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -26,12 +23,14 @@ quotedbl
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>548.0</real>
-            <real>218.0</real>
+            <integer>548</integer>
+            <integer>218</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -41,12 +40,14 @@ quotedbl
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>19.0</real>
-            <real>63.0</real>
+            <integer>19</integer>
+            <integer>63</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -56,12 +57,14 @@ quotedbl
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>242.0</real>
-            <real>63.0</real>
+            <integer>242</integer>
+            <integer>63</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

@@ -1,24 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="x" format="2">
-  <advance width="609.0"/>
+  <advance width="614"/>
   <unicode hex="0078"/>
-  <note>
-x
-</note>
+  <anchor x="307" y="0" name="bottom"/>
+  <anchor x="307" y="500" name="top"/>
   <outline>
     <contour>
-      <point x="308.0" y="351.0" type="line"/>
-      <point x="182.0" y="506.0" type="line"/>
-      <point x="8.0" y="506.0" type="line"/>
-      <point x="217.0" y="253.0" type="line"/>
-      <point x="2.0" y="0.0" type="line"/>
-      <point x="177.0" y="0.0" type="line"/>
-      <point x="304.0" y="150.0" type="line"/>
-      <point x="432.0" y="0.0" type="line"/>
-      <point x="606.0" y="0.0" type="line"/>
-      <point x="395.0" y="248.0" type="line"/>
-      <point x="607.0" y="506.0" type="line"/>
-      <point x="433.0" y="506.0" type="line"/>
+      <point x="5" y="0" type="line"/>
+      <point x="180" y="0" type="line"/>
+      <point x="307" y="150" type="line"/>
+      <point x="435" y="0" type="line"/>
+      <point x="609" y="0" type="line"/>
+      <point x="398" y="248" type="line"/>
+      <point x="606" y="500" type="line"/>
+      <point x="432" y="500" type="line"/>
+      <point x="311" y="351" type="line"/>
+      <point x="192" y="500" type="line"/>
+      <point x="18" y="500" type="line"/>
+      <point x="220" y="253" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -28,12 +27,14 @@ x
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>0.0</real>
-            <real>506.0</real>
+            <integer>0</integer>
+            <integer>506</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -43,12 +44,14 @@ x
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>2.0</real>
-            <real>605.0</real>
+            <integer>2</integer>
+            <integer>605</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

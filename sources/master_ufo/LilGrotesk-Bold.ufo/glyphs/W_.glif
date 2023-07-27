@@ -1,25 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="W" format="2">
-  <advance width="942.0"/>
+  <advance width="960"/>
   <unicode hex="0057"/>
-  <note>
-W
-</note>
+  <anchor x="480" y="0" name="bottom"/>
+  <anchor x="480" y="700" name="top"/>
   <outline>
     <contour>
-      <point x="757.0" y="0.0" type="line"/>
-      <point x="931.0" y="700.0" type="line"/>
-      <point x="784.0" y="700.0" type="line"/>
-      <point x="681.0" y="284.0" type="line"/>
-      <point x="533.0" y="700.0" type="line"/>
-      <point x="409.0" y="700.0" type="line"/>
-      <point x="261.0" y="284.0" type="line"/>
-      <point x="158.0" y="700.0" type="line"/>
-      <point x="11.0" y="700.0" type="line"/>
-      <point x="185.0" y="0.0" type="line"/>
-      <point x="310.0" y="0.0" type="line"/>
-      <point x="471.0" y="452.0" type="line"/>
-      <point x="631.0" y="0.0" type="line"/>
+      <point x="194" y="0" type="line"/>
+      <point x="319" y="0" type="line"/>
+      <point x="480" y="452" type="line"/>
+      <point x="640" y="0" type="line"/>
+      <point x="766" y="0" type="line"/>
+      <point x="940" y="700" type="line"/>
+      <point x="793" y="700" type="line"/>
+      <point x="690" y="284" type="line"/>
+      <point x="542" y="700" type="line"/>
+      <point x="418" y="700" type="line"/>
+      <point x="270" y="284" type="line"/>
+      <point x="167" y="700" type="line"/>
+      <point x="20" y="700" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -29,12 +28,14 @@ W
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>0.0</real>
-            <real>700.0</real>
+            <integer>0</integer>
+            <integer>700</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -44,12 +45,14 @@ W
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>11.0</real>
-            <real>920.0</real>
+            <integer>11</integer>
+            <integer>920</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

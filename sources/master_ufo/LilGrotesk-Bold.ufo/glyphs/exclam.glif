@@ -1,45 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="exclam" format="2">
-  <advance width="403.0"/>
+  <advance width="318"/>
   <unicode hex="0021"/>
-  <note>
-exclam
-</note>
   <outline>
     <contour>
-      <point x="257.0" y="228.0" type="line"/>
-      <point x="276.0" y="720.0" type="line"/>
-      <point x="98.0" y="720.0" type="line"/>
-      <point x="117.0" y="228.0" type="line"/>
+      <point x="89" y="228" type="line"/>
+      <point x="229" y="228" type="line"/>
+      <point x="248" y="720" type="line"/>
+      <point x="70" y="720" type="line"/>
     </contour>
-    <contour>
-      <point x="187.0" y="-31.0" type="curve" smooth="yes"/>
-      <point x="240.0" y="-31.0"/>
-      <point x="283.0" y="11.0"/>
-      <point x="283.0" y="63.0" type="curve" smooth="yes"/>
-      <point x="283.0" y="114.0"/>
-      <point x="240.0" y="156.0"/>
-      <point x="187.0" y="156.0" type="curve" smooth="yes"/>
-      <point x="133.0" y="156.0"/>
-      <point x="90.0" y="114.0"/>
-      <point x="90.0" y="63.0" type="curve" smooth="yes"/>
-      <point x="90.0" y="11.0"/>
-      <point x="133.0" y="-31.0"/>
-    </contour>
+    <component base="period" xOffset="27"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
       <key>com.schriftgestaltung.hints</key>
       <array>
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>-31.0</real>
-            <real>187.0</real>
+            <integer>-31</integer>
+            <integer>187</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -49,12 +37,14 @@ exclam
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
             <real>107.5</real>
-            <real>159.0</real>
+            <integer>159</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -64,12 +54,14 @@ exclam
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>90.0</real>
-            <real>193.0</real>
+            <integer>90</integer>
+            <integer>193</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

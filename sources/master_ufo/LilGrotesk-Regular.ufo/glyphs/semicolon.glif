@@ -1,82 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="semicolon" format="2">
-  <advance width="664.0"/>
+  <advance width="198"/>
   <unicode hex="003B"/>
-  <note>
-semicolon
-</note>
   <outline>
-    <contour>
-      <point x="145.0" y="391.0" type="curve" smooth="yes"/>
-      <point x="180.0" y="391.0"/>
-      <point x="208.0" y="419.0"/>
-      <point x="208.0" y="454.0" type="curve" smooth="yes"/>
-      <point x="208.0" y="489.0"/>
-      <point x="180.0" y="517.0"/>
-      <point x="145.0" y="517.0" type="curve" smooth="yes"/>
-      <point x="110.0" y="517.0"/>
-      <point x="82.0" y="489.0"/>
-      <point x="82.0" y="454.0" type="curve" smooth="yes"/>
-      <point x="82.0" y="419.0"/>
-      <point x="110.0" y="391.0"/>
-    </contour>
-    <contour>
-      <point x="182.0" y="91.0" type="line"/>
-      <point x="111.0" y="91.0" type="line"/>
-      <point x="111.0" y="7.0" type="line"/>
-      <point x="59.0" y="-98.0" type="line"/>
-      <point x="122.0" y="-126.0" type="line"/>
-      <point x="182.0" y="-7.0" type="line"/>
-    </contour>
+    <component base="comma"/>
+    <component base="period" yOffset="410"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
           <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>391.0</real>
-            <real>126.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>82.0</real>
-            <real>126.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>111.0</real>
-            <real>71.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
+          <key>name</key>
+          <string>comma</string>
         </dict>
       </array>
     </dict>

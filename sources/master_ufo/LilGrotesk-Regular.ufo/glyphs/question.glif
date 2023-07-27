@@ -1,63 +1,51 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="question" format="2">
-  <advance width="517.0"/>
+  <advance width="378"/>
   <unicode hex="003F"/>
-  <note>
-question
-</note>
   <outline>
     <contour>
-      <point x="139.0" y="392.0" type="curve"/>
-      <point x="151.0" y="241.0" type="line"/>
-      <point x="221.0" y="241.0" type="line"/>
-      <point x="221.0" y="348.0" type="line"/>
-      <point x="301.0" y="378.0"/>
-      <point x="388.0" y="428.0"/>
-      <point x="397.0" y="533.0" type="curve" smooth="yes"/>
-      <point x="405.0" y="635.0"/>
-      <point x="324.0" y="714.0"/>
-      <point x="214.0" y="708.0" type="curve" smooth="yes"/>
-      <point x="101.0" y="702.0"/>
-      <point x="67.0" y="619.0"/>
-      <point x="67.0" y="619.0" type="curve"/>
-      <point x="120.0" y="581.0" type="line"/>
-      <point x="120.0" y="581.0"/>
-      <point x="151.0" y="640.0"/>
-      <point x="218.0" y="644.0" type="curve" smooth="yes"/>
-      <point x="286.0" y="648.0"/>
-      <point x="332.0" y="602.0"/>
-      <point x="327.0" y="539.0" type="curve" smooth="yes"/>
-      <point x="320.0" y="454.0"/>
-      <point x="227.0" y="420.0"/>
+      <point x="81" y="191" type="line"/>
+      <point x="151" y="191" type="line"/>
+      <point x="151" y="348" type="line"/>
+      <point x="231" y="378"/>
+      <point x="318" y="428"/>
+      <point x="327" y="533" type="curve" smooth="yes"/>
+      <point x="335" y="635"/>
+      <point x="262" y="708"/>
+      <point x="144" y="708" type="curve" smooth="yes"/>
+      <point x="41" y="708"/>
+      <point x="-3" y="619"/>
+      <point x="-3" y="619" type="curve"/>
+      <point x="58" y="584" type="line"/>
+      <point x="62" y="592"/>
+      <point x="91" y="643"/>
+      <point x="148" y="643" type="curve" smooth="yes"/>
+      <point x="216" y="643"/>
+      <point x="262" y="602"/>
+      <point x="257" y="539" type="curve" smooth="yes"/>
+      <point x="250" y="454"/>
+      <point x="160" y="422"/>
+      <point x="72" y="394" type="curve"/>
     </contour>
-    <contour>
-      <point x="194.0" y="0.0" type="curve" smooth="yes"/>
-      <point x="228.0" y="0.0"/>
-      <point x="256.0" y="28.0"/>
-      <point x="256.0" y="63.0" type="curve" smooth="yes"/>
-      <point x="256.0" y="97.0"/>
-      <point x="228.0" y="125.0"/>
-      <point x="194.0" y="125.0" type="curve" smooth="yes"/>
-      <point x="159.0" y="125.0"/>
-      <point x="131.0" y="97.0"/>
-      <point x="131.0" y="63.0" type="curve" smooth="yes"/>
-      <point x="131.0" y="28.0"/>
-      <point x="159.0" y="0.0"/>
-    </contour>
+    <component base="period" xOffset="27"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
       <key>com.schriftgestaltung.hints</key>
       <array>
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>0.0</real>
-            <real>125.0</real>
+            <integer>0</integer>
+            <integer>125</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -67,12 +55,14 @@ question
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>644.0</real>
-            <real>64.0</real>
+            <integer>644</integer>
+            <integer>64</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -82,12 +72,14 @@ question
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>145.0</real>
-            <real>76.0</real>
+            <integer>145</integer>
+            <integer>76</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -97,12 +89,14 @@ question
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>327.0</real>
-            <real>70.0</real>
+            <integer>327</integer>
+            <integer>70</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -112,12 +106,14 @@ question
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>131.0</real>
-            <real>125.0</real>
+            <integer>131</integer>
+            <integer>125</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

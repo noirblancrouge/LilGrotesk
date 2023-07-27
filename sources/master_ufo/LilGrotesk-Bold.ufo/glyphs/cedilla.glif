@@ -1,53 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cedilla" format="2">
-  <advance width="600.0"/>
+  <advance width="634"/>
   <unicode hex="00B8"/>
-  <note>
-cedilla
-</note>
   <outline>
-    <contour>
-      <point x="279.0" y="-183.0" type="line"/>
-      <point x="378.0" y="-38.0" type="line"/>
-      <point x="288.0" y="22.0" type="line"/>
-      <point x="189.0" y="-122.0" type="line"/>
-    </contour>
+    <component base="cedillacomb"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>-183.0</real>
-            <real>205.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>189.0</real>
-            <real>189.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

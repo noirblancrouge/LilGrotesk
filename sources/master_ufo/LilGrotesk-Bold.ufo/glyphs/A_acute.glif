@@ -1,68 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Aacute" format="2">
-  <advance width="703.0"/>
+  <advance width="707"/>
   <unicode hex="00C1"/>
-  <note>
-Aacute
-</note>
+  <anchor x="353" y="0" name="bottom"/>
+  <anchor x="544" y="-6" name="ogonek"/>
+  <anchor x="352" y="1002" name="top"/>
   <outline>
-    <contour>
-      <point x="274.0" y="730.0" type="line"/>
-      <point x="479.0" y="810.0" type="line"/>
-      <point x="445.0" y="924.0" type="line"/>
-      <point x="248.0" y="815.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="291.0" y="700.0" type="line"/>
-      <point x="17.0" y="0.0" type="line"/>
-      <point x="169.0" y="0.0" type="line"/>
-      <point x="247.0" y="199.0" type="line"/>
-      <point x="464.0" y="199.0" type="line"/>
-      <point x="542.0" y="0.0" type="line"/>
-      <point x="694.0" y="0.0" type="line"/>
-      <point x="420.0" y="700.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="356.0" y="477.0" type="line"/>
-      <point x="413.0" y="331.0" type="line"/>
-      <point x="299.0" y="331.0" type="line"/>
-    </contour>
+    <component base="A"/>
+    <component base="acutecomb" xOffset="53" yOffset="200"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>199.0</real>
-            <real>132.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>17.0</real>
-            <real>677.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

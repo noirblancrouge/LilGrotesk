@@ -1,65 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="foursuperior" format="2">
-  <advance width="358.0"/>
+  <advance width="355"/>
   <unicode hex="2074"/>
-  <note>
-foursuperior
-</note>
   <outline>
-    <contour>
-      <point x="184.0" y="586.0" type="line"/>
-      <point x="184.0" y="500.0" type="line"/>
-      <point x="254.0" y="500.0" type="line"/>
-      <point x="254.0" y="586.0" type="line"/>
-      <point x="302.0" y="586.0" type="line"/>
-      <point x="302.0" y="645.0" type="line"/>
-      <point x="254.0" y="645.0" type="line"/>
-      <point x="254.0" y="899.0" type="line"/>
-      <point x="203.0" y="899.0" type="line"/>
-      <point x="37.0" y="642.0" type="line"/>
-      <point x="37.0" y="586.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="184.0" y="755.0" type="line"/>
-      <point x="184.0" y="645.0" type="line"/>
-      <point x="115.0" y="645.0" type="line"/>
-    </contour>
+    <component base="four.numr"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>586.0</real>
-            <real>59.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>184.0</real>
-            <real>70.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

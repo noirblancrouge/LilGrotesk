@@ -1,18 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quotedblbase" format="2">
-  <advance width="313.0"/>
+  <advance width="313"/>
   <unicode hex="201E"/>
-  <note>
-quotedblbase
-</note>
   <outline>
     <contour>
-      <point x="213.0" y="-17.0" type="line"/>
-      <point x="213.0" y="116.0" type="line"/>
-      <point x="86.0" y="116.0" type="line"/>
-      <point x="94.0" y="12.0" type="line"/>
-      <point x="36.0" y="-119.0" type="line"/>
-      <point x="138.0" y="-165.0" type="line"/>
+      <point x="138" y="-165" type="line"/>
+      <point x="213" y="-17" type="line"/>
+      <point x="213" y="116" type="line"/>
+      <point x="86" y="116" type="line"/>
+      <point x="94" y="12" type="line"/>
+      <point x="36" y="-119" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -22,12 +19,14 @@ quotedblbase
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>-165.0</real>
-            <real>281.0</real>
+            <integer>-165</integer>
+            <integer>281</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -37,12 +36,14 @@ quotedblbase
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>90.0</real>
-            <real>123.0</real>
+            <integer>90</integer>
+            <integer>123</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

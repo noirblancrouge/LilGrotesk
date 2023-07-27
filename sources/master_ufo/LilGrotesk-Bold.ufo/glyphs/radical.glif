@@ -1,21 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="radical" format="2">
-  <advance width="651.0"/>
+  <advance width="651"/>
   <unicode hex="221A"/>
-  <note>
-radical
-</note>
   <outline>
     <contour>
-      <point x="59.0" y="516.0" type="line"/>
-      <point x="59.0" y="384.0" type="line"/>
-      <point x="156.0" y="384.0" type="line"/>
-      <point x="360.0" y="-197.0" type="line"/>
-      <point x="363.0" y="-197.0" type="line"/>
-      <point x="638.0" y="738.0" type="line"/>
-      <point x="489.0" y="738.0" type="line"/>
-      <point x="349.0" y="260.0" type="line"/>
-      <point x="260.0" y="516.0" type="line"/>
+      <point x="360" y="-6" type="line"/>
+      <point x="363" y="-6" type="line"/>
+      <point x="638" y="738" type="line"/>
+      <point x="489" y="738" type="line"/>
+      <point x="349" y="314" type="line"/>
+      <point x="260" y="516" type="line"/>
+      <point x="59" y="516" type="line"/>
+      <point x="59" y="384" type="line"/>
+      <point x="156" y="384" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -25,12 +22,14 @@ radical
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>384.0</real>
-            <real>132.0</real>
+            <integer>384</integer>
+            <integer>132</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -40,12 +39,14 @@ radical
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>59.0</real>
-            <real>579.0</real>
+            <integer>59</integer>
+            <integer>579</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

@@ -1,35 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="trademark" format="2">
-  <advance width="902.0"/>
+  <advance width="749"/>
   <unicode hex="2122"/>
-  <note>
-trademark
-</note>
   <outline>
     <contour>
-      <point x="301.0" y="357.0" type="line"/>
-      <point x="301.0" y="695.0" type="line"/>
-      <point x="399.0" y="695.0" type="line"/>
-      <point x="399.0" y="759.0" type="line"/>
-      <point x="133.0" y="759.0" type="line"/>
-      <point x="133.0" y="695.0" type="line"/>
-      <point x="231.0" y="695.0" type="line"/>
-      <point x="231.0" y="357.0" type="line"/>
+      <point x="353" y="357" type="line"/>
+      <point x="423" y="357" type="line"/>
+      <point x="423" y="610" type="line"/>
+      <point x="509" y="396" type="line"/>
+      <point x="564" y="396" type="line"/>
+      <point x="649" y="610" type="line"/>
+      <point x="649" y="357" type="line"/>
+      <point x="719" y="357" type="line"/>
+      <point x="719" y="759" type="line"/>
+      <point x="651" y="759" type="line"/>
+      <point x="536" y="458" type="line"/>
+      <point x="421" y="759" type="line"/>
+      <point x="353" y="759" type="line"/>
     </contour>
     <contour>
-      <point x="782.0" y="580.0" type="line"/>
-      <point x="782.0" y="357.0" type="line"/>
-      <point x="852.0" y="357.0" type="line"/>
-      <point x="852.0" y="759.0" type="line"/>
-      <point x="794.0" y="759.0" type="line"/>
-      <point x="669.0" y="506.0" type="line"/>
-      <point x="544.0" y="759.0" type="line"/>
-      <point x="486.0" y="759.0" type="line"/>
-      <point x="486.0" y="357.0" type="line"/>
-      <point x="556.0" y="357.0" type="line"/>
-      <point x="556.0" y="580.0" type="line"/>
-      <point x="627.0" y="427.0" type="line"/>
-      <point x="712.0" y="427.0" type="line"/>
+      <point x="128" y="357" type="line"/>
+      <point x="198" y="357" type="line"/>
+      <point x="198" y="695" type="line"/>
+      <point x="296" y="695" type="line"/>
+      <point x="296" y="759" type="line"/>
+      <point x="30" y="759" type="line"/>
+      <point x="30" y="695" type="line"/>
+      <point x="128" y="695" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -39,12 +36,14 @@ trademark
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>695.0</real>
-            <real>64.0</real>
+            <integer>695</integer>
+            <integer>64</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -54,12 +53,14 @@ trademark
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>231.0</real>
-            <real>70.0</real>
+            <integer>231</integer>
+            <integer>70</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -69,12 +70,14 @@ trademark
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>486.0</real>
-            <real>70.0</real>
+            <integer>486</integer>
+            <integer>70</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -84,12 +87,14 @@ trademark
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>782.0</real>
-            <real>70.0</real>
+            <integer>782</integer>
+            <integer>70</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

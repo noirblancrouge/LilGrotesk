@@ -1,38 +1,38 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="O" format="2">
-  <advance width="798.0"/>
+  <advance width="798"/>
   <unicode hex="004F"/>
-  <note>
-O
-</note>
+  <anchor x="399" y="0" name="bottom"/>
+  <anchor x="402" y="-6" name="ogonek"/>
+  <anchor x="399" y="700" name="top"/>
   <outline>
     <contour>
-      <point x="399.0" y="702.0" type="curve" smooth="yes"/>
-      <point x="199.0" y="702.0"/>
-      <point x="45.0" y="542.0"/>
-      <point x="45.0" y="351.0" type="curve" smooth="yes"/>
-      <point x="45.0" y="158.0"/>
-      <point x="203.0" y="0.0"/>
-      <point x="399.0" y="0.0" type="curve" smooth="yes"/>
-      <point x="569.0" y="0.0"/>
-      <point x="753.0" y="130.0"/>
-      <point x="753.0" y="351.0" type="curve" smooth="yes"/>
-      <point x="753.0" y="545.0"/>
-      <point x="595.0" y="702.0"/>
+      <point x="399" y="-6" type="curve" smooth="yes"/>
+      <point x="569" y="-6"/>
+      <point x="753" y="124"/>
+      <point x="753" y="350" type="curve" smooth="yes"/>
+      <point x="753" y="549"/>
+      <point x="595" y="706"/>
+      <point x="399" y="706" type="curve" smooth="yes"/>
+      <point x="199" y="706"/>
+      <point x="45" y="546"/>
+      <point x="45" y="350" type="curve" smooth="yes"/>
+      <point x="45" y="152"/>
+      <point x="203" y="-6"/>
     </contour>
     <contour>
-      <point x="399.0" y="570.0" type="curve" smooth="yes"/>
-      <point x="513.0" y="570.0"/>
-      <point x="610.0" y="474.0"/>
-      <point x="610.0" y="351.0" type="curve" smooth="yes"/>
-      <point x="610.0" y="214.0"/>
-      <point x="501.0" y="132.0"/>
-      <point x="399.0" y="132.0" type="curve" smooth="yes"/>
-      <point x="284.0" y="132.0"/>
-      <point x="188.0" y="229.0"/>
-      <point x="188.0" y="351.0" type="curve" smooth="yes"/>
-      <point x="188.0" y="472.0"/>
-      <point x="283.0" y="570.0"/>
+      <point x="399" y="126" type="curve" smooth="yes"/>
+      <point x="284" y="126"/>
+      <point x="188" y="223"/>
+      <point x="188" y="350" type="curve" smooth="yes"/>
+      <point x="188" y="476"/>
+      <point x="283" y="574"/>
+      <point x="399" y="574" type="curve" smooth="yes"/>
+      <point x="513" y="574"/>
+      <point x="610" y="478"/>
+      <point x="610" y="350" type="curve" smooth="yes"/>
+      <point x="610" y="208"/>
+      <point x="501" y="126"/>
     </contour>
   </outline>
   <lib>
@@ -42,12 +42,14 @@ O
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>0.0</real>
-            <real>132.0</real>
+            <integer>0</integer>
+            <integer>132</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -57,12 +59,14 @@ O
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>570.0</real>
-            <real>132.0</real>
+            <integer>570</integer>
+            <integer>132</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -72,12 +76,14 @@ O
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>45.0</real>
-            <real>143.0</real>
+            <integer>45</integer>
+            <integer>143</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -87,12 +93,14 @@ O
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>610.0</real>
-            <real>143.0</real>
+            <integer>610</integer>
+            <integer>143</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

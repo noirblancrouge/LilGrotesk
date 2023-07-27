@@ -1,18 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="guilsinglright" format="2">
-  <advance width="600.0"/>
+  <advance width="600"/>
   <unicode hex="203A"/>
-  <note>
-guilsinglright
-</note>
   <outline>
     <contour>
-      <point x="337.0" y="273.0" type="line"/>
-      <point x="189.0" y="436.0" type="line"/>
-      <point x="240.0" y="479.0" type="line"/>
-      <point x="449.0" y="273.0" type="line"/>
-      <point x="240.0" y="67.0" type="line"/>
-      <point x="189.0" y="110.0" type="line"/>
+      <point x="240" y="67" type="line"/>
+      <point x="449" y="273" type="line"/>
+      <point x="240" y="479" type="line"/>
+      <point x="189" y="436" type="line"/>
+      <point x="337" y="273" type="line"/>
+      <point x="189" y="110" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -22,12 +19,14 @@ guilsinglright
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>67.0</real>
-            <real>412.0</real>
+            <integer>67</integer>
+            <integer>412</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -37,12 +36,14 @@ guilsinglright
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>189.0</real>
-            <real>260.0</real>
+            <integer>189</integer>
+            <integer>260</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

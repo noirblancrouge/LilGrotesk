@@ -1,16 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="slash" format="2">
-  <advance width="600.0"/>
+  <advance width="600"/>
   <unicode hex="002F"/>
-  <note>
-slash
-</note>
   <outline>
     <contour>
-      <point x="209.0" y="-125.0" type="line"/>
-      <point x="463.0" y="718.0" type="line"/>
-      <point x="402.0" y="737.0" type="line"/>
-      <point x="147.0" y="-107.0" type="line"/>
+      <point x="209" y="-125" type="line"/>
+      <point x="463" y="718" type="line"/>
+      <point x="402" y="737" type="line"/>
+      <point x="147" y="-107" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -20,12 +17,14 @@ slash
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>-125.0</real>
-            <real>862.0</real>
+            <integer>-125</integer>
+            <integer>862</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -35,12 +34,14 @@ slash
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>147.0</real>
-            <real>316.0</real>
+            <integer>147</integer>
+            <integer>316</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

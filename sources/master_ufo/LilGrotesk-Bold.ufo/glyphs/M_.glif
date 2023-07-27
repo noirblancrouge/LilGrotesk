@@ -1,24 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="M" format="2">
-  <advance width="861.0"/>
+  <advance width="855"/>
   <unicode hex="004D"/>
-  <note>
-M
-</note>
+  <anchor x="427" y="0" name="bottom"/>
+  <anchor x="427" y="700" name="top"/>
   <outline>
     <contour>
-      <point x="778.0" y="0.0" type="line"/>
-      <point x="778.0" y="700.0" type="line"/>
-      <point x="646.0" y="700.0" type="line"/>
-      <point x="430.0" y="295.0" type="line"/>
-      <point x="215.0" y="700.0" type="line"/>
-      <point x="83.0" y="700.0" type="line"/>
-      <point x="83.0" y="0.0" type="line"/>
-      <point x="226.0" y="0.0" type="line"/>
-      <point x="226.0" y="381.0" type="line"/>
-      <point x="430.0" y="-4.0" type="line"/>
-      <point x="635.0" y="380.0" type="line"/>
-      <point x="635.0" y="0.0" type="line"/>
+      <point x="427" y="12" type="line"/>
+      <point x="632" y="430" type="line"/>
+      <point x="632" y="0" type="line"/>
+      <point x="775" y="0" type="line"/>
+      <point x="775" y="700" type="line"/>
+      <point x="613" y="700" type="line"/>
+      <point x="427" y="321" type="line"/>
+      <point x="242" y="700" type="line"/>
+      <point x="80" y="700" type="line"/>
+      <point x="80" y="0" type="line"/>
+      <point x="223" y="0" type="line"/>
+      <point x="223" y="431" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -28,12 +27,14 @@ M
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>-4.0</real>
-            <real>704.0</real>
+            <integer>-4</integer>
+            <integer>704</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -43,12 +44,14 @@ M
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>83.0</real>
-            <real>143.0</real>
+            <integer>83</integer>
+            <integer>143</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -58,12 +61,14 @@ M
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>635.0</real>
-            <real>143.0</real>
+            <integer>635</integer>
+            <integer>143</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

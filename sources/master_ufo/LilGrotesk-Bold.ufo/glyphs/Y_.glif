@@ -1,21 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Y" format="2">
-  <advance width="738.0"/>
+  <advance width="750"/>
   <unicode hex="0059"/>
-  <note>
-Y
-</note>
+  <anchor x="375" y="0" name="bottom"/>
+  <anchor x="375" y="700" name="top"/>
   <outline>
     <contour>
-      <point x="729.0" y="700.0" type="line"/>
-      <point x="553.0" y="700.0" type="line"/>
-      <point x="369.0" y="463.0" type="line"/>
-      <point x="185.0" y="700.0" type="line"/>
-      <point x="9.0" y="700.0" type="line"/>
-      <point x="298.0" y="328.0" type="line"/>
-      <point x="298.0" y="0.0" type="line"/>
-      <point x="440.0" y="0.0" type="line"/>
-      <point x="440.0" y="328.0" type="line"/>
+      <point x="304" y="0" type="line"/>
+      <point x="446" y="0" type="line"/>
+      <point x="446" y="328" type="line"/>
+      <point x="735" y="700" type="line"/>
+      <point x="559" y="700" type="line"/>
+      <point x="375" y="463" type="line"/>
+      <point x="191" y="700" type="line"/>
+      <point x="15" y="700" type="line"/>
+      <point x="304" y="328" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -25,12 +24,14 @@ Y
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>0.0</real>
-            <real>700.0</real>
+            <integer>0</integer>
+            <integer>700</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -40,12 +41,14 @@ Y
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>298.0</real>
-            <real>142.0</real>
+            <integer>298</integer>
+            <integer>142</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

@@ -1,23 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="z" format="2">
-  <advance width="539.0"/>
+  <advance width="531"/>
   <unicode hex="007A"/>
-  <note>
-z
-</note>
+  <anchor x="265" y="0" name="bottom"/>
+  <anchor x="265" y="500" name="top"/>
   <outline>
     <contour>
-      <point x="488.0" y="0.0" type="line"/>
-      <point x="488.0" y="127.0" type="line"/>
-      <point x="253.0" y="127.0" type="line"/>
-      <point x="480.0" y="402.0" type="line"/>
-      <point x="489.0" y="412.0" type="line"/>
-      <point x="489.0" y="506.0" type="line"/>
-      <point x="57.0" y="506.0" type="line"/>
-      <point x="57.0" y="373.0" type="line"/>
-      <point x="286.0" y="373.0" type="line"/>
-      <point x="53.0" y="93.0" type="line"/>
-      <point x="53.0" y="0.0" type="line"/>
+      <point x="52" y="0" type="line"/>
+      <point x="491" y="0" type="line"/>
+      <point x="491" y="127" type="line"/>
+      <point x="246" y="127" type="line"/>
+      <point x="482" y="412" type="line"/>
+      <point x="482" y="506" type="line"/>
+      <point x="40" y="506" type="line"/>
+      <point x="40" y="373" type="line"/>
+      <point x="285" y="373" type="line"/>
+      <point x="52" y="93" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -27,12 +25,14 @@ z
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>0.0</real>
-            <real>127.0</real>
+            <integer>0</integer>
+            <integer>127</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -42,12 +42,14 @@ z
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>373.0</real>
-            <real>133.0</real>
+            <integer>373</integer>
+            <integer>133</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -57,12 +59,14 @@ z
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>53.0</real>
-            <real>436.0</real>
+            <integer>53</integer>
+            <integer>436</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

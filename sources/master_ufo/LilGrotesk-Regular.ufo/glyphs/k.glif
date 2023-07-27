@@ -1,41 +1,43 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="k" format="2">
-  <advance width="488.0"/>
+  <advance width="482"/>
   <unicode hex="006B"/>
-  <note>
-k
-</note>
+  <anchor x="234" y="0" name="bottom"/>
+  <anchor x="234" y="500" name="top"/>
   <outline>
     <contour>
-      <point x="194.0" y="290.0" type="line"/>
-      <point x="375.0" y="0.0" type="line"/>
-      <point x="456.0" y="0.0" type="line"/>
-      <point x="248.0" y="333.0" type="line"/>
-      <point x="469.0" y="507.0" type="line"/>
-      <point x="376.0" y="507.0" type="line"/>
-      <point x="146.0" y="325.0" type="line"/>
-      <point x="146.0" y="700.0" type="line"/>
-      <point x="76.0" y="700.0" type="line"/>
-      <point x="76.0" y="0.0" type="line"/>
-      <point x="146.0" y="0.0" type="line"/>
-      <point x="146.0" y="252.0" type="line"/>
+      <point x="60" y="0" type="line"/>
+      <point x="130" y="0" type="line"/>
+      <point x="130" y="297" type="line"/>
+      <point x="109" y="219" type="line"/>
+      <point x="198" y="290" type="line"/>
+      <point x="379" y="0" type="line"/>
+      <point x="457" y="0" type="line"/>
+      <point x="234" y="358" type="line"/>
+      <point x="217" y="305" type="line"/>
+      <point x="467" y="500" type="line"/>
+      <point x="355" y="500" type="line"/>
+      <point x="116" y="314" type="line"/>
+      <point x="130" y="301" type="line"/>
+      <point x="130" y="700" type="line"/>
+      <point x="60" y="700" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/02/04 10:49:36</string>
       <key>com.schriftgestaltung.hints</key>
       <array>
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>0.0</real>
-            <real>700.0</real>
+            <integer>0</integer>
+            <integer>700</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -45,12 +47,14 @@ k
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>76.0</real>
-            <real>70.0</real>
+            <integer>76</integer>
+            <integer>70</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

@@ -1,16 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="minus" format="2">
-  <advance width="600.0"/>
+  <advance width="600"/>
   <unicode hex="2212"/>
-  <note>
-minus
-</note>
   <outline>
     <contour>
-      <point x="25.0" y="241.0" type="line"/>
-      <point x="587.0" y="241.0" type="line"/>
-      <point x="587.0" y="373.0" type="line"/>
-      <point x="25.0" y="373.0" type="line"/>
+      <point x="25" y="241" type="line"/>
+      <point x="587" y="241" type="line"/>
+      <point x="587" y="373" type="line"/>
+      <point x="25" y="373" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -20,12 +17,14 @@ minus
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>241.0</real>
-            <real>132.0</real>
+            <integer>241</integer>
+            <integer>132</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -35,12 +34,14 @@ minus
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>25.0</real>
-            <real>562.0</real>
+            <integer>25</integer>
+            <integer>562</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

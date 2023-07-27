@@ -1,33 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="AE" format="2">
-  <advance width="1102.0"/>
+  <advance width="1102"/>
   <unicode hex="00C6"/>
-  <note>
-AE
-</note>
+  <anchor x="551" y="0" name="bottom"/>
+  <anchor x="777" y="700" name="top"/>
   <outline>
     <contour>
-      <point x="291.0" y="223.0" type="line"/>
-      <point x="574.0" y="223.0" type="line"/>
-      <point x="574.0" y="0.0" type="line"/>
-      <point x="1027.0" y="0.0" type="line"/>
-      <point x="1027.0" y="64.0" type="line"/>
-      <point x="644.0" y="64.0" type="line"/>
-      <point x="644.0" y="322.0" type="line"/>
-      <point x="952.0" y="322.0" type="line"/>
-      <point x="952.0" y="386.0" type="line"/>
-      <point x="644.0" y="386.0" type="line"/>
-      <point x="644.0" y="636.0" type="line"/>
-      <point x="1027.0" y="636.0" type="line"/>
-      <point x="1027.0" y="700.0" type="line"/>
-      <point x="574.0" y="700.0" type="line"/>
-      <point x="28.0" y="0.0" type="line"/>
-      <point x="118.0" y="0.0" type="line"/>
+      <point x="30" y="0" type="line"/>
+      <point x="118" y="0" type="line"/>
+      <point x="291" y="223" type="line"/>
+      <point x="574" y="223" type="line"/>
+      <point x="574" y="0" type="line"/>
+      <point x="1027" y="0" type="line"/>
+      <point x="1027" y="64" type="line"/>
+      <point x="644" y="64" type="line"/>
+      <point x="644" y="322" type="line"/>
+      <point x="952" y="322" type="line"/>
+      <point x="952" y="386" type="line"/>
+      <point x="644" y="386" type="line"/>
+      <point x="644" y="636" type="line"/>
+      <point x="1027" y="636" type="line"/>
+      <point x="1027" y="700" type="line"/>
+      <point x="581" y="700" type="line"/>
     </contour>
     <contour>
-      <point x="574.0" y="586.0" type="line"/>
-      <point x="574.0" y="287.0" type="line"/>
-      <point x="341.0" y="287.0" type="line"/>
+      <point x="342" y="287" type="line"/>
+      <point x="574" y="583" type="line"/>
+      <point x="574" y="287" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -37,12 +36,14 @@ AE
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>0.0</real>
-            <real>64.0</real>
+            <integer>0</integer>
+            <integer>64</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -52,12 +53,14 @@ AE
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>223.0</real>
-            <real>64.0</real>
+            <integer>223</integer>
+            <integer>64</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -67,12 +70,14 @@ AE
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>322.0</real>
-            <real>64.0</real>
+            <integer>322</integer>
+            <integer>64</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -82,12 +87,14 @@ AE
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>636.0</real>
-            <real>64.0</real>
+            <integer>636</integer>
+            <integer>64</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -97,12 +104,14 @@ AE
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>574.0</real>
-            <real>70.0</real>
+            <integer>574</integer>
+            <integer>70</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

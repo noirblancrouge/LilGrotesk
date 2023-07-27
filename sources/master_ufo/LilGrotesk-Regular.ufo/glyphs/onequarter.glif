@@ -1,93 +1,53 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="onequarter" format="2">
-  <advance width="745.0"/>
+  <advance width="800"/>
   <unicode hex="00BC"/>
-  <note>
-onequarter
-</note>
   <outline>
-    <contour>
-      <point x="247.0" y="503.0" type="line"/>
-      <point x="247.0" y="902.0" type="line"/>
-      <point x="183.0" y="902.0" type="line"/>
-      <point x="84.0" y="845.0" type="line"/>
-      <point x="84.0" y="762.0" type="line"/>
-      <point x="176.0" y="831.0" type="line"/>
-      <point x="176.0" y="503.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="152.0" y="-18.0" type="line"/>
-      <point x="726.0" y="841.0" type="line"/>
-      <point x="669.0" y="878.0" type="line"/>
-      <point x="95.0" y="18.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="533.0" y="85.0" type="line"/>
-      <point x="533.0" y="-1.0" type="line"/>
-      <point x="603.0" y="-1.0" type="line"/>
-      <point x="603.0" y="85.0" type="line"/>
-      <point x="651.0" y="85.0" type="line"/>
-      <point x="651.0" y="144.0" type="line"/>
-      <point x="603.0" y="144.0" type="line"/>
-      <point x="603.0" y="398.0" type="line"/>
-      <point x="552.0" y="398.0" type="line"/>
-      <point x="386.0" y="141.0" type="line"/>
-      <point x="386.0" y="85.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="533.0" y="254.0" type="line"/>
-      <point x="533.0" y="144.0" type="line"/>
-      <point x="464.0" y="144.0" type="line"/>
-    </contour>
+    <component base="fraction"/>
+    <component base="one.numr" xOffset="15"/>
+    <component base="four.dnom" xOffset="387"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>fraction</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>one.numr</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.hints</key>
       <array>
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>85.0</real>
-            <real>59.0</real>
+            <real>810.11</real>
+            <integer>-20</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
+          <key>target</key>
+          <string>down</string>
           <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>176.0</real>
-            <real>71.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>533.0</real>
-            <real>70.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
+          <string>TopGhost</string>
         </dict>
       </array>
     </dict>

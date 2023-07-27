@@ -1,16 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="I" format="2">
-  <advance width="301.0"/>
+  <advance width="303"/>
   <unicode hex="0049"/>
-  <note>
-I
-</note>
+  <anchor x="151" y="0" name="bottom"/>
+  <anchor x="151" y="700" name="top"/>
   <outline>
     <contour>
-      <point x="79.0" y="700.0" type="line"/>
-      <point x="79.0" y="0.0" type="line"/>
-      <point x="222.0" y="0.0" type="line"/>
-      <point x="222.0" y="700.0" type="line"/>
+      <point x="80" y="0" type="line"/>
+      <point x="223" y="0" type="line"/>
+      <point x="223" y="700" type="line"/>
+      <point x="80" y="700" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -20,12 +19,14 @@ I
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>0.0</real>
-            <real>700.0</real>
+            <integer>0</integer>
+            <integer>700</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -35,12 +36,14 @@ I
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>79.0</real>
-            <real>143.0</real>
+            <integer>79</integer>
+            <integer>143</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

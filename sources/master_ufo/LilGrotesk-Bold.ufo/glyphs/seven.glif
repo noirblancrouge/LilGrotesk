@@ -1,19 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="seven" format="2">
-  <advance width="600.0"/>
+  <advance width="600"/>
   <unicode hex="0037"/>
-  <note>
-seven
-</note>
   <outline>
     <contour>
-      <point x="346.0" y="563.0" type="line"/>
-      <point x="275.0" y="442.0" type="line"/>
-      <point x="14.0" y="0.0" type="line"/>
-      <point x="178.0" y="0.0" type="line"/>
-      <point x="591.0" y="700.0" type="line"/>
-      <point x="76.0" y="700.0" type="line"/>
-      <point x="76.0" y="563.0" type="line"/>
+      <point x="14" y="0" type="line"/>
+      <point x="178" y="0" type="line"/>
+      <point x="591" y="700" type="line"/>
+      <point x="76" y="700" type="line"/>
+      <point x="76" y="563" type="line"/>
+      <point x="346" y="563" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -23,12 +19,14 @@ seven
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>563.0</real>
-            <real>137.0</real>
+            <integer>563</integer>
+            <integer>137</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -38,12 +36,14 @@ seven
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>14.0</real>
-            <real>577.0</real>
+            <integer>14</integer>
+            <integer>577</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

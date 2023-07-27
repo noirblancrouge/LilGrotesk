@@ -1,18 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quoteleft" format="2">
-  <advance width="169.0"/>
+  <advance width="169"/>
   <unicode hex="2018"/>
-  <note>
-quoteleft
-</note>
   <outline>
     <contour>
-      <point x="40.0" y="636.0" type="line"/>
-      <point x="80.0" y="541.0" type="line"/>
-      <point x="129.0" y="568.0" type="line"/>
-      <point x="103.0" y="640.0" type="line"/>
-      <point x="107.0" y="720.0" type="line"/>
-      <point x="40.0" y="720.0" type="line"/>
+      <point x="80" y="541" type="line"/>
+      <point x="129" y="568" type="line"/>
+      <point x="103" y="640" type="line"/>
+      <point x="107" y="720" type="line"/>
+      <point x="40" y="720" type="line"/>
+      <point x="40" y="636" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -22,12 +19,14 @@ quoteleft
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>541.0</real>
-            <real>179.0</real>
+            <integer>541</integer>
+            <integer>179</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -37,12 +36,14 @@ quoteleft
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>40.0</real>
-            <real>65.0</real>
+            <integer>40</integer>
+            <integer>65</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

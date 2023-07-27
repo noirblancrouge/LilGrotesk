@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="abreve.ss01" format="2">
+  <advance width="606"/>
+  <anchor x="302" y="0" name="bottom"/>
+  <anchor x="408" y="-6" name="ogonek"/>
+  <anchor x="296" y="722" name="top"/>
+  <outline>
+    <component base="a.ss01"/>
+    <component base="brevecomb" xOffset="-3"/>
+  </outline>
+</glyph>

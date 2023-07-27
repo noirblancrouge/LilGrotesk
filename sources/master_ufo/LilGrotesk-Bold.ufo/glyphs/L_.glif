@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="L" format="2">
-  <advance width="505.0"/>
+  <advance width="540"/>
   <unicode hex="004C"/>
-  <note>
-L
-</note>
+  <anchor x="292" y="0" name="bottom"/>
+  <anchor x="272" y="700" name="top"/>
   <outline>
     <contour>
-      <point x="226.0" y="700.0" type="line"/>
-      <point x="83.0" y="700.0" type="line"/>
-      <point x="83.0" y="0.0" type="line"/>
-      <point x="473.0" y="0.0" type="line"/>
-      <point x="473.0" y="132.0" type="line"/>
-      <point x="226.0" y="132.0" type="line"/>
+      <point x="80" y="0" type="line"/>
+      <point x="520" y="0" type="line"/>
+      <point x="520" y="132" type="line"/>
+      <point x="223" y="132" type="line"/>
+      <point x="223" y="700" type="line"/>
+      <point x="80" y="700" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -22,12 +21,14 @@ L
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>0.0</real>
-            <real>132.0</real>
+            <integer>0</integer>
+            <integer>132</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -37,12 +38,14 @@ L
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>83.0</real>
-            <real>143.0</real>
+            <integer>83</integer>
+            <integer>143</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

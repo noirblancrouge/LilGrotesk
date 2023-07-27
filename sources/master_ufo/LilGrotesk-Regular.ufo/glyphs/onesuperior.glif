@@ -1,56 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="onesuperior" format="2">
-  <advance width="359.0"/>
+  <advance width="267"/>
   <unicode hex="00B9"/>
-  <note>
-onesuperior
-</note>
   <outline>
-    <contour>
-      <point x="247.0" y="503.0" type="line"/>
-      <point x="247.0" y="902.0" type="line"/>
-      <point x="183.0" y="902.0" type="line"/>
-      <point x="84.0" y="845.0" type="line"/>
-      <point x="84.0" y="762.0" type="line"/>
-      <point x="176.0" y="831.0" type="line"/>
-      <point x="176.0" y="503.0" type="line"/>
-    </contour>
+    <component base="one.numr"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>503.0</real>
-            <real>399.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>176.0</real>
-            <real>71.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

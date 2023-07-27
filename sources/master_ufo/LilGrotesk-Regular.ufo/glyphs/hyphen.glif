@@ -1,16 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hyphen" format="2">
-  <advance width="497.0"/>
+  <advance width="497"/>
   <unicode hex="002D"/>
-  <note>
-hyphen
-</note>
   <outline>
     <contour>
-      <point x="432.0" y="318.0" type="line"/>
-      <point x="66.0" y="318.0" type="line"/>
-      <point x="66.0" y="256.0" type="line"/>
-      <point x="432.0" y="256.0" type="line"/>
+      <point x="66" y="256" type="line"/>
+      <point x="432" y="256" type="line"/>
+      <point x="432" y="318" type="line"/>
+      <point x="66" y="318" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -20,12 +17,14 @@ hyphen
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>256.0</real>
-            <real>62.0</real>
+            <integer>256</integer>
+            <integer>62</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -35,12 +34,14 @@ hyphen
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>66.0</real>
-            <real>366.0</real>
+            <integer>66</integer>
+            <integer>366</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

@@ -1,30 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="plusminus" format="2">
-  <advance width="600.0"/>
+  <advance width="600"/>
   <unicode hex="00B1"/>
-  <note>
-plusminus
-</note>
   <outline>
     <contour>
-      <point x="373.0" y="136.0" type="line"/>
-      <point x="373.0" y="289.0" type="line"/>
-      <point x="583.0" y="289.0" type="line"/>
-      <point x="583.0" y="422.0" type="line"/>
-      <point x="373.0" y="422.0" type="line"/>
-      <point x="373.0" y="574.0" type="line"/>
-      <point x="230.0" y="574.0" type="line"/>
-      <point x="230.0" y="422.0" type="line"/>
-      <point x="20.0" y="422.0" type="line"/>
-      <point x="20.0" y="289.0" type="line"/>
-      <point x="230.0" y="289.0" type="line"/>
-      <point x="230.0" y="136.0" type="line"/>
+      <point x="230" y="136" type="line"/>
+      <point x="373" y="136" type="line"/>
+      <point x="373" y="289" type="line"/>
+      <point x="583" y="289" type="line"/>
+      <point x="583" y="422" type="line"/>
+      <point x="373" y="422" type="line"/>
+      <point x="373" y="574" type="line"/>
+      <point x="230" y="574" type="line"/>
+      <point x="230" y="422" type="line"/>
+      <point x="20" y="422" type="line"/>
+      <point x="20" y="289" type="line"/>
+      <point x="230" y="289" type="line"/>
     </contour>
     <contour>
-      <point x="20.0" y="-37.0" type="line"/>
-      <point x="583.0" y="-37.0" type="line"/>
-      <point x="583.0" y="95.0" type="line"/>
-      <point x="20.0" y="95.0" type="line"/>
+      <point x="20" y="-37" type="line"/>
+      <point x="583" y="-37" type="line"/>
+      <point x="583" y="95" type="line"/>
+      <point x="20" y="95" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -34,12 +31,14 @@ plusminus
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>-37.0</real>
-            <real>132.0</real>
+            <integer>-37</integer>
+            <integer>132</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -49,12 +48,14 @@ plusminus
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>289.0</real>
-            <real>133.0</real>
+            <integer>289</integer>
+            <integer>133</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -64,12 +65,14 @@ plusminus
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>230.0</real>
-            <real>143.0</real>
+            <integer>230</integer>
+            <integer>143</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

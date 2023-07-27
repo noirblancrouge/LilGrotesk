@@ -1,24 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="product" format="2">
-  <advance width="791.0"/>
+  <advance width="791"/>
   <unicode hex="220F"/>
-  <note>
-product
-</note>
   <outline>
     <contour>
-      <point x="614.0" y="0.0" type="line"/>
-      <point x="684.0" y="0.0" type="line"/>
-      <point x="684.0" y="663.0" type="line"/>
-      <point x="766.0" y="663.0" type="line"/>
-      <point x="766.0" y="727.0" type="line"/>
-      <point x="40.0" y="727.0" type="line"/>
-      <point x="40.0" y="663.0" type="line"/>
-      <point x="122.0" y="663.0" type="line"/>
-      <point x="122.0" y="0.0" type="line"/>
-      <point x="192.0" y="0.0" type="line"/>
-      <point x="192.0" y="663.0" type="line"/>
-      <point x="614.0" y="663.0" type="line"/>
+      <point x="122" y="0" type="line"/>
+      <point x="192" y="0" type="line"/>
+      <point x="192" y="663" type="line"/>
+      <point x="614" y="663" type="line"/>
+      <point x="614" y="0" type="line"/>
+      <point x="684" y="0" type="line"/>
+      <point x="684" y="663" type="line"/>
+      <point x="766" y="663" type="line"/>
+      <point x="766" y="727" type="line"/>
+      <point x="40" y="727" type="line"/>
+      <point x="40" y="663" type="line"/>
+      <point x="122" y="663" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -28,12 +25,14 @@ product
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>663.0</real>
-            <real>64.0</real>
+            <integer>663</integer>
+            <integer>64</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -43,12 +42,14 @@ product
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>122.0</real>
-            <real>70.0</real>
+            <integer>122</integer>
+            <integer>70</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -58,12 +59,14 @@ product
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>614.0</real>
-            <real>70.0</real>
+            <integer>614</integer>
+            <integer>70</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

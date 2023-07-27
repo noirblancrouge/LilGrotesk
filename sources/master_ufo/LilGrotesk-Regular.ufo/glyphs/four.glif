@@ -1,28 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="four" format="2">
-  <advance width="586.0"/>
+  <advance width="586"/>
   <unicode hex="0034"/>
-  <note>
-four
-</note>
   <outline>
     <contour>
-      <point x="392.0" y="0.0" type="line"/>
-      <point x="462.0" y="0.0" type="line"/>
-      <point x="462.0" y="152.0" type="line"/>
-      <point x="530.0" y="152.0" type="line"/>
-      <point x="530.0" y="226.0" type="line"/>
-      <point x="462.0" y="226.0" type="line"/>
-      <point x="462.0" y="700.0" type="line"/>
-      <point x="378.0" y="700.0" type="line"/>
-      <point x="37.0" y="226.0" type="line"/>
-      <point x="37.0" y="152.0" type="line"/>
-      <point x="392.0" y="152.0" type="line"/>
+      <point x="392" y="0" type="line"/>
+      <point x="462" y="0" type="line"/>
+      <point x="462" y="152" type="line"/>
+      <point x="560" y="152" type="line"/>
+      <point x="560" y="226" type="line"/>
+      <point x="462" y="226" type="line"/>
+      <point x="462" y="700" type="line"/>
+      <point x="392" y="700" type="line"/>
+      <point x="37" y="217" type="line"/>
+      <point x="37" y="152" type="line"/>
+      <point x="392" y="152" type="line"/>
     </contour>
     <contour>
-      <point x="392.0" y="226.0" type="line"/>
-      <point x="120.0" y="226.0" type="line"/>
-      <point x="392.0" y="604.0" type="line"/>
+      <point x="124" y="226" type="line"/>
+      <point x="392" y="599" type="line"/>
+      <point x="392" y="226" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -32,12 +29,14 @@ four
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>152.0</real>
-            <real>74.0</real>
+            <integer>152</integer>
+            <integer>74</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -47,12 +46,14 @@ four
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>392.0</real>
-            <real>70.0</real>
+            <integer>392</integer>
+            <integer>70</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

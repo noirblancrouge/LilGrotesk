@@ -1,16 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fraction" format="2">
-  <advance width="650.0"/>
+  <advance width="727"/>
   <unicode hex="2044"/>
-  <note>
-fraction
-</note>
   <outline>
     <contour>
-      <point x="69.0" y="-18.0" type="line"/>
-      <point x="642.0" y="841.0" type="line"/>
-      <point x="585.0" y="878.0" type="line"/>
-      <point x="11.0" y="18.0" type="line"/>
+      <point x="60" y="-2" type="line"/>
+      <point x="123" y="-2" type="line"/>
+      <point x="704" y="751" type="line"/>
+      <point x="641" y="751" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -20,12 +17,14 @@ fraction
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>-18.0</real>
-            <real>896.0</real>
+            <integer>-18</integer>
+            <integer>896</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -35,12 +34,14 @@ fraction
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>11.0</real>
-            <real>631.0</real>
+            <integer>11</integer>
+            <integer>631</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

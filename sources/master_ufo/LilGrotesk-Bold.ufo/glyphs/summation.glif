@@ -1,23 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="summation" format="2">
-  <advance width="854.0"/>
+  <advance width="854"/>
   <unicode hex="2211"/>
-  <note>
-summation
-</note>
   <outline>
     <contour>
-      <point x="575.0" y="324.0" type="line"/>
-      <point x="575.0" y="371.0" type="line"/>
-      <point x="387.0" y="592.0" type="line"/>
-      <point x="756.0" y="592.0" type="line"/>
-      <point x="756.0" y="724.0" type="line"/>
-      <point x="94.0" y="724.0" type="line"/>
-      <point x="412.0" y="349.0" type="line"/>
-      <point x="94.0" y="-29.0" type="line"/>
-      <point x="756.0" y="-29.0" type="line"/>
-      <point x="756.0" y="103.0" type="line"/>
-      <point x="387.0" y="103.0" type="line"/>
+      <point x="94" y="-29" type="line"/>
+      <point x="756" y="-29" type="line"/>
+      <point x="756" y="103" type="line"/>
+      <point x="387" y="103" type="line"/>
+      <point x="575" y="324" type="line"/>
+      <point x="575" y="371" type="line"/>
+      <point x="387" y="592" type="line"/>
+      <point x="756" y="592" type="line"/>
+      <point x="756" y="724" type="line"/>
+      <point x="94" y="724" type="line"/>
+      <point x="412" y="349" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -27,12 +24,14 @@ summation
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>-29.0</real>
-            <real>132.0</real>
+            <integer>-29</integer>
+            <integer>132</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -42,12 +41,14 @@ summation
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>592.0</real>
-            <real>132.0</real>
+            <integer>592</integer>
+            <integer>132</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -57,12 +58,14 @@ summation
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>94.0</real>
-            <real>662.0</real>
+            <integer>94</integer>
+            <integer>662</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

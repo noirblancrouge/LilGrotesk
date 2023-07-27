@@ -1,53 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="circumflex" format="2">
-  <advance width="600.0"/>
+  <advance width="600"/>
   <unicode hex="02C6"/>
-  <note>
-circumflex
-</note>
   <outline>
-    <contour>
-      <point x="283.0" y="708.0" type="line"/>
-      <point x="86.0" y="614.0" type="line"/>
-      <point x="102.0" y="554.0" type="line"/>
-      <point x="283.0" y="625.0" type="line"/>
-      <point x="464.0" y="554.0" type="line"/>
-      <point x="480.0" y="614.0" type="line"/>
-    </contour>
+    <component base="circumflexcomb"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
           <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>554.0</real>
-            <real>154.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>86.0</real>
-            <real>394.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
+          <key>name</key>
+          <string>circumflexcomb</string>
         </dict>
       </array>
     </dict>

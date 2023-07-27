@@ -1,82 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zcaron" format="2">
-  <advance width="539.0"/>
+  <advance width="504"/>
   <unicode hex="017E"/>
-  <note>
-zcaron
-</note>
+  <anchor x="252" y="0" name="bottom"/>
+  <anchor x="251" y="722" name="top"/>
   <outline>
-    <contour>
-      <point x="283.0" y="638.0" type="line"/>
-      <point x="102.0" y="708.0" type="line"/>
-      <point x="86.0" y="648.0" type="line"/>
-      <point x="283.0" y="554.0" type="line"/>
-      <point x="480.0" y="648.0" type="line"/>
-      <point x="464.0" y="708.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="62.0" y="52.0" type="line"/>
-      <point x="62.0" y="0.0" type="line"/>
-      <point x="481.0" y="0.0" type="line"/>
-      <point x="481.0" y="64.0" type="line"/>
-      <point x="159.0" y="64.0" type="line"/>
-      <point x="481.0" y="454.0" type="line"/>
-      <point x="481.0" y="500.0" type="line"/>
-      <point x="67.0" y="500.0" type="line"/>
-      <point x="67.0" y="436.0" type="line"/>
-      <point x="386.0" y="436.0" type="line"/>
-    </contour>
+    <component base="z"/>
+    <component base="caroncomb" xOffset="-34"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>0.0</real>
-            <real>64.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>436.0</real>
-            <real>64.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>62.0</real>
-            <real>419.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

@@ -1,39 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="mu" format="2">
-  <advance width="600.0"/>
+  <advance width="600"/>
   <unicode hex="03BC"/>
-  <note>
-mu
-</note>
   <outline>
     <contour>
-      <point x="469.0" y="157.0" type="curve" smooth="yes"/>
-      <point x="469.0" y="475.0" type="line"/>
-      <point x="399.0" y="475.0" type="line"/>
-      <point x="399.0" y="178.0" type="line" smooth="yes"/>
-      <point x="399.0" y="112.0"/>
-      <point x="365.0" y="62.0"/>
-      <point x="292.0" y="62.0" type="curve" smooth="yes"/>
-      <point x="185.0" y="62.0"/>
-      <point x="166.0" y="140.0"/>
-      <point x="166.0" y="221.0" type="curve" smooth="yes"/>
-      <point x="166.0" y="475.0" type="line"/>
-      <point x="96.0" y="475.0" type="line"/>
-      <point x="96.0" y="-238.0" type="line"/>
-      <point x="166.0" y="-238.0" type="line"/>
-      <point x="166.0" y="36.0" type="line"/>
-      <point x="195.0" y="13.0"/>
-      <point x="235.0" y="-2.0"/>
-      <point x="292.0" y="-2.0" type="curve" smooth="yes"/>
-      <point x="355.0" y="-2.0"/>
-      <point x="400.0" y="22.0"/>
-      <point x="428.0" y="57.0" type="curve"/>
-      <point x="450.0" y="26.0"/>
-      <point x="486.0" y="1.0"/>
-      <point x="546.0" y="1.0" type="curve"/>
-      <point x="546.0" y="65.0" type="line"/>
-      <point x="480.0" y="65.0"/>
-      <point x="469.0" y="126.0"/>
+      <point x="96" y="-238" type="line"/>
+      <point x="166" y="-238" type="line"/>
+      <point x="166" y="36" type="line"/>
+      <point x="195" y="13"/>
+      <point x="235" y="-2"/>
+      <point x="292" y="-2" type="curve" smooth="yes"/>
+      <point x="355" y="-2"/>
+      <point x="400" y="22"/>
+      <point x="428" y="57" type="curve"/>
+      <point x="450" y="26"/>
+      <point x="486" y="1"/>
+      <point x="546" y="1" type="curve"/>
+      <point x="546" y="65" type="line"/>
+      <point x="480" y="65"/>
+      <point x="469" y="126"/>
+      <point x="469" y="157" type="curve" smooth="yes"/>
+      <point x="469" y="475" type="line"/>
+      <point x="399" y="475" type="line"/>
+      <point x="399" y="178" type="line" smooth="yes"/>
+      <point x="399" y="112"/>
+      <point x="365" y="62"/>
+      <point x="292" y="62" type="curve" smooth="yes"/>
+      <point x="185" y="62"/>
+      <point x="166" y="140"/>
+      <point x="166" y="221" type="curve" smooth="yes"/>
+      <point x="166" y="475" type="line"/>
+      <point x="96" y="475" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -43,12 +40,14 @@ mu
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>-2.0</real>
-            <real>64.0</real>
+            <integer>-2</integer>
+            <integer>64</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -58,12 +57,14 @@ mu
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>96.0</real>
-            <real>70.0</real>
+            <integer>96</integer>
+            <integer>70</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -73,12 +74,14 @@ mu
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>399.0</real>
-            <real>70.0</real>
+            <integer>399</integer>
+            <integer>70</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -88,12 +91,14 @@ mu
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>1.0</real>
-            <real>64.0</real>
+            <integer>1</integer>
+            <integer>64</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

@@ -1,80 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Zcaron" format="2">
-  <advance width="626.0"/>
+  <advance width="612"/>
   <unicode hex="017D"/>
-  <note>
-Zcaron
-</note>
+  <anchor x="306" y="0" name="bottom"/>
+  <anchor x="305" y="922" name="top"/>
   <outline>
-    <contour>
-      <point x="346.0" y="843.0" type="line"/>
-      <point x="165.0" y="913.0" type="line"/>
-      <point x="149.0" y="853.0" type="line"/>
-      <point x="346.0" y="759.0" type="line"/>
-      <point x="543.0" y="853.0" type="line"/>
-      <point x="527.0" y="913.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="482.0" y="636.0" type="line"/>
-      <point x="20.0" y="0.0" type="line"/>
-      <point x="603.0" y="0.0" type="line"/>
-      <point x="603.0" y="64.0" type="line"/>
-      <point x="150.0" y="64.0" type="line"/>
-      <point x="611.0" y="700.0" type="line"/>
-      <point x="82.0" y="700.0" type="line"/>
-      <point x="82.0" y="636.0" type="line"/>
-    </contour>
+    <component base="Z"/>
+    <component base="caroncomb" xOffset="20" yOffset="200"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>0.0</real>
-            <real>64.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>636.0</real>
-            <real>64.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>20.0</real>
-            <real>591.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

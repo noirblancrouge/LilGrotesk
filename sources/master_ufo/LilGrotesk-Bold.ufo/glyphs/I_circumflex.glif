@@ -1,61 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Icircumflex" format="2">
-  <advance width="301.0"/>
+  <advance width="303"/>
   <unicode hex="00CE"/>
-  <note>
-Icircumflex
-</note>
+  <anchor x="151" y="0" name="bottom"/>
+  <anchor x="150" y="922" name="top"/>
   <outline>
-    <contour>
-      <point x="-1.0" y="745.0" type="line"/>
-      <point x="150.0" y="804.0" type="line"/>
-      <point x="301.0" y="745.0" type="line"/>
-      <point x="327.0" y="831.0" type="line"/>
-      <point x="150.0" y="930.0" type="line"/>
-      <point x="-27.0" y="831.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="222.0" y="700.0" type="line"/>
-      <point x="79.0" y="700.0" type="line"/>
-      <point x="79.0" y="0.0" type="line"/>
-      <point x="222.0" y="0.0" type="line"/>
-    </contour>
+    <component base="I"/>
+    <component base="circumflexcomb" xOffset="-133" yOffset="200"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>0.0</real>
-            <real>930.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>79.0</real>
-            <real>143.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

@@ -1,22 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="brokenbar" format="2">
-  <advance width="600.0"/>
+  <advance width="600"/>
   <unicode hex="00A6"/>
-  <note>
-brokenbar
-</note>
   <outline>
     <contour>
-      <point x="127.0" y="744.0" type="line"/>
-      <point x="127.0" y="377.0" type="line"/>
-      <point x="269.0" y="377.0" type="line"/>
-      <point x="269.0" y="744.0" type="line"/>
+      <point x="127" y="-63" type="line"/>
+      <point x="269" y="-63" type="line"/>
+      <point x="269" y="305" type="line"/>
+      <point x="127" y="305" type="line"/>
     </contour>
     <contour>
-      <point x="127.0" y="305.0" type="line"/>
-      <point x="127.0" y="-63.0" type="line"/>
-      <point x="269.0" y="-63.0" type="line"/>
-      <point x="269.0" y="305.0" type="line"/>
+      <point x="127" y="377" type="line"/>
+      <point x="269" y="377" type="line"/>
+      <point x="269" y="744" type="line"/>
+      <point x="127" y="744" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -26,12 +23,14 @@ brokenbar
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>-63.0</real>
-            <real>807.0</real>
+            <integer>-63</integer>
+            <integer>807</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -41,12 +40,14 @@ brokenbar
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>127.0</real>
-            <real>142.0</real>
+            <integer>127</integer>
+            <integer>142</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

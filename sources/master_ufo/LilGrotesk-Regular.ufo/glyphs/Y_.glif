@@ -1,21 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Y" format="2">
-  <advance width="638.0"/>
+  <advance width="660"/>
   <unicode hex="0059"/>
-  <note>
-Y
-</note>
+  <anchor x="330" y="0" name="bottom"/>
+  <anchor x="330" y="700" name="top"/>
   <outline>
     <contour>
-      <point x="634.0" y="700.0" type="line"/>
-      <point x="548.0" y="700.0" type="line"/>
-      <point x="319.0" y="405.0" type="line"/>
-      <point x="90.0" y="700.0" type="line"/>
-      <point x="4.0" y="700.0" type="line"/>
-      <point x="284.0" y="339.0" type="line"/>
-      <point x="284.0" y="0.0" type="line"/>
-      <point x="354.0" y="0.0" type="line"/>
-      <point x="354.0" y="339.0" type="line"/>
+      <point x="295" y="0" type="line"/>
+      <point x="365" y="0" type="line"/>
+      <point x="365" y="339" type="line"/>
+      <point x="645" y="700" type="line"/>
+      <point x="559" y="700" type="line"/>
+      <point x="330" y="405" type="line"/>
+      <point x="101" y="700" type="line"/>
+      <point x="15" y="700" type="line"/>
+      <point x="295" y="339" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -25,12 +24,14 @@ Y
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>0.0</real>
-            <real>700.0</real>
+            <integer>0</integer>
+            <integer>700</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -40,12 +41,14 @@ Y
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>284.0</real>
-            <real>70.0</real>
+            <integer>284</integer>
+            <integer>70</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

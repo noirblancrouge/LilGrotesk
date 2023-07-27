@@ -1,22 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="z" format="2">
-  <advance width="539.0"/>
+  <advance width="504"/>
   <unicode hex="007A"/>
-  <note>
-z
-</note>
+  <anchor x="252" y="0" name="bottom"/>
+  <anchor x="252" y="500" name="top"/>
   <outline>
     <contour>
-      <point x="62.0" y="0.0" type="line"/>
-      <point x="481.0" y="0.0" type="line"/>
-      <point x="481.0" y="64.0" type="line"/>
-      <point x="159.0" y="64.0" type="line"/>
-      <point x="481.0" y="454.0" type="line"/>
-      <point x="481.0" y="500.0" type="line"/>
-      <point x="67.0" y="500.0" type="line"/>
-      <point x="67.0" y="436.0" type="line"/>
-      <point x="386.0" y="436.0" type="line"/>
-      <point x="62.0" y="52.0" type="line"/>
+      <point x="40" y="0" type="line"/>
+      <point x="458" y="0" type="line"/>
+      <point x="458" y="70" type="line"/>
+      <point x="141" y="70" type="line"/>
+      <point x="464" y="454" type="line"/>
+      <point x="464" y="500" type="line"/>
+      <point x="44" y="500" type="line"/>
+      <point x="44" y="430" type="line"/>
+      <point x="357" y="430" type="line"/>
+      <point x="40" y="52" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -26,12 +25,14 @@ z
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>0.0</real>
-            <real>64.0</real>
+            <integer>0</integer>
+            <integer>64</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -41,12 +42,14 @@ z
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>436.0</real>
-            <real>64.0</real>
+            <integer>436</integer>
+            <integer>64</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -56,12 +59,14 @@ z
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>62.0</real>
-            <real>419.0</real>
+            <integer>62</integer>
+            <integer>419</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>

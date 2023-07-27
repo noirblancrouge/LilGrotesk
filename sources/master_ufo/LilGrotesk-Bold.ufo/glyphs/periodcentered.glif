@@ -1,61 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="periodcentered" format="2">
-  <advance width="600.0"/>
+  <advance width="324"/>
   <unicode hex="00B7"/>
-  <note>
-periodcentered
-</note>
   <outline>
-    <contour>
-      <point x="187.0" y="209.0" type="curve" smooth="yes"/>
-      <point x="240.0" y="209.0"/>
-      <point x="283.0" y="251.0"/>
-      <point x="283.0" y="302.0" type="curve" smooth="yes"/>
-      <point x="283.0" y="354.0"/>
-      <point x="240.0" y="396.0"/>
-      <point x="187.0" y="396.0" type="curve" smooth="yes"/>
-      <point x="133.0" y="396.0"/>
-      <point x="90.0" y="354.0"/>
-      <point x="90.0" y="302.0" type="curve" smooth="yes"/>
-      <point x="90.0" y="251.0"/>
-      <point x="133.0" y="209.0"/>
-    </contour>
+    <component base="period" xOffset="30" yOffset="201"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>209.0</real>
-            <real>187.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>90.0</real>
-            <real>193.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

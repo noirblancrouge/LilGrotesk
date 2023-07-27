@@ -1,23 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="one" format="2">
-  <advance width="480.0"/>
+  <advance width="480"/>
   <unicode hex="0031"/>
-  <note>
-one
-</note>
   <outline>
     <contour>
-      <point x="24.0" y="133.0" type="line"/>
-      <point x="24.0" y="0.0" type="line"/>
-      <point x="455.0" y="0.0" type="line"/>
-      <point x="455.0" y="133.0" type="line"/>
-      <point x="309.0" y="133.0" type="line"/>
-      <point x="309.0" y="700.0" type="line"/>
-      <point x="205.0" y="700.0" type="line"/>
-      <point x="31.0" y="628.0" type="line"/>
-      <point x="31.0" y="466.0" type="line"/>
-      <point x="167.0" y="536.0" type="line"/>
-      <point x="167.0" y="133.0" type="line"/>
+      <point x="24" y="0" type="line"/>
+      <point x="455" y="0" type="line"/>
+      <point x="455" y="133" type="line"/>
+      <point x="309" y="133" type="line"/>
+      <point x="309" y="700" type="line"/>
+      <point x="186" y="700" type="line"/>
+      <point x="31" y="628" type="line"/>
+      <point x="31" y="466" type="line"/>
+      <point x="177" y="542" type="line"/>
+      <point x="167" y="557" type="line"/>
+      <point x="167" y="133" type="line"/>
+      <point x="24" y="133" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -27,12 +25,14 @@ one
         <dict>
           <key>horizontal</key>
           <true/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>0.0</real>
-            <real>133.0</real>
+            <integer>0</integer>
+            <integer>133</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
@@ -42,12 +42,14 @@ one
         <dict>
           <key>horizontal</key>
           <false/>
+          <key>name</key>
+          <string></string>
           <key>options</key>
           <integer>0</integer>
           <key>place</key>
           <array>
-            <real>167.0</real>
-            <real>142.0</real>
+            <integer>167</integer>
+            <integer>142</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
