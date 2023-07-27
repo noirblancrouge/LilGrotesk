@@ -1,6 +1,6 @@
 # Lil Grotesk
 
-![Cover](https://raw.githubusercontent.com/noirblancrouge/YoungSerif/master/documentation/images/lil-grotesk.jpg)
+![Cover](https://raw.githubusercontent.com/noirblancrouge/LilGrotesk/master/documentation/images/lil-grotesk.jpg)
 
 Lil Grotesk is a geometric sans serif font family, it is circular in style but with a slightly naive appearance.
 It comes in six weights, and a variable version, including multilingual support and openType features.
