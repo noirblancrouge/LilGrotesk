@@ -7,7 +7,9 @@ It comes in six weights, and a variable version, including multilingual support 
 
 Lil Grotesk font is perfect for headlines, short texts, posters, logos, branding and more.
 
+
 ![Specimen](https://raw.githubusercontent.com/noirblancrouge/LilGrotesk/master/documentation/images/lil-grotesk-charset.jpg)
+
 
 
 ## License
