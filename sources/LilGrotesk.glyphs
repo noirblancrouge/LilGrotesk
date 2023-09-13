@@ -70747,6 +70747,16 @@ instanceInterpolations = {
 "2AB56609-6B3E-483D-8034-BAE7113127E2" = 1;
 };
 name = Thin;
+properties = (
+{
+key = postscriptFontName;
+value = "LilGrotesk-Thin";
+},
+{
+key = postscriptFullName;
+value = "LilGrotesk Thin";
+}
+);
 weightClass = 100;
 },
 {
@@ -70764,6 +70774,16 @@ instanceInterpolations = {
 "2AB56609-6B3E-483D-8034-BAE7113127E2" = 0.66667;
 };
 name = UltraLight;
+properties = (
+{
+key = postscriptFontName;
+value = "LilGrotesk-UltraLight";
+},
+{
+key = postscriptFullName;
+value = "LilGrotesk UltraLight";
+}
+);
 weightClass = 200;
 },
 {
@@ -70781,6 +70801,16 @@ instanceInterpolations = {
 "2AB56609-6B3E-483D-8034-BAE7113127E2" = 0.33333;
 };
 name = Light;
+properties = (
+{
+key = postscriptFontName;
+value = "LilGrotesk-Light";
+},
+{
+key = postscriptFullName;
+value = "LilGrotesk Light";
+}
+);
 weightClass = 300;
 },
 {
@@ -70797,6 +70827,16 @@ instanceInterpolations = {
 "1041D826-7B5A-4F1A-81FD-3B5FB25AF0FC" = 1;
 };
 name = Regular;
+properties = (
+{
+key = postscriptFontName;
+value = "LilGrotesk-Regular";
+},
+{
+key = postscriptFullName;
+value = "LilGrotesk Regular";
+}
+);
 },
 {
 axesValues = (
@@ -70812,6 +70852,16 @@ instanceInterpolations = {
 "3B5F2A21-9AC0-43BD-916B-7DC2040966BF" = 1;
 };
 name = Bold;
+properties = (
+{
+key = postscriptFontName;
+value = "LilGrotesk-Bold";
+},
+{
+key = postscriptFullName;
+value = "LilGrotesk Bold";
+}
+);
 weightClass = 700;
 },
 {
@@ -70828,6 +70878,16 @@ instanceInterpolations = {
 "1DB3F64C-B148-42AA-8299-ED68ABA9E6AC" = 1;
 };
 name = Heavy;
+properties = (
+{
+key = postscriptFontName;
+value = "LilGrotesk-Heavy";
+},
+{
+key = postscriptFullName;
+value = "LilGrotesk Heavy";
+}
+);
 weightClass = 800;
 }
 );
