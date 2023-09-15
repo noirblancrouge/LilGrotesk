@@ -2,11 +2,7 @@
 
 fontbakery version: 0.9.0
 
-<details><summary><b>[9] LilGrotesk-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
-
-
-* 🔥 **FAIL** "LilGrotesk" is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+<details><summary><b>[6] LilGrotesk-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1360, but got 1000 instead [code: ascent]
@@ -113,28 +109,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 600 among a set of 8 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 566:
-less, greater
-
-Width = 744:
-logicalnot
-
-Width = 581:
-multiply
-
-Width = 579:
-greaterequal
- [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
-
-
-* ⚠ **WARN** dcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -197,11 +171,7 @@ greaterequal
 	* uni2086 (U+2086): L<<75.0,224.0>--<64.0,211.0>>/B<<64.0,211.0>-<80.0,224.0>-<103.5,229.5>> = 10.669782804496695
 
 	* uni2089 (U+2089): L<<190.0,198.0>--<202.0,211.0>>/B<<202.0,211.0>-<185.0,198.0>-<161.5,192.5>> = 9.885253411230009 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] LilGrotesk-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
-
-
-* 🔥 **FAIL** "LilGrotesk" is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] LilGrotesk-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1360, but got 1000 instead [code: ascent]
@@ -308,28 +278,10 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 600 among a set of 11 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 744:
-logicalnot
-
-Width = 609:
-multiply
- [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
-
-
-* ⚠ **WARN** dcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-
-	* dollar (U+0024) contains a short segment B<<431.0,592.0>-<431.0,592.0>-<421.0,603.0>>
 
 	* three (U+0033) contains a short segment L<<185.0,416.0>--<197.0,416.0>>
 
@@ -414,7 +366,7 @@ multiply
 	* uni1E5B (U+1E5B): L<<145.0,500.0>--<145.0,398.0>>/B<<145.0,398.0>-<158.0,454.0>-<191.5,480.0>> = 13.069317896282163
 
 	* uni1EA1 (U+1EA1): L<<364.0,0.0>--<364.0,108.0>>/B<<364.0,108.0>-<355.0,63.0>-<315.5,28.5>> = 11.309932474020195 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] LilGrotesk-Ultra.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] LilGrotesk-Ultra.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 🔥 **FAIL** Best SubFamily name is 'Ultra'. Expected OS/2 usWeightClass is 400, got 200. [code: bad-value]
@@ -425,17 +377,13 @@ multiply
 
 | nameID | current | expected |
 | :--- | :--- | :--- |
-| Family Name | LilGrotesk Ultra | LilGrotesk Ultra |
+| Family Name | Lil Grotesk Ultra | Lil Grotesk Ultra |
 | Subfamily Name | Regular | Regular |
-| Full Name | LilGrotesk Ultra | LilGrotesk Ultra Regular |
+| Full Name | Lil Grotesk Ultra | Lil Grotesk Ultra Regular |
 | Poscript Name | LilGrotesk-Ultra | LilGroteskUltra-Regular |
-| Typographic Family Name | LilGrotesk | N/A |
+| Typographic Family Name | Lil Grotesk | N/A |
 | Typographic Subfamily Name | Ultra | N/A | [code: bad-names]
 * ⚠ **WARN** Regular missing from full name [code: lacks-regular]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
-
-
-* 🔥 **FAIL** "LilGrotesk" is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -543,28 +491,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 600 among a set of 8 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 577:
-less, greater
-
-Width = 744:
-logicalnot
-
-Width = 590:
-multiply
-
-Width = 586:
-greaterequal
- [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
-
-
-* ⚠ **WARN** dcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -572,7 +498,7 @@ greaterequal
 
 	* dollar (U+0024) contains a short segment B<<466.0,647.5>-<477.0,635.0>-<477.0,635.0>>
 
-	* dollar (U+0024) contains a short segment B<<448.0,614.0>-<448.0,614.0>-<436.5,626.5>>
+	* dollar (U+0024) contains a short segment B<<448.0,614.0>-<447.0,616.0>-<435.0,628.5>>
 
 	* ampersand (U+0026) contains a short segment B<<231.0,385.0>-<229.0,387.0>-<227.0,389.0>>
 
@@ -673,28 +599,10 @@ greaterequal
 	* uni1E5B (U+1E5B): L<<126.0,500.0>--<126.0,379.0>>/B<<126.0,379.0>-<140.0,447.0>-<175.5,476.5>> = 11.633633998940427
 
 	* uni1EA1 (U+1EA1): L<<382.0,0.0>--<382.0,132.0>>/B<<382.0,132.0>-<376.0,96.0>-<354.0,64.5>> = 9.462322208025613 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] LilGrotesk-Heavy.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] LilGrotesk-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
-* 🔥 **FAIL** Best SubFamily name is 'Heavy'. Expected OS/2 usWeightClass is 400, got 800. [code: bad-value]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font names are incorrect:
-
-| nameID | current | expected |
-| :--- | :--- | :--- |
-| Family Name | LilGrotesk Heavy | LilGrotesk Heavy |
-| Subfamily Name | Regular | Regular |
-| Full Name | LilGrotesk Heavy | LilGrotesk Heavy Regular |
-| Poscript Name | LilGrotesk-Heavy | LilGroteskHeavy-Regular |
-| Typographic Family Name | LilGrotesk | N/A |
-| Typographic Subfamily Name | Heavy | N/A | [code: bad-names]
-* ⚠ **WARN** Regular missing from full name [code: lacks-regular]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
-
-
-* 🔥 **FAIL** "LilGrotesk" is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]
+* 🔥 **FAIL** Best SubFamily name is 'Black'. Expected OS/2 usWeightClass is 900, got 800. [code: bad-value]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -802,34 +710,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 600 among a set of 8 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 660:
-less, greater
-
-Width = 744:
-logicalnot
-
-Width = 658:
-multiply
-
-Width = 636:
-greaterequal
- [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
-
-
-* ⚠ **WARN** dcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* dollar (U+0024) contains a short segment B<<388.0,535.0>-<388.0,535.0>-<376.0,547.0>>
+	* dollar (U+0024) contains a short segment B<<388.0,535.0>-<387.0,537.0>-<375.5,549.0>>
 
 	* three (U+0033) contains a short segment L<<203.0,443.0>--<217.0,443.0>>
 
@@ -843,7 +729,7 @@ greaterequal
 
 	* at (U+0040) contains a short segment B<<713.0,54.0>-<705.0,75.0>-<705.0,91.0>>
 
-	* asciitilde (U+007E) contains a short segment B<<390.0,363.0>-<392.0,363.0>-<399.0,365.0>>
+	* asciitilde (U+007E) contains a short segment B<<455.0,363.0>-<457.0,363.0>-<464.0,365.0>>
 
 	* sterling (U+00A3) contains a short segment B<<118.0,27.0>-<115.0,15.0>-<114.5,6.0>>
 
@@ -946,11 +832,7 @@ greaterequal
 	* trademark (U+2122): L<<577.0,393.0>--<556.0,499.0>>/L<<556.0,499.0>--<556.0,338.0>> = 11.205947507402552
 
 	* trademark (U+2122): L<<696.0,338.0>--<696.0,499.0>>/L<<696.0,499.0>--<678.0,393.0>> = 9.637538112930923 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] LilGrotesk-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
-
-
-* 🔥 **FAIL** "LilGrotesk" is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] LilGrotesk-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1360, but got 1000 instead [code: ascent]
@@ -1057,25 +939,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 600 among a set of 9 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 589:
-less, greater
-
-Width = 744:
-logicalnot
-
-Width = 593:
-greaterequal
- [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
-
-
-* ⚠ **WARN** dcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -1083,7 +946,7 @@ greaterequal
 
 	* dollar (U+0024) contains a short segment B<<471.0,645.5>-<482.0,634.0>-<482.0,634.0>>
 
-	* dollar (U+0024) contains a short segment B<<439.0,603.0>-<439.0,603.0>-<428.5,615.0>>
+	* dollar (U+0024) contains a short segment B<<439.0,603.0>-<438.0,605.0>-<427.0,617.0>>
 
 	* ampersand (U+0026) contains a short segment B<<230.0,377.0>-<229.0,378.0>-<228.0,379.0>>
 
@@ -1182,37 +1045,11 @@ greaterequal
 	* uni1E5B (U+1E5B): L<<136.0,500.0>--<136.0,388.0>>/B<<136.0,388.0>-<149.0,450.0>-<183.5,478.0>> = 11.842076115327746
 
 	* uni1EA1 (U+1EA1): L<<373.0,0.0>--<373.0,120.0>>/B<<373.0,120.0>-<367.0,87.0>-<346.0,58.0>> = 10.304846468766009 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] LilGrotesk-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font names are incorrect:
-
-| nameID | current | expected |
-| :--- | :--- | :--- |
-| Family Name | LilGrotesk Bold | LilGrotesk |
-| Subfamily Name | Regular | Bold |
-| Full Name | LilGrotesk Bold | LilGrotesk Bold |
-| Poscript Name | LilGrotesk-Bold | LilGrotesk-Bold |
-| Typographic Family Name | LilGrotesk | N/A |
-| Typographic Subfamily Name | Bold | N/A | [code: bad-names]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
-
-
-* 🔥 **FAIL** "LilGrotesk" is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] LilGrotesk-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1360, but got 1000 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 368, but got 200 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking head.macStyle value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/mac_style">com.google.fonts/check/mac_style</a>)</summary><div>
-
-
-* 🔥 **FAIL** head macStyle BOLD bit should be set. [code: bad-BOLD]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsSelection value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/fsselection">com.google.fonts/check/fsselection</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 fsSelection REGULAR bit should be unset. [code: bad-REGULAR]
-* 🔥 **FAIL** OS/2 fsSelection BOLD bit should be set. [code: bad-BOLD]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -1315,31 +1152,10 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 600 among a set of 8 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 651:
-less, greater, multiply
-
-Width = 744:
-logicalnot
-
-Width = 631:
-greaterequal
- [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
-
-
-* ⚠ **WARN** dcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-
-	* dollar (U+0024) contains a short segment B<<394.0,543.0>-<394.0,543.0>-<381.5,556.0>>
 
 	* comma (U+002C) contains a short segment B<<214.0,76.0>-<214.0,75.0>-<214.0,74.0>>
 
@@ -1442,8 +1258,8 @@ greaterequal
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 19 | 47 | 726 | 43 | 580 | 0 |
-| 0% | 1% | 3% | 51% | 3% | 41% | 0% |
+| 0 | 9 | 35 | 721 | 43 | 607 | 0 |
+| 0% | 1% | 2% | 51% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
