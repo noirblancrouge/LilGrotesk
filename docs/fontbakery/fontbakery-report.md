@@ -2,16 +2,7 @@
 
 fontbakery version: 0.9.0
 
-<details><summary><b>[9] LilGrotesk-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
-
-
-* 🔥 **FAIL** "LilGrotesk" is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1360, but got 1000 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 368, but got 200 instead [code: descent]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+<details><summary><b>[5] LilGrotesk-Thin.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
@@ -113,28 +104,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 600 among a set of 8 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 566:
-less, greater
-
-Width = 744:
-logicalnot
-
-Width = 581:
-multiply
-
-Width = 579:
-greaterequal
- [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
-
-
-* ⚠ **WARN** dcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -192,21 +161,12 @@ greaterequal
 
 	* uni2076 (U+2076): L<<75.0,619.0>--<64.0,606.0>>/B<<64.0,606.0>-<80.0,619.0>-<103.5,624.5>> = 10.669782804496695
 
-	* uni2079 (U+2079): L<<190.0,593.0>--<202.0,606.0>>/B<<202.0,606.0>-<185.0,593.0>-<161.5,587.5>> = 9.885253411230009
+	* uni2079 (U+2079): L<<191.0,593.0>--<202.0,606.0>>/B<<202.0,606.0>-<185.0,593.0>-<161.5,587.5>> = 12.358285059317605
 
 	* uni2086 (U+2086): L<<75.0,224.0>--<64.0,211.0>>/B<<64.0,211.0>-<80.0,224.0>-<103.5,229.5>> = 10.669782804496695
 
-	* uni2089 (U+2089): L<<190.0,198.0>--<202.0,211.0>>/B<<202.0,211.0>-<185.0,198.0>-<161.5,192.5>> = 9.885253411230009 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] LilGrotesk-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
-
-
-* 🔥 **FAIL** "LilGrotesk" is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1360, but got 1000 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 368, but got 200 instead [code: descent]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+	* uni2089 (U+2089): L<<191.0,198.0>--<202.0,211.0>>/B<<202.0,211.0>-<185.0,198.0>-<161.5,192.5>> = 12.358285059317605 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[6] LilGrotesk-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
@@ -308,28 +268,10 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 600 among a set of 11 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 744:
-logicalnot
-
-Width = 609:
-multiply
- [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
-
-
-* ⚠ **WARN** dcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-
-	* dollar (U+0024) contains a short segment B<<431.0,592.0>-<431.0,592.0>-<421.0,603.0>>
 
 	* three (U+0033) contains a short segment L<<185.0,416.0>--<197.0,416.0>>
 
@@ -414,33 +356,10 @@ multiply
 	* uni1E5B (U+1E5B): L<<145.0,500.0>--<145.0,398.0>>/B<<145.0,398.0>-<158.0,454.0>-<191.5,480.0>> = 13.069317896282163
 
 	* uni1EA1 (U+1EA1): L<<364.0,0.0>--<364.0,108.0>>/B<<364.0,108.0>-<355.0,63.0>-<315.5,28.5>> = 11.309932474020195 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] LilGrotesk-Ultra.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] LilGrotesk-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
-* 🔥 **FAIL** Best SubFamily name is 'Ultra'. Expected OS/2 usWeightClass is 400, got 200. [code: bad-value]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font names are incorrect:
-
-| nameID | current | expected |
-| :--- | :--- | :--- |
-| Family Name | LilGrotesk Ultra | LilGrotesk Ultra |
-| Subfamily Name | Regular | Regular |
-| Full Name | LilGrotesk Ultra | LilGrotesk Ultra Regular |
-| Poscript Name | LilGrotesk-Ultra | LilGroteskUltra-Regular |
-| Typographic Family Name | LilGrotesk | N/A |
-| Typographic Subfamily Name | Ultra | N/A | [code: bad-names]
-* ⚠ **WARN** Regular missing from full name [code: lacks-regular]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
-
-
-* 🔥 **FAIL** "LilGrotesk" is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1360, but got 1000 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 368, but got 200 instead [code: descent]
+* 🔥 **FAIL** Best SubFamily name is 'Black'. Expected OS/2 usWeightClass is 900, got 800. [code: bad-value]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -543,293 +462,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 600 among a set of 8 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 577:
-less, greater
-
-Width = 744:
-logicalnot
-
-Width = 590:
-multiply
-
-Width = 586:
-greaterequal
- [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
-
-
-* ⚠ **WARN** dcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* dollar (U+0024) contains a short segment B<<466.0,647.5>-<477.0,635.0>-<477.0,635.0>>
-
-	* dollar (U+0024) contains a short segment B<<448.0,614.0>-<448.0,614.0>-<436.5,626.5>>
-
-	* ampersand (U+0026) contains a short segment B<<231.0,385.0>-<229.0,387.0>-<227.0,389.0>>
-
-	* three (U+0033) contains a short segment L<<178.0,406.0>--<190.0,406.0>>
-
-	* sterling (U+00A3) contains a short segment B<<74.0,2.0>-<68.0,-8.0>-<68.0,-8.0>>
-
-	* sterling (U+00A3) contains a short segment B<<31.0,1.0>-<31.0,1.0>-<37.0,14.0>>
-
-	* sterling (U+00A3) contains a short segment B<<553.5,39.5>-<560.0,51.0>-<565.0,57.0>>
-
-	* sterling (U+00A3) contains a short segment B<<605.0,41.0>-<603.0,40.0>-<598.5,29.5>>
-
-	* section (U+00A7) contains a short segment B<<463.5,712.0>-<476.0,700.0>-<477.0,699.0>>
-
-	* uni00B3 (U+00B3) contains a short segment L<<108.0,641.0>--<115.0,641.0>>
-
-	* threequarters (U+00BE) contains a short segment L<<108.0,641.0>--<115.0,641.0>>
-
-	* germandbls (U+00DF) contains a short segment L<<338.0,406.0>--<349.0,406.0>>
-
-	* Eng (U+014A) contains a short segment L<<589.0,0.0>--<584.0,0.0>>
-
-	* Eng (U+014A) contains a short segment B<<516.0,-169.0>-<528.0,-169.0>-<538.0,-159.0>>
-
-	* Eng (U+014A) contains a short segment L<<548.0,0.0>--<553.0,0.0>>
-
-	* uni019D (U+019D) contains a short segment L<<117.0,0.0>--<112.0,0.0>>
-
-	* uni019D (U+019D) contains a short segment B<<44.0,-169.0>-<56.0,-169.0>-<65.5,-159.0>>
-
-	* uni019D (U+019D) contains a short segment L<<75.0,0.0>--<80.0,0.0>>
-
-	* uni03A9 (U+03A9) contains a short segment L<<558.0,1.0>--<561.0,24.0>>
-
-	* uni1E9E (U+1E9E) contains a short segment L<<300.0,373.0>--<300.0,401.0>>
-
-	* uni2083 (U+2083) contains a short segment L<<108.0,246.0>--<115.0,246.0>>
-
-	* Euro (U+20AC) contains a short segment B<<111.0,349.0>-<111.0,355.0>-<110.5,361.5>>
-
-	* Euro (U+20AC) contains a short segment B<<110.5,361.5>-<110.0,368.0>-<110.0,374.0>>
-
-	* Euro (U+20AC) contains a short segment B<<147.0,374.0>-<148.0,368.0>-<148.0,361.5>>
-
-	* Euro (U+20AC) contains a short segment B<<148.0,361.5>-<148.0,355.0>-<148.0,349.0>>
-
-	* uni2126 (U+2126) contains a short segment L<<558.0,1.0>--<561.0,24.0>>
-
-	* summation (U+2211) contains a short segment L<<395.0,354.0>--<395.0,341.0>>
-
-	* radical (U+221A) contains a short segment L<<376.0,-6.0>--<370.0,-6.0>>
-
-	* uni2325 (U+2325) contains a short segment B<<359.0,-12.0>-<354.0,-12.0>-<352.0,-7.0>>
-
-	* uni2325 (U+2325) contains a short segment B<<212.0,492.0>-<217.0,492.0>-<219.0,487.0>> [code: found-short-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* a (U+0061): L<<382.0,0.0>--<382.0,132.0>>/B<<382.0,132.0>-<376.0,96.0>-<354.0,64.5>> = 9.462322208025613
-
-	* aacute (U+00E1): L<<382.0,0.0>--<382.0,132.0>>/B<<382.0,132.0>-<376.0,96.0>-<354.0,64.5>> = 9.462322208025613
-
-	* abreve (U+0103): L<<382.0,0.0>--<382.0,132.0>>/B<<382.0,132.0>-<376.0,96.0>-<354.0,64.5>> = 9.462322208025613
-
-	* acircumflex (U+00E2): L<<382.0,0.0>--<382.0,132.0>>/B<<382.0,132.0>-<376.0,96.0>-<354.0,64.5>> = 9.462322208025613
-
-	* adieresis (U+00E4): L<<382.0,0.0>--<382.0,132.0>>/B<<382.0,132.0>-<376.0,96.0>-<354.0,64.5>> = 9.462322208025613
-
-	* ae (U+00E6): L<<382.0,0.0>--<382.0,132.0>>/B<<382.0,132.0>-<376.0,96.0>-<354.0,64.5>> = 9.462322208025613
-
-	* aeacute (U+01FD): L<<382.0,0.0>--<382.0,132.0>>/B<<382.0,132.0>-<376.0,96.0>-<354.0,64.5>> = 9.462322208025613
-
-	* agrave (U+00E0): L<<382.0,0.0>--<382.0,132.0>>/B<<382.0,132.0>-<376.0,96.0>-<354.0,64.5>> = 9.462322208025613
-
-	* amacron (U+0101): L<<382.0,0.0>--<382.0,132.0>>/B<<382.0,132.0>-<376.0,96.0>-<354.0,64.5>> = 9.462322208025613
-
-	* aogonek (U+0105): L<<382.0,0.0>--<382.0,132.0>>/B<<382.0,132.0>-<376.0,96.0>-<354.0,64.5>> = 9.462322208025613
-
-	* aring (U+00E5): L<<382.0,0.0>--<382.0,132.0>>/B<<382.0,132.0>-<376.0,96.0>-<354.0,64.5>> = 9.462322208025613
-
-	* aringacute (U+01FB): L<<382.0,0.0>--<382.0,132.0>>/B<<382.0,132.0>-<376.0,96.0>-<354.0,64.5>> = 9.462322208025613
-
-	* atilde (U+00E3): L<<382.0,0.0>--<382.0,132.0>>/B<<382.0,132.0>-<376.0,96.0>-<354.0,64.5>> = 9.462322208025613
-
-	* r (U+0072): L<<126.0,500.0>--<126.0,379.0>>/B<<126.0,379.0>-<140.0,447.0>-<175.5,476.5>> = 11.633633998940427
-
-	* racute (U+0155): L<<126.0,500.0>--<126.0,379.0>>/B<<126.0,379.0>-<140.0,447.0>-<175.5,476.5>> = 11.633633998940427
-
-	* rcaron (U+0159): L<<126.0,500.0>--<126.0,379.0>>/B<<126.0,379.0>-<140.0,447.0>-<175.5,476.5>> = 11.633633998940427
-
-	* rmacronbelow (U+1E5F): L<<126.0,500.0>--<126.0,379.0>>/B<<126.0,379.0>-<140.0,447.0>-<175.5,476.5>> = 11.633633998940427
-
-	* uni0157 (U+0157): L<<126.0,500.0>--<126.0,379.0>>/B<<126.0,379.0>-<140.0,447.0>-<175.5,476.5>> = 11.633633998940427
-
-	* uni1E5B (U+1E5B): L<<126.0,500.0>--<126.0,379.0>>/B<<126.0,379.0>-<140.0,447.0>-<175.5,476.5>> = 11.633633998940427
-
-	* uni1EA1 (U+1EA1): L<<382.0,0.0>--<382.0,132.0>>/B<<382.0,132.0>-<376.0,96.0>-<354.0,64.5>> = 9.462322208025613 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] LilGrotesk-Heavy.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
-
-
-* 🔥 **FAIL** Best SubFamily name is 'Heavy'. Expected OS/2 usWeightClass is 400, got 800. [code: bad-value]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font names are incorrect:
-
-| nameID | current | expected |
-| :--- | :--- | :--- |
-| Family Name | LilGrotesk Heavy | LilGrotesk Heavy |
-| Subfamily Name | Regular | Regular |
-| Full Name | LilGrotesk Heavy | LilGrotesk Heavy Regular |
-| Poscript Name | LilGrotesk-Heavy | LilGroteskHeavy-Regular |
-| Typographic Family Name | LilGrotesk | N/A |
-| Typographic Subfamily Name | Heavy | N/A | [code: bad-names]
-* ⚠ **WARN** Regular missing from full name [code: lacks-regular]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
-
-
-* 🔥 **FAIL** "LilGrotesk" is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1360, but got 1000 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 368, but got 200 instead [code: descent]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + f
-
-	- f + l
-
-	- l + f
-
-	- f + i
-
-	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
-
-
-* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- uni01CE.ss01
- [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: ae	Contours detected: 4	Expected: 3
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: Ldot	Contours detected: 1	Expected: 2
-
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
-
-	- Glyph name: aeacute	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: quotedblbase	Contours detected: 1	Expected: 2
-
-	- Glyph name: Ldot	Contours detected: 1	Expected: 2
-
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: ae	Contours detected: 4	Expected: 3
-
-	- Glyph name: aeacute	Contours detected: 5	Expected: 4
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: fi	Contours detected: 2	Expected: 3
-
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: quotedblbase	Contours detected: 1	Expected: 2
-
-	- Glyph name: tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 600 among a set of 8 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 660:
-less, greater
-
-Width = 744:
-logicalnot
-
-Width = 658:
-multiply
-
-Width = 636:
-greaterequal
- [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
-
-
-* ⚠ **WARN** dcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
-</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have segments which seem very short:
-
-	* dollar (U+0024) contains a short segment B<<388.0,535.0>-<388.0,535.0>-<376.0,547.0>>
+	* dollar (U+0024) contains a short segment B<<388.0,535.0>-<387.0,537.0>-<375.5,549.0>>
 
 	* three (U+0033) contains a short segment L<<203.0,443.0>--<217.0,443.0>>
 
@@ -843,7 +481,7 @@ greaterequal
 
 	* at (U+0040) contains a short segment B<<713.0,54.0>-<705.0,75.0>-<705.0,91.0>>
 
-	* asciitilde (U+007E) contains a short segment B<<390.0,363.0>-<392.0,363.0>-<399.0,365.0>>
+	* asciitilde (U+007E) contains a short segment B<<455.0,363.0>-<457.0,363.0>-<464.0,365.0>>
 
 	* sterling (U+00A3) contains a short segment B<<118.0,27.0>-<115.0,15.0>-<114.5,6.0>>
 
@@ -946,16 +584,7 @@ greaterequal
 	* trademark (U+2122): L<<577.0,393.0>--<556.0,499.0>>/L<<556.0,499.0>--<556.0,338.0>> = 11.205947507402552
 
 	* trademark (U+2122): L<<696.0,338.0>--<696.0,499.0>>/L<<696.0,499.0>--<678.0,393.0>> = 9.637538112930923 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] LilGrotesk-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
-
-
-* 🔥 **FAIL** "LilGrotesk" is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1360, but got 1000 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 368, but got 200 instead [code: descent]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] LilGrotesk-Light.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
@@ -1057,25 +686,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 600 among a set of 9 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 589:
-less, greater
-
-Width = 744:
-logicalnot
-
-Width = 593:
-greaterequal
- [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
-
-
-* ⚠ **WARN** dcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -1083,7 +693,7 @@ greaterequal
 
 	* dollar (U+0024) contains a short segment B<<471.0,645.5>-<482.0,634.0>-<482.0,634.0>>
 
-	* dollar (U+0024) contains a short segment B<<439.0,603.0>-<439.0,603.0>-<428.5,615.0>>
+	* dollar (U+0024) contains a short segment B<<439.0,603.0>-<438.0,605.0>-<427.0,617.0>>
 
 	* ampersand (U+0026) contains a short segment B<<230.0,377.0>-<229.0,378.0>-<228.0,379.0>>
 
@@ -1131,7 +741,7 @@ greaterequal
 
 	* Euro (U+20AC) contains a short segment B<<169.0,362.0>-<169.0,356.0>-<169.0,349.0>>
 
-	* summation (U+2211) contains a short segment L<<422.0,356.0>--<422.0,339.0>>
+	* summation (U+2211) contains a short segment L<<422.0,358.0>--<422.0,338.0>>
 
 	* radical (U+221A) contains a short segment L<<374.0,-6.0>--<369.0,-6.0>>
 
@@ -1182,38 +792,7 @@ greaterequal
 	* uni1E5B (U+1E5B): L<<136.0,500.0>--<136.0,388.0>>/B<<136.0,388.0>-<149.0,450.0>-<183.5,478.0>> = 11.842076115327746
 
 	* uni1EA1 (U+1EA1): L<<373.0,0.0>--<373.0,120.0>>/B<<373.0,120.0>-<367.0,87.0>-<346.0,58.0>> = 10.304846468766009 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] LilGrotesk-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font names are incorrect:
-
-| nameID | current | expected |
-| :--- | :--- | :--- |
-| Family Name | LilGrotesk Bold | LilGrotesk |
-| Subfamily Name | Regular | Bold |
-| Full Name | LilGrotesk Bold | LilGrotesk Bold |
-| Poscript Name | LilGrotesk-Bold | LilGrotesk-Bold |
-| Typographic Family Name | LilGrotesk | N/A |
-| Typographic Subfamily Name | Bold | N/A | [code: bad-names]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
-
-
-* 🔥 **FAIL** "LilGrotesk" is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1360, but got 1000 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 368, but got 200 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking head.macStyle value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/mac_style">com.google.fonts/check/mac_style</a>)</summary><div>
-
-
-* 🔥 **FAIL** head macStyle BOLD bit should be set. [code: bad-BOLD]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsSelection value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/fsselection">com.google.fonts/check/fsselection</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 fsSelection REGULAR bit should be unset. [code: bad-REGULAR]
-* 🔥 **FAIL** OS/2 fsSelection BOLD bit should be set. [code: bad-BOLD]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] LilGrotesk-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
@@ -1315,31 +894,206 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 600 among a set of 8 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 651:
-less, greater, multiply
-
-Width = 744:
-logicalnot
-
-Width = 631:
-greaterequal
- [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
-
-
-* ⚠ **WARN** dcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* dollar (U+0024) contains a short segment B<<394.0,543.0>-<394.0,543.0>-<381.5,556.0>>
+	* comma (U+002C) contains a short segment B<<164.0,55.0>-<165.0,55.0>-<164.0,55.0>>
+
+	* three (U+0033) contains a short segment L<<189.0,422.0>--<201.0,422.0>>
+
+	* semicolon (U+003B) contains a short segment B<<164.0,55.0>-<165.0,55.0>-<164.0,55.0>>
+
+	* sterling (U+00A3) contains a short segment B<<91.5,3.5>-<88.0,-6.0>-<88.0,-6.0>>
+
+	* sterling (U+00A3) contains a short segment B<<3.0,17.0>-<3.0,17.0>-<9.0,33.0>>
+
+	* section (U+00A7) contains a short segment B<<471.0,701.5>-<484.0,689.0>-<485.0,688.0>>
+
+	* uni00B3 (U+00B3) contains a short segment L<<114.0,651.0>--<122.0,651.0>>
+
+	* threequarters (U+00BE) contains a short segment L<<114.0,651.0>--<122.0,651.0>>
+
+	* germandbls (U+00DF) contains a short segment L<<379.0,422.0>--<391.0,422.0>>
+
+	* Eng (U+014A) contains a short segment L<<620.0,0.0>--<615.0,0.0>>
+
+	* Eng (U+014A) contains a short segment B<<505.0,-124.0>-<517.0,-124.0>-<525.5,-115.0>>
+
+	* Eng (U+014A) contains a short segment L<<534.0,0.0>--<539.0,0.0>>
+
+	* uni019D (U+019D) contains a short segment L<<168.0,0.0>--<163.0,0.0>>
+
+	* uni019D (U+019D) contains a short segment B<<46.0,-124.0>-<58.0,-124.0>-<66.5,-115.0>>
+
+	* uni019D (U+019D) contains a short segment L<<75.0,0.0>--<80.0,0.0>>
+
+	* uni2083 (U+2083) contains a short segment L<<114.0,256.0>--<122.0,256.0>>
+
+	* Euro (U+20AC) contains a short segment B<<125.0,349.0>-<125.0,356.0>-<125.5,363.0>>
+
+	* Euro (U+20AC) contains a short segment B<<125.5,363.0>-<126.0,370.0>-<126.0,377.0>>
+
+	* Euro (U+20AC) contains a short segment B<<214.0,377.0>-<214.0,370.0>-<214.0,363.0>>
+
+	* Euro (U+20AC) contains a short segment B<<214.0,363.0>-<214.0,356.0>-<214.0,349.0>>
+
+	* radical (U+221A) contains a short segment L<<370.0,-6.0>--<365.0,-6.0>>
+
+	* uni2325 (U+2325) contains a short segment B<<359.0,-12.0>-<354.0,-12.0>-<352.0,-7.0>>
+
+	* uni2325 (U+2325) contains a short segment B<<212.0,492.0>-<217.0,492.0>-<219.0,487.0>> [code: found-short-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* a (U+0061): L<<354.0,0.0>--<354.0,95.0>>/B<<354.0,95.0>-<345.0,54.0>-<308.0,24.0>> = 12.380756928807159
+
+	* aacute (U+00E1): L<<354.0,0.0>--<354.0,95.0>>/B<<354.0,95.0>-<345.0,54.0>-<308.0,24.0>> = 12.380756928807159
+
+	* abreve (U+0103): L<<354.0,0.0>--<354.0,95.0>>/B<<354.0,95.0>-<345.0,54.0>-<308.0,24.0>> = 12.380756928807159
+
+	* acircumflex (U+00E2): L<<354.0,0.0>--<354.0,95.0>>/B<<354.0,95.0>-<345.0,54.0>-<308.0,24.0>> = 12.380756928807159
+
+	* adieresis (U+00E4): L<<354.0,0.0>--<354.0,95.0>>/B<<354.0,95.0>-<345.0,54.0>-<308.0,24.0>> = 12.380756928807159
+
+	* ae (U+00E6): L<<354.0,0.0>--<354.0,95.0>>/B<<354.0,95.0>-<345.0,54.0>-<308.0,24.0>> = 12.380756928807159
+
+	* aeacute (U+01FD): L<<354.0,0.0>--<354.0,95.0>>/B<<354.0,95.0>-<345.0,54.0>-<308.0,24.0>> = 12.380756928807159
+
+	* agrave (U+00E0): L<<354.0,0.0>--<354.0,95.0>>/B<<354.0,95.0>-<345.0,54.0>-<308.0,24.0>> = 12.380756928807159
+
+	* amacron (U+0101): L<<354.0,0.0>--<354.0,95.0>>/B<<354.0,95.0>-<345.0,54.0>-<308.0,24.0>> = 12.380756928807159
+
+	* aogonek (U+0105): L<<354.0,0.0>--<354.0,95.0>>/B<<354.0,95.0>-<345.0,54.0>-<308.0,24.0>> = 12.380756928807159
+
+	* aring (U+00E5): L<<354.0,0.0>--<354.0,95.0>>/B<<354.0,95.0>-<345.0,54.0>-<308.0,24.0>> = 12.380756928807159
+
+	* aringacute (U+01FB): L<<354.0,0.0>--<354.0,95.0>>/B<<354.0,95.0>-<345.0,54.0>-<308.0,24.0>> = 12.380756928807159
+
+	* atilde (U+00E3): L<<354.0,0.0>--<354.0,95.0>>/B<<354.0,95.0>-<345.0,54.0>-<308.0,24.0>> = 12.380756928807159
+
+	* r (U+0072): L<<156.0,500.0>--<156.0,409.0>>/B<<156.0,409.0>-<168.0,457.0>-<200.5,481.5>> = 14.036243467926457
+
+	* racute (U+0155): L<<156.0,500.0>--<156.0,409.0>>/B<<156.0,409.0>-<168.0,457.0>-<200.5,481.5>> = 14.036243467926457
+
+	* rcaron (U+0159): L<<156.0,500.0>--<156.0,409.0>>/B<<156.0,409.0>-<168.0,457.0>-<200.5,481.5>> = 14.036243467926457
+
+	* rmacronbelow (U+1E5F): L<<156.0,500.0>--<156.0,409.0>>/B<<156.0,409.0>-<168.0,457.0>-<200.5,481.5>> = 14.036243467926457
+
+	* uni0157 (U+0157): L<<156.0,500.0>--<156.0,409.0>>/B<<156.0,409.0>-<168.0,457.0>-<200.5,481.5>> = 14.036243467926457
+
+	* uni1E5B (U+1E5B): L<<156.0,500.0>--<156.0,409.0>>/B<<156.0,409.0>-<168.0,457.0>-<200.5,481.5>> = 14.036243467926457
+
+	* uni1EA1 (U+1EA1): L<<354.0,0.0>--<354.0,95.0>>/B<<354.0,95.0>-<345.0,54.0>-<308.0,24.0>> = 12.380756928807159 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[6] LilGrotesk-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + f
+
+	- f + l
+
+	- l + f
+
+	- f + i
+
+	- i + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
+
+
+* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- uni01CE.ss01
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: ae	Contours detected: 4	Expected: 3
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: Ldot	Contours detected: 1	Expected: 2
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
+	- Glyph name: aeacute	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+	- Glyph name: quotedblbase	Contours detected: 1	Expected: 2
+
+	- Glyph name: Ldot	Contours detected: 1	Expected: 2
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: ae	Contours detected: 4	Expected: 3
+
+	- Glyph name: aeacute	Contours detected: 5	Expected: 4
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: fi	Contours detected: 2	Expected: 3
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: quotedblbase	Contours detected: 1	Expected: 2
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have segments which seem very short:
 
 	* comma (U+002C) contains a short segment B<<214.0,76.0>-<214.0,75.0>-<214.0,74.0>>
 
@@ -1442,8 +1196,8 @@ greaterequal
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 19 | 47 | 726 | 43 | 580 | 0 |
-| 0% | 1% | 3% | 51% | 3% | 41% | 0% |
+| 0 | 1 | 35 | 716 | 43 | 620 | 0 |
+| 0% | 0% | 2% | 51% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
