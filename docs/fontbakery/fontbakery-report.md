@@ -135,19 +135,19 @@ The following glyphs do not have the recommended number of contours:
 
 	* atilde (U+00E3): L<<391.0,0.0>--<391.0,144.0>>/B<<391.0,144.0>-<385.0,106.0>-<362.0,71.0>> = 8.972626614896358
 
-	* r (U+0072): L<<117.0,500.0>--<117.0,369.0>>/B<<117.0,369.0>-<131.0,444.0>-<167.5,475.0>> = 10.573523418560926
+	* r (U+0072): L<<117.0,500.0>--<117.0,382.0>>/B<<117.0,382.0>-<132.0,451.0>-<169.0,478.5>> = 12.2647737278924
 
-	* racute (U+0155): L<<117.0,500.0>--<117.0,369.0>>/B<<117.0,369.0>-<131.0,444.0>-<167.5,475.0>> = 10.573523418560926
+	* racute (U+0155): L<<117.0,500.0>--<117.0,382.0>>/B<<117.0,382.0>-<132.0,451.0>-<169.0,478.5>> = 12.2647737278924
 
-	* rcaron (U+0159): L<<117.0,500.0>--<117.0,369.0>>/B<<117.0,369.0>-<131.0,444.0>-<167.5,475.0>> = 10.573523418560926
+	* rcaron (U+0159): L<<117.0,500.0>--<117.0,382.0>>/B<<117.0,382.0>-<132.0,451.0>-<169.0,478.5>> = 12.2647737278924
 
-	* rmacronbelow (U+1E5F): L<<117.0,500.0>--<117.0,369.0>>/B<<117.0,369.0>-<131.0,444.0>-<167.5,475.0>> = 10.573523418560926
+	* rmacronbelow (U+1E5F): L<<117.0,500.0>--<117.0,382.0>>/B<<117.0,382.0>-<132.0,451.0>-<169.0,478.5>> = 12.2647737278924
 
 	* sterling (U+00A3): L<<583.0,41.0>--<609.0,25.0>>/B<<609.0,25.0>-<607.0,26.0>-<603.0,18.0>> = 5.042451069170812
 
-	* uni0157 (U+0157): L<<117.0,500.0>--<117.0,369.0>>/B<<117.0,369.0>-<131.0,444.0>-<167.5,475.0>> = 10.573523418560926
+	* uni0157 (U+0157): L<<117.0,500.0>--<117.0,382.0>>/B<<117.0,382.0>-<132.0,451.0>-<169.0,478.5>> = 12.2647737278924
 
-	* uni1E5B (U+1E5B): L<<117.0,500.0>--<117.0,369.0>>/B<<117.0,369.0>-<131.0,444.0>-<167.5,475.0>> = 10.573523418560926
+	* uni1E5B (U+1E5B): L<<117.0,500.0>--<117.0,382.0>>/B<<117.0,382.0>-<132.0,451.0>-<169.0,478.5>> = 12.2647737278924
 
 	* uni1EA1 (U+1EA1): L<<391.0,0.0>--<391.0,144.0>>/B<<391.0,144.0>-<385.0,106.0>-<362.0,71.0>> = 8.972626614896358 [code: found-jaggy-segments]
 </div></details><br></div></details><details><summary><b>[6] LilGrotesk-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -258,10 +258,6 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
 	* three (U+0033) contains a short segment L<<185.0,416.0>--<197.0,416.0>>
-
-	* sterling (U+00A3) contains a short segment B<<85.0,3.0>-<81.0,-7.0>-<81.0,-7.0>>
-
-	* sterling (U+00A3) contains a short segment B<<13.0,11.0>-<13.0,11.0>-<19.0,26.0>>
 
 	* sterling (U+00A3) contains a short segment B<<520.5,69.5>-<526.0,82.0>-<528.0,90.0>>
 
@@ -466,12 +462,6 @@ The following glyphs do not have the recommended number of contours:
 	* at (U+0040) contains a short segment B<<713.0,54.0>-<705.0,75.0>-<705.0,91.0>>
 
 	* asciitilde (U+007E) contains a short segment B<<455.0,363.0>-<457.0,363.0>-<464.0,365.0>>
-
-	* sterling (U+00A3) contains a short segment B<<118.0,27.0>-<115.0,15.0>-<114.5,6.0>>
-
-	* sterling (U+00A3) contains a short segment B<<114.5,6.0>-<114.0,-3.0>-<114.0,-3.0>>
-
-	* sterling (U+00A3) contains a short segment B<<-35.0,38.0>-<-35.0,38.0>-<-28.0,58.0>>
 
 	* section (U+00A7) contains a short segment B<<481.5,688.0>-<495.0,675.0>-<495.0,675.0>>
 
@@ -687,8 +677,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* semicolon (U+003B) contains a short segment B<<133.0,42.0>-<133.0,41.0>-<133.0,41.0>>
 
-	* sterling (U+00A3) contains a short segment B<<22.0,6.0>-<22.0,6.0>-<28.0,20.0>>
-
 	* sterling (U+00A3) contains a short segment B<<537.0,54.0>-<543.0,66.0>-<546.0,74.0>>
 
 	* sterling (U+00A3) contains a short segment B<<600.0,57.0>-<599.0,54.0>-<594.0,41.0>>
@@ -761,17 +749,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* atilde (U+00E3): L<<373.0,0.0>--<373.0,120.0>>/B<<373.0,120.0>-<367.0,87.0>-<346.0,58.0>> = 10.304846468766009
 
-	* r (U+0072): L<<136.0,500.0>--<136.0,389.0>>/B<<136.0,389.0>-<149.0,450.0>-<183.5,478.0>> = 12.030596096537845
+	* r (U+0072): L<<136.0,500.0>--<136.0,392.0>>/B<<136.0,392.0>-<149.0,453.0>-<184.0,479.5>> = 12.030596096537845
 
-	* racute (U+0155): L<<136.0,500.0>--<136.0,389.0>>/B<<136.0,389.0>-<149.0,450.0>-<183.5,478.0>> = 12.030596096537845
+	* racute (U+0155): L<<136.0,500.0>--<136.0,392.0>>/B<<136.0,392.0>-<149.0,453.0>-<184.0,479.5>> = 12.030596096537845
 
-	* rcaron (U+0159): L<<136.0,500.0>--<136.0,389.0>>/B<<136.0,389.0>-<149.0,450.0>-<183.5,478.0>> = 12.030596096537845
+	* rcaron (U+0159): L<<136.0,500.0>--<136.0,392.0>>/B<<136.0,392.0>-<149.0,453.0>-<184.0,479.5>> = 12.030596096537845
 
-	* rmacronbelow (U+1E5F): L<<136.0,500.0>--<136.0,389.0>>/B<<136.0,389.0>-<149.0,450.0>-<183.5,478.0>> = 12.030596096537845
+	* rmacronbelow (U+1E5F): L<<136.0,500.0>--<136.0,392.0>>/B<<136.0,392.0>-<149.0,453.0>-<184.0,479.5>> = 12.030596096537845
 
-	* uni0157 (U+0157): L<<136.0,500.0>--<136.0,389.0>>/B<<136.0,389.0>-<149.0,450.0>-<183.5,478.0>> = 12.030596096537845
+	* uni0157 (U+0157): L<<136.0,500.0>--<136.0,392.0>>/B<<136.0,392.0>-<149.0,453.0>-<184.0,479.5>> = 12.030596096537845
 
-	* uni1E5B (U+1E5B): L<<136.0,500.0>--<136.0,389.0>>/B<<136.0,389.0>-<149.0,450.0>-<183.5,478.0>> = 12.030596096537845
+	* uni1E5B (U+1E5B): L<<136.0,500.0>--<136.0,392.0>>/B<<136.0,392.0>-<149.0,453.0>-<184.0,479.5>> = 12.030596096537845
 
 	* uni1EA1 (U+1EA1): L<<373.0,0.0>--<373.0,120.0>>/B<<373.0,120.0>-<367.0,87.0>-<346.0,58.0>> = 10.304846468766009 [code: found-jaggy-segments]
 </div></details><br></div></details><details><summary><b>[6] LilGrotesk-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -886,10 +874,6 @@ The following glyphs do not have the recommended number of contours:
 	* three (U+0033) contains a short segment L<<189.0,422.0>--<201.0,422.0>>
 
 	* semicolon (U+003B) contains a short segment B<<164.0,55.0>-<165.0,55.0>-<164.0,55.0>>
-
-	* sterling (U+00A3) contains a short segment B<<91.5,3.5>-<88.0,-6.0>-<88.0,-6.0>>
-
-	* sterling (U+00A3) contains a short segment B<<3.0,17.0>-<3.0,17.0>-<9.0,33.0>>
 
 	* section (U+00A7) contains a short segment B<<471.0,701.5>-<484.0,689.0>-<485.0,688.0>>
 
@@ -1087,9 +1071,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* at (U+0040) contains a short segment B<<714.5,57.0>-<707.0,79.0>-<707.0,96.0>>
 
-	* sterling (U+00A3) contains a short segment B<<110.0,5.0>-<109.0,-4.0>-<109.0,-4.0>>
-
-	* sterling (U+00A3) contains a short segment B<<-28.0,34.0>-<-28.0,34.0>-<-21.0,53.5>>
+	* sterling (U+00A3) contains a short segment B<<111.0,14.0>-<109.0,-1.0>-<109.0,-4.0>>
 
 	* section (U+00A7) contains a short segment B<<479.5,690.5>-<493.0,677.0>-<493.0,677.0>>
 
