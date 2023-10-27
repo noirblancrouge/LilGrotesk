@@ -69,8 +69,8 @@ name = "Use Extension Kerning";
 value = 1;
 }
 );
-date = "2023-10-27 12:52:07 +0000";
-familyName = LilGrotesk;
+date = "2023-10-27 13:58:00 +0000";
+familyName = "Lil Grotesk";
 featurePrefixes = (
 {
 automatic = 1;
@@ -70091,7 +70091,7 @@ value = "LilGrotesk-VF";
 },
 {
 key = postscriptFullName;
-value = "LilGrotesk VF";
+value = "Lil Grotesk VF";
 }
 );
 type = variable;
@@ -70130,7 +70130,7 @@ value = "LilGrotesk-Thin";
 },
 {
 key = postscriptFullName;
-value = "LilGrotesk Thin";
+value = "Lil Grotesk Thin";
 }
 );
 weightClass = 100;
@@ -70170,7 +70170,7 @@ value = "LilGrotesk-Light";
 },
 {
 key = postscriptFullName;
-value = "LilGrotesk Light";
+value = "Lil Grotesk Light";
 }
 );
 weightClass = 300;
@@ -70209,7 +70209,7 @@ value = "LilGrotesk-Regular";
 },
 {
 key = postscriptFullName;
-value = "LilGrotesk Regular";
+value = "Lil Grotesk Regular";
 }
 );
 },
@@ -70248,7 +70248,7 @@ value = "LilGrotesk-Medium";
 },
 {
 key = postscriptFullName;
-value = "LilGrotesk Medium";
+value = "Lil Grotesk Medium";
 }
 );
 weightClass = 500;
@@ -70289,7 +70289,7 @@ value = "LilGrotesk-Bold";
 },
 {
 key = postscriptFullName;
-value = "LilGrotesk Bold";
+value = "Lil Grotesk Bold";
 }
 );
 weightClass = 700;
@@ -70328,7 +70328,7 @@ value = "LilGrotesk-Black";
 },
 {
 key = postscriptFullName;
-value = "LilGrotesk Black";
+value = "Lil Grotesk Black";
 }
 );
 weightClass = 900;
@@ -78041,5 +78041,5 @@ gridLength = 0;
 };
 unitsPerEm = 1000;
 versionMajor = 3;
-versionMinor = 2;
+versionMinor = 3;
 }
