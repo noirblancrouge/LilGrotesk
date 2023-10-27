@@ -2,10 +2,15 @@
 
 fontbakery version: 0.9.0
 
-<details><summary><b>[5] LilGrotesk-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+<details><summary><b>[7] LilGrotesk-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.9.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1246, but got 1135 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 347, but got 345 instead [code: descent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -20,6 +25,10 @@ fontbakery version: 0.9.0
 	- f + i
 
 	- i + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
+
+
+* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -102,53 +111,62 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* section (U+00A7) contains a short segment B<<468.5,705.5>-<481.0,693.0>-<482.0,692.0>>
+	* section (U+00A7) contains a short segment B<<442.0,665.0>-<454.0,653.0>-<455.0,653.0>>
 
-	* germandbls (U+00DF) contains a short segment L<<354.0,416.0>--<376.0,416.0>>
+	* germandbls (U+00DF) contains a short segment L<<334.0,392.0>--<355.0,392.0>>
 
-	* Eng (U+014A) contains a short segment B<<514.0,-140.0>-<526.0,-140.0>-<535.0,-130.5>>
+	* Eng (U+014A) contains a short segment B<<485.0,-132.0>-<496.0,-132.0>-<504.5,-123.5>>
 
-	* uni019D (U+019D) contains a short segment B<<50.0,-140.0>-<62.0,-140.0>-<71.0,-130.5>>
+	* uni019D (U+019D) contains a short segment B<<47.0,-132.0>-<58.0,-132.0>-<66.5,-123.5>>
 
-	* uni2325 (U+2325) contains a short segment B<<212.0,492.0>-<217.0,492.0>-<219.0,487.0>> [code: found-short-segments]
+	* summation (U+2211) contains a short segment L<<424.0,339.0>--<424.0,316.0>>
+
+	* uni2325 (U+2325) contains a short segment B<<340.0,-11.0>-<334.0,-11.0>-<332.0,-7.0>>
+
+	* uni2325 (U+2325) contains a short segment B<<200.0,464.0>-<205.0,464.0>-<207.0,459.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* a (U+0061): L<<364.0,0.0>--<364.0,106.0>>/B<<364.0,106.0>-<354.0,62.0>-<314.5,28.0>> = 12.80426606528674
+	* a (U+0061): L<<343.0,0.0>--<343.0,100.0>>/B<<343.0,100.0>-<334.0,58.0>-<296.5,26.0>> = 12.094757077012089
 
-	* aacute (U+00E1): L<<364.0,0.0>--<364.0,106.0>>/B<<364.0,106.0>-<354.0,62.0>-<314.5,28.0>> = 12.80426606528674
+	* aacute (U+00E1): L<<343.0,0.0>--<343.0,100.0>>/B<<343.0,100.0>-<334.0,58.0>-<296.5,26.0>> = 12.094757077012089
 
-	* abreve (U+0103): L<<364.0,0.0>--<364.0,106.0>>/B<<364.0,106.0>-<354.0,62.0>-<314.5,28.0>> = 12.80426606528674
+	* abreve (U+0103): L<<343.0,0.0>--<343.0,100.0>>/B<<343.0,100.0>-<334.0,58.0>-<296.5,26.0>> = 12.094757077012089
 
-	* acircumflex (U+00E2): L<<364.0,0.0>--<364.0,106.0>>/B<<364.0,106.0>-<354.0,62.0>-<314.5,28.0>> = 12.80426606528674
+	* acircumflex (U+00E2): L<<343.0,0.0>--<343.0,100.0>>/B<<343.0,100.0>-<334.0,58.0>-<296.5,26.0>> = 12.094757077012089
 
-	* adieresis (U+00E4): L<<364.0,0.0>--<364.0,106.0>>/B<<364.0,106.0>-<354.0,62.0>-<314.5,28.0>> = 12.80426606528674
+	* adieresis (U+00E4): L<<343.0,0.0>--<343.0,100.0>>/B<<343.0,100.0>-<334.0,58.0>-<296.5,26.0>> = 12.094757077012089
 
-	* ae (U+00E6): L<<364.0,0.0>--<364.0,106.0>>/B<<364.0,106.0>-<354.0,62.0>-<314.5,28.0>> = 12.80426606528674
+	* ae (U+00E6): L<<343.0,0.0>--<343.0,100.0>>/B<<343.0,100.0>-<334.0,58.0>-<296.5,26.0>> = 12.094757077012089
 
-	* aeacute (U+01FD): L<<364.0,0.0>--<364.0,106.0>>/B<<364.0,106.0>-<354.0,62.0>-<314.5,28.0>> = 12.80426606528674
+	* aeacute (U+01FD): L<<343.0,0.0>--<343.0,100.0>>/B<<343.0,100.0>-<334.0,58.0>-<296.5,26.0>> = 12.094757077012089
 
-	* agrave (U+00E0): L<<364.0,0.0>--<364.0,106.0>>/B<<364.0,106.0>-<354.0,62.0>-<314.5,28.0>> = 12.80426606528674
+	* agrave (U+00E0): L<<343.0,0.0>--<343.0,100.0>>/B<<343.0,100.0>-<334.0,58.0>-<296.5,26.0>> = 12.094757077012089
 
-	* amacron (U+0101): L<<364.0,0.0>--<364.0,106.0>>/B<<364.0,106.0>-<354.0,62.0>-<314.5,28.0>> = 12.80426606528674
+	* amacron (U+0101): L<<343.0,0.0>--<343.0,100.0>>/B<<343.0,100.0>-<334.0,58.0>-<296.5,26.0>> = 12.094757077012089
 
-	* aogonek (U+0105): L<<364.0,0.0>--<364.0,106.0>>/B<<364.0,106.0>-<354.0,62.0>-<314.5,28.0>> = 12.80426606528674
+	* aogonek (U+0105): L<<343.0,0.0>--<343.0,100.0>>/B<<343.0,100.0>-<334.0,58.0>-<296.5,26.0>> = 12.094757077012089
 
-	* aring (U+00E5): L<<364.0,0.0>--<364.0,106.0>>/B<<364.0,106.0>-<354.0,62.0>-<314.5,28.0>> = 12.80426606528674
+	* aring (U+00E5): L<<343.0,0.0>--<343.0,100.0>>/B<<343.0,100.0>-<334.0,58.0>-<296.5,26.0>> = 12.094757077012089
 
-	* aringacute (U+01FB): L<<364.0,0.0>--<364.0,106.0>>/B<<364.0,106.0>-<354.0,62.0>-<314.5,28.0>> = 12.80426606528674
+	* aringacute (U+01FB): L<<343.0,0.0>--<343.0,100.0>>/B<<343.0,100.0>-<334.0,58.0>-<296.5,26.0>> = 12.094757077012089
 
-	* atilde (U+00E3): L<<364.0,0.0>--<364.0,106.0>>/B<<364.0,106.0>-<354.0,62.0>-<314.5,28.0>> = 12.80426606528674
+	* atilde (U+00E3): L<<343.0,0.0>--<343.0,100.0>>/B<<343.0,100.0>-<334.0,58.0>-<296.5,26.0>> = 12.094757077012089
 
-	* uni01CE (U+01CE): L<<364.0,0.0>--<364.0,106.0>>/B<<364.0,106.0>-<354.0,62.0>-<314.5,28.0>> = 12.80426606528674
+	* uni01CE (U+01CE): L<<343.0,0.0>--<343.0,100.0>>/B<<343.0,100.0>-<334.0,58.0>-<296.5,26.0>> = 12.094757077012089
 
-	* uni1EA1 (U+1EA1): L<<364.0,0.0>--<364.0,106.0>>/B<<364.0,106.0>-<354.0,62.0>-<314.5,28.0>> = 12.80426606528674 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[5] LilGrotesk-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+	* uni1EA1 (U+1EA1): L<<343.0,0.0>--<343.0,100.0>>/B<<343.0,100.0>-<334.0,58.0>-<296.5,26.0>> = 12.094757077012089 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[7] LilGrotesk-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.9.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1246, but got 1135 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 347, but got 345 instead [code: descent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -163,6 +181,10 @@ The following glyphs do not have the recommended number of contours:
 	- f + i
 
 	- i + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
+
+
+* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -245,81 +267,102 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* comma (U+002C) contains a short segment B<<214.0,76.0>-<214.0,75.0>-<214.0,74.0>>
+	* dollar (U+0024) contains a short segment B<<366.0,505.0>-<365.0,506.0>-<354.0,517.5>>
 
-	* semicolon (U+003B) contains a short segment B<<214.0,76.0>-<214.0,75.0>-<214.0,74.0>>
+	* at (U+0040) contains a short segment B<<573.5,288.0>-<594.0,285.0>-<608.0,281.0>>
 
-	* at (U+0040) contains a short segment B<<613.0,302.0>-<636.0,299.0>-<652.0,294.0>>
+	* at (U+0040) contains a short segment B<<608.0,286.0>-<608.0,306.0>-<591.0,320.5>>
 
-	* at (U+0040) contains a short segment B<<714.5,57.0>-<707.0,79.0>-<707.0,96.0>>
+	* at (U+0040) contains a short segment B<<763.0,110.5>-<777.0,94.0>-<796.0,94.0>>
 
-	* section (U+00A7) contains a short segment B<<479.5,690.5>-<493.0,677.0>-<493.0,677.0>>
+	* asciitilde (U+007E) contains a short segment B<<429.0,342.0>-<431.0,342.0>-<437.5,344.0>>
 
-	* section (U+00A7) contains a short segment B<<383.0,593.0>-<381.0,595.0>-<370.0,605.0>>
+	* sterling (U+00A3) contains a short segment B<<123.0,174.0>-<123.0,179.0>-<123.5,183.0>>
 
-	* cedilla (U+00B8) contains a short segment L<<294.0,-49.0>--<301.0,-49.0>>
+	* sterling (U+00A3) contains a short segment B<<123.5,183.0>-<124.0,187.0>-<124.0,191.0>>
 
-	* Ccedilla (U+00C7) contains a short segment L<<370.0,-51.0>--<377.0,-51.0>>
+	* section (U+00A7) contains a short segment B<<454.0,649.0>-<466.0,637.0>-<467.0,637.0>>
 
-	* germandbls (U+00DF) contains a short segment L<<413.0,439.0>--<437.0,439.0>>
+	* section (U+00A7) contains a short segment B<<355.0,550.0>-<353.0,552.0>-<343.5,560.5>>
 
-	* ccedilla (U+00E7) contains a short segment L<<273.0,-49.0>--<280.0,-49.0>>
+	* cedilla (U+00B8) contains a short segment L<<279.0,-45.0>--<282.0,-45.0>>
 
-	* eth (U+00F0) contains a short segment B<<294.0,498.0>-<303.0,498.0>-<307.0,496.0>>
+	* Ccedilla (U+00C7) contains a short segment L<<351.0,-47.0>--<354.0,-47.0>>
 
-	* Eng (U+014A) contains a short segment B<<497.0,-76.0>-<509.0,-76.0>-<516.5,-68.0>>
+	* germandbls (U+00DF) contains a short segment L<<399.0,418.0>--<422.0,418.0>>
 
-	* OE (U+0152) contains a short segment L<<515.0,0.0>--<515.0,24.0>>
+	* ccedilla (U+00E7) contains a short segment L<<262.0,-45.0>--<265.0,-45.0>>
 
-	* Scedilla (U+015E) contains a short segment L<<272.0,-49.0>--<279.0,-49.0>>
+	* eth (U+00F0) contains a short segment B<<277.0,474.0>-<277.0,474.0>-<277.5,475.0>>
 
-	* scedilla (U+015F) contains a short segment L<<229.0,-49.0>--<236.0,-49.0>>
+	* eth (U+00F0) contains a short segment B<<277.5,475.0>-<278.0,476.0>-<276.0,477.0>>
 
-	* uni0162 (U+0162) contains a short segment L<<324.0,-49.0>--<331.0,-49.0>>
+	* Eng (U+014A) contains a short segment B<<466.0,-61.0>-<477.0,-61.0>-<484.0,-54.5>>
 
-	* uni0163 (U+0163) contains a short segment L<<214.0,-49.0>--<221.0,-49.0>>
+	* OE (U+0152) contains a short segment L<<475.0,0.0>--<475.0,17.0>>
 
-	* uni019D (U+019D) contains a short segment B<<53.0,-76.0>-<65.0,-76.0>-<72.5,-68.0>>
+	* Scedilla (U+015E) contains a short segment L<<262.0,-45.0>--<265.0,-45.0>>
 
-	* uni0327 (U+0327) contains a short segment L<<294.0,-49.0>--<301.0,-49.0>>
+	* scedilla (U+015F) contains a short segment L<<224.0,-45.0>--<227.0,-45.0>>
 
-	* uni1E08 (U+1E08) contains a short segment L<<370.0,-51.0>--<377.0,-51.0>>
+	* uni0162 (U+0162) contains a short segment L<<309.0,-45.0>--<312.0,-45.0>>
 
-	* uni1E09 (U+1E09) contains a short segment L<<273.0,-49.0>--<280.0,-49.0>>
+	* uni0163 (U+0163) contains a short segment L<<205.0,-45.0>--<208.0,-45.0>>
 
-	* uni1E1C (U+1E1C) contains a short segment L<<333.0,-49.0>--<340.0,-49.0>>
+	* uni019D (U+019D) contains a short segment B<<51.0,-61.0>-<62.0,-61.0>-<68.5,-54.5>>
 
-	* uni1E1D (U+1E1D) contains a short segment L<<292.0,-49.0>--<299.0,-49.0>>
+	* uni0327 (U+0327) contains a short segment L<<279.0,-45.0>--<282.0,-45.0>>
 
-	* Euro (U+20AC) contains a short segment B<<143.0,316.0>-<142.0,324.0>-<141.5,332.5>>
+	* uni1E08 (U+1E08) contains a short segment L<<351.0,-47.0>--<354.0,-47.0>>
 
-	* Euro (U+20AC) contains a short segment B<<141.5,332.5>-<141.0,341.0>-<141.0,349.0>>
+	* uni1E09 (U+1E09) contains a short segment L<<262.0,-45.0>--<265.0,-45.0>>
 
-	* Euro (U+20AC) contains a short segment B<<141.0,349.0>-<141.0,357.0>-<141.5,365.0>>
+	* uni1E1C (U+1E1C) contains a short segment L<<320.0,-45.0>--<323.0,-45.0>>
 
-	* Euro (U+20AC) contains a short segment B<<141.5,365.0>-<142.0,373.0>-<143.0,380.0>>
+	* uni1E1D (U+1E1D) contains a short segment L<<279.0,-45.0>--<282.0,-45.0>>
 
-	* Euro (U+20AC) contains a short segment B<<286.0,380.0>-<285.0,373.0>-<284.5,365.0>>
+	* Euro (U+20AC) contains a short segment B<<138.0,306.0>-<137.0,311.0>-<137.0,317.0>>
 
-	* Euro (U+20AC) contains a short segment B<<284.5,365.0>-<284.0,357.0>-<284.0,349.0>>
+	* Euro (U+20AC) contains a short segment B<<137.0,317.0>-<137.0,323.0>-<137.0,329.0>>
 
-	* Euro (U+20AC) contains a short segment B<<284.0,349.0>-<284.0,341.0>-<284.5,332.5>>
+	* Euro (U+20AC) contains a short segment B<<137.0,329.0>-<137.0,336.0>-<137.5,344.0>>
 
-	* Euro (U+20AC) contains a short segment B<<284.5,332.5>-<285.0,324.0>-<286.0,316.0>>
+	* Euro (U+20AC) contains a short segment B<<137.5,344.0>-<138.0,352.0>-<139.0,359.0>>
 
-	* uni2325 (U+2325) contains a short segment B<<212.0,492.0>-<217.0,492.0>-<219.0,487.0>> [code: found-short-segments]
+	* Euro (U+20AC) contains a short segment B<<285.0,359.0>-<284.0,352.0>-<283.5,344.5>>
+
+	* Euro (U+20AC) contains a short segment B<<283.5,344.5>-<283.0,337.0>-<283.0,329.0>>
+
+	* Euro (U+20AC) contains a short segment B<<283.0,329.0>-<283.0,323.0>-<283.0,317.0>>
+
+	* Euro (U+20AC) contains a short segment B<<283.0,317.0>-<283.0,311.0>-<284.0,306.0>>
+
+	* partialdiff (U+2202) contains a short segment B<<267.0,538.0>-<273.0,538.0>-<279.5,538.0>>
+
+	* partialdiff (U+2202) contains a short segment B<<279.5,538.0>-<286.0,538.0>-<292.0,538.0>>
+
+	* uni2325 (U+2325) contains a short segment B<<340.0,-11.0>-<334.0,-11.0>-<332.0,-7.0>>
+
+	* uni2325 (U+2325) contains a short segment B<<200.0,464.0>-<205.0,464.0>-<207.0,459.0>>
+
+	* fi (U+FB01) contains a short segment B<<255.0,548.0>-<247.0,548.0>-<238.0,539.5>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* trademark (U+2122): L<<567.0,393.0>--<537.0,515.0>>/L<<537.0,515.0>--<537.0,341.0>> = 13.81502534126161
+	* trademark (U+2122): L<<544.0,371.0>--<524.0,471.0>>/L<<524.0,471.0>--<524.0,319.0>> = 11.309932474020227
 
-	* trademark (U+2122): L<<689.0,341.0>--<689.0,515.0>>/L<<689.0,515.0>--<662.0,393.0>> = 12.479071801927638 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[5] LilGrotesk-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+	* trademark (U+2122): L<<656.0,319.0>--<656.0,471.0>>/L<<656.0,471.0>--<639.0,371.0>> = 9.648045316098152 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[6] LilGrotesk-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.9.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1246, but got 1135 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 347, but got 345 instead [code: descent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -334,6 +377,160 @@ The following glyphs do not have the recommended number of contours:
 	- f + i
 
 	- i + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
+
+
+* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: ae	Contours detected: 4	Expected: 3
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: Ldot	Contours detected: 1	Expected: 2
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
+	- Glyph name: aeacute	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+	- Glyph name: quotedblbase	Contours detected: 1	Expected: 2
+
+	- Glyph name: Ldot	Contours detected: 1	Expected: 2
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: ae	Contours detected: 4	Expected: 3
+
+	- Glyph name: aeacute	Contours detected: 5	Expected: 4
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: fi	Contours detected: 2	Expected: 3
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: quotedblbase	Contours detected: 1	Expected: 2
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* a (U+0061): L<<368.0,0.0>--<368.0,136.0>>/B<<368.0,136.0>-<362.0,100.0>-<340.5,67.0>> = 9.462322208025613
+
+	* aacute (U+00E1): L<<368.0,0.0>--<368.0,136.0>>/B<<368.0,136.0>-<362.0,100.0>-<340.5,67.0>> = 9.462322208025613
+
+	* abreve (U+0103): L<<368.0,0.0>--<368.0,136.0>>/B<<368.0,136.0>-<362.0,100.0>-<340.5,67.0>> = 9.462322208025613
+
+	* acircumflex (U+00E2): L<<368.0,0.0>--<368.0,136.0>>/B<<368.0,136.0>-<362.0,100.0>-<340.5,67.0>> = 9.462322208025613
+
+	* adieresis (U+00E4): L<<368.0,0.0>--<368.0,136.0>>/B<<368.0,136.0>-<362.0,100.0>-<340.5,67.0>> = 9.462322208025613
+
+	* ae (U+00E6): L<<368.0,0.0>--<368.0,136.0>>/B<<368.0,136.0>-<362.0,100.0>-<340.5,67.0>> = 9.462322208025613
+
+	* aeacute (U+01FD): L<<368.0,0.0>--<368.0,136.0>>/B<<368.0,136.0>-<362.0,100.0>-<340.5,67.0>> = 9.462322208025613
+
+	* agrave (U+00E0): L<<368.0,0.0>--<368.0,136.0>>/B<<368.0,136.0>-<362.0,100.0>-<340.5,67.0>> = 9.462322208025613
+
+	* amacron (U+0101): L<<368.0,0.0>--<368.0,136.0>>/B<<368.0,136.0>-<362.0,100.0>-<340.5,67.0>> = 9.462322208025613
+
+	* aogonek (U+0105): L<<368.0,0.0>--<368.0,136.0>>/B<<368.0,136.0>-<362.0,100.0>-<340.5,67.0>> = 9.462322208025613
+
+	* aring (U+00E5): L<<368.0,0.0>--<368.0,136.0>>/B<<368.0,136.0>-<362.0,100.0>-<340.5,67.0>> = 9.462322208025613
+
+	* aringacute (U+01FB): L<<368.0,0.0>--<368.0,136.0>>/B<<368.0,136.0>-<362.0,100.0>-<340.5,67.0>> = 9.462322208025613
+
+	* atilde (U+00E3): L<<368.0,0.0>--<368.0,136.0>>/B<<368.0,136.0>-<362.0,100.0>-<340.5,67.0>> = 9.462322208025613
+
+	* r (U+0072): L<<110.0,472.0>--<110.0,360.0>>/B<<110.0,360.0>-<125.0,425.0>-<159.5,451.0>> = 12.994616791916512
+
+	* racute (U+0155): L<<110.0,472.0>--<110.0,360.0>>/B<<110.0,360.0>-<125.0,425.0>-<159.5,451.0>> = 12.994616791916512
+
+	* rcaron (U+0159): L<<110.0,472.0>--<110.0,360.0>>/B<<110.0,360.0>-<125.0,425.0>-<159.5,451.0>> = 12.994616791916512
+
+	* rmacronbelow (U+1E5F): L<<110.0,472.0>--<110.0,360.0>>/B<<110.0,360.0>-<125.0,425.0>-<159.5,451.0>> = 12.994616791916512
+
+	* uni0157 (U+0157): L<<110.0,472.0>--<110.0,360.0>>/B<<110.0,360.0>-<125.0,425.0>-<159.5,451.0>> = 12.994616791916512
+
+	* uni01CE (U+01CE): L<<368.0,0.0>--<368.0,136.0>>/B<<368.0,136.0>-<362.0,100.0>-<340.5,67.0>> = 9.462322208025613
+
+	* uni1E5B (U+1E5B): L<<110.0,472.0>--<110.0,360.0>>/B<<110.0,360.0>-<125.0,425.0>-<159.5,451.0>> = 12.994616791916512
+
+	* uni1EA1 (U+1EA1): L<<368.0,0.0>--<368.0,136.0>>/B<<368.0,136.0>-<362.0,100.0>-<340.5,67.0>> = 9.462322208025613 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[6] LilGrotesk-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1246, but got 1135 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 347, but got 345 instead [code: descent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + f
+
+	- f + l
+
+	- l + f
+
+	- f + i
+
+	- i + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
+
+
+* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -416,101 +613,38 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* dollar (U+0024) contains a short segment B<<388.0,535.0>-<387.0,537.0>-<375.5,549.0>>
+	* comma (U+002C) contains a short segment B<<155.0,52.0>-<155.0,51.0>-<155.0,52.0>>
 
-	* at (U+0040) contains a short segment B<<608.0,305.5>-<630.0,302.0>-<645.0,298.0>>
+	* semicolon (U+003B) contains a short segment B<<155.0,52.0>-<155.0,51.0>-<155.0,52.0>>
 
-	* at (U+0040) contains a short segment B<<645.0,303.0>-<645.0,325.0>-<627.0,340.0>>
+	* section (U+00A7) contains a short segment B<<444.5,662.0>-<457.0,650.0>-<457.0,649.0>>
 
-	* at (U+0040) contains a short segment B<<809.0,117.0>-<824.0,100.0>-<844.0,100.0>>
+	* germandbls (U+00DF) contains a short segment L<<348.0,398.0>--<369.0,398.0>>
 
-	* at (U+0040) contains a short segment B<<713.0,54.0>-<705.0,75.0>-<705.0,91.0>>
+	* Eng (U+014A) contains a short segment B<<481.0,-117.0>-<492.0,-117.0>-<500.0,-108.5>>
 
-	* asciitilde (U+007E) contains a short segment B<<455.0,363.0>-<457.0,363.0>-<464.0,365.0>>
+	* uni019D (U+019D) contains a short segment B<<48.0,-117.0>-<59.0,-117.0>-<67.0,-108.5>>
 
-	* sterling (U+00A3) contains a short segment B<<130.0,185.0>-<131.0,190.0>-<131.0,194.5>>
+	* Euro (U+20AC) contains a short segment B<<118.0,329.0>-<118.0,336.0>-<118.0,342.5>>
 
-	* sterling (U+00A3) contains a short segment B<<131.0,194.5>-<131.0,199.0>-<131.0,203.0>>
+	* Euro (U+20AC) contains a short segment B<<118.0,342.5>-<118.0,349.0>-<119.0,356.0>>
 
-	* section (U+00A7) contains a short segment B<<481.5,688.0>-<495.0,675.0>-<495.0,675.0>>
+	* Euro (U+20AC) contains a short segment B<<202.0,356.0>-<202.0,349.0>-<201.5,342.5>>
 
-	* section (U+00A7) contains a short segment B<<376.0,583.0>-<374.0,585.0>-<364.0,594.5>>
+	* Euro (U+20AC) contains a short segment B<<201.5,342.5>-<201.0,336.0>-<201.0,329.0>>
 
-	* cedilla (U+00B8) contains a short segment L<<296.0,-48.0>--<299.0,-48.0>>
+	* uni2325 (U+2325) contains a short segment B<<340.0,-11.0>-<334.0,-11.0>-<332.0,-7.0>>
 
-	* Ccedilla (U+00C7) contains a short segment L<<372.0,-50.0>--<375.0,-50.0>>
-
-	* germandbls (U+00DF) contains a short segment L<<423.0,443.0>--<447.0,443.0>>
-
-	* ccedilla (U+00E7) contains a short segment L<<278.0,-48.0>--<281.0,-48.0>>
-
-	* eth (U+00F0) contains a short segment B<<294.0,503.0>-<294.0,503.0>-<294.5,504.0>>
-
-	* eth (U+00F0) contains a short segment B<<294.5,504.0>-<295.0,505.0>-<293.0,506.0>>
-
-	* Eng (U+014A) contains a short segment B<<494.0,-65.0>-<506.0,-65.0>-<513.5,-57.5>>
-
-	* OE (U+0152) contains a short segment L<<504.0,0.0>--<504.0,18.0>>
-
-	* Scedilla (U+015E) contains a short segment L<<278.0,-48.0>--<281.0,-48.0>>
-
-	* scedilla (U+015F) contains a short segment L<<238.0,-48.0>--<241.0,-48.0>>
-
-	* uni0162 (U+0162) contains a short segment L<<328.0,-48.0>--<331.0,-48.0>>
-
-	* uni0163 (U+0163) contains a short segment L<<218.0,-48.0>--<221.0,-48.0>>
-
-	* uni019D (U+019D) contains a short segment B<<54.0,-65.0>-<66.0,-65.0>-<73.0,-57.5>>
-
-	* uni0327 (U+0327) contains a short segment L<<296.0,-48.0>--<299.0,-48.0>>
-
-	* uni1E08 (U+1E08) contains a short segment L<<372.0,-50.0>--<375.0,-50.0>>
-
-	* uni1E09 (U+1E09) contains a short segment L<<278.0,-48.0>--<281.0,-48.0>>
-
-	* uni1E1C (U+1E1C) contains a short segment L<<340.0,-48.0>--<343.0,-48.0>>
-
-	* uni1E1D (U+1E1D) contains a short segment L<<296.0,-48.0>--<299.0,-48.0>>
-
-	* Euro (U+20AC) contains a short segment B<<146.0,324.0>-<145.0,330.0>-<145.0,336.5>>
-
-	* Euro (U+20AC) contains a short segment B<<145.0,336.5>-<145.0,343.0>-<145.0,349.0>>
-
-	* Euro (U+20AC) contains a short segment B<<145.0,349.0>-<145.0,357.0>-<145.5,365.5>>
-
-	* Euro (U+20AC) contains a short segment B<<145.5,365.5>-<146.0,374.0>-<147.0,381.0>>
-
-	* Euro (U+20AC) contains a short segment B<<302.0,381.0>-<301.0,374.0>-<300.5,365.5>>
-
-	* Euro (U+20AC) contains a short segment B<<300.5,365.5>-<300.0,357.0>-<300.0,349.0>>
-
-	* Euro (U+20AC) contains a short segment B<<300.0,349.0>-<300.0,343.0>-<300.0,336.5>>
-
-	* Euro (U+20AC) contains a short segment B<<300.0,336.5>-<300.0,330.0>-<301.0,324.0>>
-
-	* partialdiff (U+2202) contains a short segment B<<283.0,571.0>-<290.0,571.0>-<296.5,571.0>>
-
-	* partialdiff (U+2202) contains a short segment B<<296.5,571.0>-<303.0,571.0>-<310.0,571.0>>
-
-	* integral (U+222B) contains a short segment B<<141.0,12.0>-<147.0,10.0>-<154.0,10.0>>
-
-	* integral (U+222B) contains a short segment B<<154.0,10.0>-<162.0,10.0>-<165.5,17.5>>
-
-	* uni2325 (U+2325) contains a short segment B<<212.0,492.0>-<217.0,492.0>-<219.0,487.0>>
-
-	* fi (U+FB01) contains a short segment B<<270.0,581.0>-<262.0,581.0>-<252.5,572.0>> [code: found-short-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+	* uni2325 (U+2325) contains a short segment B<<200.0,464.0>-<205.0,464.0>-<207.0,459.0>> [code: found-short-segments]
+</div></details><br></div></details><details><summary><b>[7] LilGrotesk-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* trademark (U+2122): L<<577.0,393.0>--<556.0,499.0>>/L<<556.0,499.0>--<556.0,338.0>> = 11.205947507402552
-
-	* trademark (U+2122): L<<696.0,338.0>--<696.0,499.0>>/L<<696.0,499.0>--<678.0,393.0>> = 9.637538112930923 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[5] LilGrotesk-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1246, but got 1135 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 347, but got 345 instead [code: descent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.9.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -525,6 +659,10 @@ The following glyphs do not have the recommended number of contours:
 	- f + i
 
 	- i + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
+
+
+* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -607,67 +745,76 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* comma (U+002C) contains a short segment B<<164.0,55.0>-<165.0,55.0>-<164.0,55.0>>
+	* ampersand (U+0026) contains a short segment B<<217.0,356.0>-<216.0,357.0>-<215.0,357.0>>
 
-	* semicolon (U+003B) contains a short segment B<<164.0,55.0>-<165.0,55.0>-<164.0,55.0>>
+	* sterling (U+00A3) contains a short segment B<<566.0,54.0>-<565.0,49.0>-<558.5,36.5>>
 
-	* sterling (U+00A3) contains a short segment B<<149.0,136.0>-<152.0,145.0>-<154.0,157.0>>
+	* section (U+00A7) contains a short segment B<<440.0,668.5>-<452.0,657.0>-<452.0,656.0>>
 
-	* section (U+00A7) contains a short segment B<<471.0,701.5>-<484.0,689.0>-<485.0,688.0>>
+	* germandbls (U+00DF) contains a short segment L<<322.0,388.0>--<342.0,388.0>>
 
-	* germandbls (U+00DF) contains a short segment L<<369.0,422.0>--<391.0,422.0>>
+	* Eng (U+014A) contains a short segment B<<488.0,-146.0>-<499.0,-146.0>-<508.0,-136.5>>
 
-	* Eng (U+014A) contains a short segment B<<510.0,-124.0>-<522.0,-124.0>-<530.5,-115.0>>
+	* uni019D (U+019D) contains a short segment B<<47.0,-146.0>-<58.0,-146.0>-<66.5,-136.5>>
 
-	* uni019D (U+019D) contains a short segment B<<51.0,-124.0>-<63.0,-124.0>-<71.5,-115.0>>
+	* Euro (U+20AC) contains a short segment B<<109.0,329.0>-<109.0,335.0>-<108.5,341.0>>
 
-	* Euro (U+20AC) contains a short segment B<<125.0,349.0>-<125.0,356.0>-<125.5,363.0>>
+	* Euro (U+20AC) contains a short segment B<<108.5,341.0>-<108.0,347.0>-<108.0,354.0>>
 
-	* Euro (U+20AC) contains a short segment B<<125.5,363.0>-<126.0,370.0>-<126.0,377.0>>
+	* Euro (U+20AC) contains a short segment B<<159.0,354.0>-<159.0,347.0>-<159.0,341.0>>
 
-	* Euro (U+20AC) contains a short segment B<<214.0,377.0>-<214.0,370.0>-<214.0,363.0>>
+	* Euro (U+20AC) contains a short segment B<<159.0,341.0>-<159.0,335.0>-<159.0,329.0>>
 
-	* Euro (U+20AC) contains a short segment B<<214.0,363.0>-<214.0,356.0>-<214.0,349.0>>
+	* summation (U+2211) contains a short segment L<<398.0,338.0>--<398.0,317.0>>
 
-	* uni2325 (U+2325) contains a short segment B<<212.0,492.0>-<217.0,492.0>-<219.0,487.0>> [code: found-short-segments]
+	* radical (U+221A) contains a short segment L<<358.0,-6.0>--<343.0,-6.0>>
+
+	* uni2325 (U+2325) contains a short segment B<<340.0,-11.0>-<334.0,-11.0>-<332.0,-7.0>>
+
+	* uni2325 (U+2325) contains a short segment B<<200.0,464.0>-<205.0,464.0>-<207.0,459.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* a (U+0061): L<<354.0,0.0>--<354.0,93.0>>/B<<354.0,93.0>-<344.0,53.0>-<307.0,23.5>> = 14.036243467926484
+	* a (U+0061): L<<351.0,0.0>--<351.0,112.0>>/B<<351.0,112.0>-<343.0,66.0>-<303.0,30.0>> = 9.865806943084365
 
-	* aacute (U+00E1): L<<354.0,0.0>--<354.0,93.0>>/B<<354.0,93.0>-<344.0,53.0>-<307.0,23.5>> = 14.036243467926484
+	* aacute (U+00E1): L<<351.0,0.0>--<351.0,112.0>>/B<<351.0,112.0>-<343.0,66.0>-<303.0,30.0>> = 9.865806943084365
 
-	* abreve (U+0103): L<<354.0,0.0>--<354.0,93.0>>/B<<354.0,93.0>-<344.0,53.0>-<307.0,23.5>> = 14.036243467926484
+	* abreve (U+0103): L<<351.0,0.0>--<351.0,112.0>>/B<<351.0,112.0>-<343.0,66.0>-<303.0,30.0>> = 9.865806943084365
 
-	* acircumflex (U+00E2): L<<354.0,0.0>--<354.0,93.0>>/B<<354.0,93.0>-<344.0,53.0>-<307.0,23.5>> = 14.036243467926484
+	* acircumflex (U+00E2): L<<351.0,0.0>--<351.0,112.0>>/B<<351.0,112.0>-<343.0,66.0>-<303.0,30.0>> = 9.865806943084365
 
-	* adieresis (U+00E4): L<<354.0,0.0>--<354.0,93.0>>/B<<354.0,93.0>-<344.0,53.0>-<307.0,23.5>> = 14.036243467926484
+	* adieresis (U+00E4): L<<351.0,0.0>--<351.0,112.0>>/B<<351.0,112.0>-<343.0,66.0>-<303.0,30.0>> = 9.865806943084365
 
-	* ae (U+00E6): L<<354.0,0.0>--<354.0,93.0>>/B<<354.0,93.0>-<344.0,53.0>-<307.0,23.5>> = 14.036243467926484
+	* ae (U+00E6): L<<351.0,0.0>--<351.0,112.0>>/B<<351.0,112.0>-<343.0,66.0>-<303.0,30.0>> = 9.865806943084365
 
-	* aeacute (U+01FD): L<<354.0,0.0>--<354.0,93.0>>/B<<354.0,93.0>-<344.0,53.0>-<307.0,23.5>> = 14.036243467926484
+	* aeacute (U+01FD): L<<351.0,0.0>--<351.0,112.0>>/B<<351.0,112.0>-<343.0,66.0>-<303.0,30.0>> = 9.865806943084365
 
-	* agrave (U+00E0): L<<354.0,0.0>--<354.0,93.0>>/B<<354.0,93.0>-<344.0,53.0>-<307.0,23.5>> = 14.036243467926484
+	* agrave (U+00E0): L<<351.0,0.0>--<351.0,112.0>>/B<<351.0,112.0>-<343.0,66.0>-<303.0,30.0>> = 9.865806943084365
 
-	* amacron (U+0101): L<<354.0,0.0>--<354.0,93.0>>/B<<354.0,93.0>-<344.0,53.0>-<307.0,23.5>> = 14.036243467926484
+	* amacron (U+0101): L<<351.0,0.0>--<351.0,112.0>>/B<<351.0,112.0>-<343.0,66.0>-<303.0,30.0>> = 9.865806943084365
 
-	* aogonek (U+0105): L<<354.0,0.0>--<354.0,93.0>>/B<<354.0,93.0>-<344.0,53.0>-<307.0,23.5>> = 14.036243467926484
+	* aogonek (U+0105): L<<351.0,0.0>--<351.0,112.0>>/B<<351.0,112.0>-<343.0,66.0>-<303.0,30.0>> = 9.865806943084365
 
-	* aring (U+00E5): L<<354.0,0.0>--<354.0,93.0>>/B<<354.0,93.0>-<344.0,53.0>-<307.0,23.5>> = 14.036243467926484
+	* aring (U+00E5): L<<351.0,0.0>--<351.0,112.0>>/B<<351.0,112.0>-<343.0,66.0>-<303.0,30.0>> = 9.865806943084365
 
-	* aringacute (U+01FB): L<<354.0,0.0>--<354.0,93.0>>/B<<354.0,93.0>-<344.0,53.0>-<307.0,23.5>> = 14.036243467926484
+	* aringacute (U+01FB): L<<351.0,0.0>--<351.0,112.0>>/B<<351.0,112.0>-<343.0,66.0>-<303.0,30.0>> = 9.865806943084365
 
-	* atilde (U+00E3): L<<354.0,0.0>--<354.0,93.0>>/B<<354.0,93.0>-<344.0,53.0>-<307.0,23.5>> = 14.036243467926484
+	* atilde (U+00E3): L<<351.0,0.0>--<351.0,112.0>>/B<<351.0,112.0>-<343.0,66.0>-<303.0,30.0>> = 9.865806943084365
 
-	* uni01CE (U+01CE): L<<354.0,0.0>--<354.0,93.0>>/B<<354.0,93.0>-<344.0,53.0>-<307.0,23.5>> = 14.036243467926484
+	* uni01CE (U+01CE): L<<351.0,0.0>--<351.0,112.0>>/B<<351.0,112.0>-<343.0,66.0>-<303.0,30.0>> = 9.865806943084365
 
-	* uni1EA1 (U+1EA1): L<<354.0,0.0>--<354.0,93.0>>/B<<354.0,93.0>-<344.0,53.0>-<307.0,23.5>> = 14.036243467926484 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[4] LilGrotesk-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+	* uni1EA1 (U+1EA1): L<<351.0,0.0>--<351.0,112.0>>/B<<351.0,112.0>-<343.0,66.0>-<303.0,30.0>> = 9.865806943084365 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[7] LilGrotesk-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.9.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1246, but got 1135 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 347, but got 345 instead [code: descent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -682,147 +829,10 @@ The following glyphs do not have the recommended number of contours:
 	- f + i
 
 	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
 
 
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: ae	Contours detected: 4	Expected: 3
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: Ldot	Contours detected: 1	Expected: 2
-
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
-
-	- Glyph name: aeacute	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: quotedblbase	Contours detected: 1	Expected: 2
-
-	- Glyph name: Ldot	Contours detected: 1	Expected: 2
-
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: ae	Contours detected: 4	Expected: 3
-
-	- Glyph name: aeacute	Contours detected: 5	Expected: 4
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: fi	Contours detected: 2	Expected: 3
-
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: quotedblbase	Contours detected: 1	Expected: 2
-
-	- Glyph name: tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* a (U+0061): L<<390.0,0.0>--<390.0,144.0>>/B<<390.0,144.0>-<384.0,106.0>-<361.0,71.5>> = 8.972626614896358
-
-	* aacute (U+00E1): L<<390.0,0.0>--<390.0,144.0>>/B<<390.0,144.0>-<384.0,106.0>-<361.0,71.5>> = 8.972626614896358
-
-	* abreve (U+0103): L<<390.0,0.0>--<390.0,144.0>>/B<<390.0,144.0>-<384.0,106.0>-<361.0,71.5>> = 8.972626614896358
-
-	* acircumflex (U+00E2): L<<390.0,0.0>--<390.0,144.0>>/B<<390.0,144.0>-<384.0,106.0>-<361.0,71.5>> = 8.972626614896358
-
-	* adieresis (U+00E4): L<<390.0,0.0>--<390.0,144.0>>/B<<390.0,144.0>-<384.0,106.0>-<361.0,71.5>> = 8.972626614896358
-
-	* ae (U+00E6): L<<390.0,0.0>--<390.0,144.0>>/B<<390.0,144.0>-<384.0,106.0>-<361.0,71.5>> = 8.972626614896358
-
-	* aeacute (U+01FD): L<<390.0,0.0>--<390.0,144.0>>/B<<390.0,144.0>-<384.0,106.0>-<361.0,71.5>> = 8.972626614896358
-
-	* agrave (U+00E0): L<<390.0,0.0>--<390.0,144.0>>/B<<390.0,144.0>-<384.0,106.0>-<361.0,71.5>> = 8.972626614896358
-
-	* amacron (U+0101): L<<390.0,0.0>--<390.0,144.0>>/B<<390.0,144.0>-<384.0,106.0>-<361.0,71.5>> = 8.972626614896358
-
-	* aogonek (U+0105): L<<390.0,0.0>--<390.0,144.0>>/B<<390.0,144.0>-<384.0,106.0>-<361.0,71.5>> = 8.972626614896358
-
-	* aring (U+00E5): L<<390.0,0.0>--<390.0,144.0>>/B<<390.0,144.0>-<384.0,106.0>-<361.0,71.5>> = 8.972626614896358
-
-	* aringacute (U+01FB): L<<390.0,0.0>--<390.0,144.0>>/B<<390.0,144.0>-<384.0,106.0>-<361.0,71.5>> = 8.972626614896358
-
-	* atilde (U+00E3): L<<390.0,0.0>--<390.0,144.0>>/B<<390.0,144.0>-<384.0,106.0>-<361.0,71.5>> = 8.972626614896358
-
-	* r (U+0072): L<<117.0,500.0>--<117.0,382.0>>/B<<117.0,382.0>-<132.0,451.0>-<169.0,478.5>> = 12.2647737278924
-
-	* racute (U+0155): L<<117.0,500.0>--<117.0,382.0>>/B<<117.0,382.0>-<132.0,451.0>-<169.0,478.5>> = 12.2647737278924
-
-	* rcaron (U+0159): L<<117.0,500.0>--<117.0,382.0>>/B<<117.0,382.0>-<132.0,451.0>-<169.0,478.5>> = 12.2647737278924
-
-	* rmacronbelow (U+1E5F): L<<117.0,500.0>--<117.0,382.0>>/B<<117.0,382.0>-<132.0,451.0>-<169.0,478.5>> = 12.2647737278924
-
-	* uni0157 (U+0157): L<<117.0,500.0>--<117.0,382.0>>/B<<117.0,382.0>-<132.0,451.0>-<169.0,478.5>> = 12.2647737278924
-
-	* uni01CE (U+01CE): L<<390.0,0.0>--<390.0,144.0>>/B<<390.0,144.0>-<384.0,106.0>-<361.0,71.5>> = 8.972626614896358
-
-	* uni1E5B (U+1E5B): L<<117.0,500.0>--<117.0,382.0>>/B<<117.0,382.0>-<132.0,451.0>-<169.0,478.5>> = 12.2647737278924
-
-	* uni1EA1 (U+1EA1): L<<390.0,0.0>--<390.0,144.0>>/B<<390.0,144.0>-<384.0,106.0>-<361.0,71.5>> = 8.972626614896358 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[5] LilGrotesk-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.9.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + f
-
-	- f + l
-
-	- l + f
-
-	- f + i
-
-	- i + l [code: lacks-kern-info]
+* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -905,81 +915,57 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* dollar (U+0024) contains a short segment B<<471.0,645.5>-<482.0,634.0>-<482.0,634.0>>
+	* at (U+0040) contains a short segment B<<578.0,284.5>-<599.0,281.0>-<615.0,277.0>>
 
-	* dollar (U+0024) contains a short segment B<<439.0,603.0>-<438.0,605.0>-<427.0,617.0>>
+	* section (U+00A7) contains a short segment B<<452.5,651.5>-<465.0,639.0>-<465.0,638.0>>
 
-	* ampersand (U+0026) contains a short segment B<<230.0,377.0>-<229.0,378.0>-<228.0,379.0>>
+	* section (U+00A7) contains a short segment B<<361.0,559.0>-<359.0,561.0>-<349.0,570.5>>
 
-	* comma (U+002C) contains a short segment B<<133.0,42.0>-<133.0,41.0>-<133.0,41.0>>
+	* germandbls (U+00DF) contains a short segment L<<389.0,414.0>--<412.0,414.0>>
 
-	* semicolon (U+003B) contains a short segment B<<133.0,42.0>-<133.0,41.0>-<133.0,41.0>>
+	* eth (U+00F0) contains a short segment B<<277.0,470.0>-<286.0,470.0>-<290.0,468.0>>
 
-	* sterling (U+00A3) contains a short segment B<<600.0,57.0>-<599.0,52.0>-<592.0,38.5>>
+	* Eng (U+014A) contains a short segment B<<469.0,-72.0>-<480.0,-72.0>-<487.0,-64.5>>
 
-	* section (U+00A7) contains a short segment B<<466.0,708.5>-<479.0,696.0>-<480.0,695.0>>
+	* OE (U+0152) contains a short segment L<<486.0,0.0>--<486.0,23.0>>
 
-	* germandbls (U+00DF) contains a short segment L<<341.0,411.0>--<362.0,411.0>>
+	* uni019D (U+019D) contains a short segment B<<50.0,-72.0>-<61.0,-72.0>-<68.0,-64.5>>
 
-	* Eng (U+014A) contains a short segment B<<518.0,-154.0>-<530.0,-154.0>-<539.0,-144.5>>
+	* Euro (U+20AC) contains a short segment B<<135.0,298.0>-<134.0,306.0>-<133.5,313.5>>
 
-	* uni019D (U+019D) contains a short segment B<<49.0,-154.0>-<61.0,-154.0>-<70.5,-144.5>>
+	* Euro (U+20AC) contains a short segment B<<133.5,313.5>-<133.0,321.0>-<133.0,329.0>>
 
-	* Euro (U+20AC) contains a short segment B<<115.0,349.0>-<115.0,356.0>-<115.0,362.0>>
+	* Euro (U+20AC) contains a short segment B<<133.0,329.0>-<133.0,336.0>-<133.5,343.5>>
 
-	* Euro (U+20AC) contains a short segment B<<115.0,362.0>-<115.0,368.0>-<115.0,375.0>>
+	* Euro (U+20AC) contains a short segment B<<133.5,343.5>-<134.0,351.0>-<135.0,358.0>>
 
-	* Euro (U+20AC) contains a short segment B<<169.0,375.0>-<169.0,368.0>-<169.0,362.0>>
+	* Euro (U+20AC) contains a short segment B<<270.0,358.0>-<269.0,351.0>-<268.5,344.0>>
 
-	* Euro (U+20AC) contains a short segment B<<169.0,362.0>-<169.0,356.0>-<169.0,349.0>>
+	* Euro (U+20AC) contains a short segment B<<268.5,344.0>-<268.0,337.0>-<268.0,329.0>>
 
-	* summation (U+2211) contains a short segment L<<422.0,359.0>--<422.0,337.0>>
+	* Euro (U+20AC) contains a short segment B<<268.0,329.0>-<268.0,321.0>-<268.5,313.5>>
 
-	* radical (U+221A) contains a short segment L<<379.0,-6.0>--<363.0,-6.0>>
+	* Euro (U+20AC) contains a short segment B<<268.5,313.5>-<269.0,306.0>-<270.0,298.0>>
 
-	* uni2325 (U+2325) contains a short segment B<<212.0,492.0>-<217.0,492.0>-<219.0,487.0>> [code: found-short-segments]
+	* uni2325 (U+2325) contains a short segment B<<340.0,-11.0>-<334.0,-11.0>-<332.0,-7.0>>
+
+	* uni2325 (U+2325) contains a short segment B<<200.0,464.0>-<205.0,464.0>-<207.0,459.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* a (U+0061): L<<373.0,0.0>--<373.0,119.0>>/B<<373.0,119.0>-<366.0,86.0>-<345.5,57.5>> = 11.976132444203333
+	* trademark (U+2122): L<<535.0,371.0>--<506.0,486.0>>/L<<506.0,486.0>--<506.0,322.0>> = 14.15341258785141
 
-	* aacute (U+00E1): L<<373.0,0.0>--<373.0,119.0>>/B<<373.0,119.0>-<366.0,86.0>-<345.5,57.5>> = 11.976132444203333
-
-	* abreve (U+0103): L<<373.0,0.0>--<373.0,119.0>>/B<<373.0,119.0>-<366.0,86.0>-<345.5,57.5>> = 11.976132444203333
-
-	* acircumflex (U+00E2): L<<373.0,0.0>--<373.0,119.0>>/B<<373.0,119.0>-<366.0,86.0>-<345.5,57.5>> = 11.976132444203333
-
-	* adieresis (U+00E4): L<<373.0,0.0>--<373.0,119.0>>/B<<373.0,119.0>-<366.0,86.0>-<345.5,57.5>> = 11.976132444203333
-
-	* ae (U+00E6): L<<373.0,0.0>--<373.0,119.0>>/B<<373.0,119.0>-<366.0,86.0>-<345.5,57.5>> = 11.976132444203333
-
-	* aeacute (U+01FD): L<<373.0,0.0>--<373.0,119.0>>/B<<373.0,119.0>-<366.0,86.0>-<345.5,57.5>> = 11.976132444203333
-
-	* agrave (U+00E0): L<<373.0,0.0>--<373.0,119.0>>/B<<373.0,119.0>-<366.0,86.0>-<345.5,57.5>> = 11.976132444203333
-
-	* amacron (U+0101): L<<373.0,0.0>--<373.0,119.0>>/B<<373.0,119.0>-<366.0,86.0>-<345.5,57.5>> = 11.976132444203333
-
-	* aogonek (U+0105): L<<373.0,0.0>--<373.0,119.0>>/B<<373.0,119.0>-<366.0,86.0>-<345.5,57.5>> = 11.976132444203333
-
-	* aring (U+00E5): L<<373.0,0.0>--<373.0,119.0>>/B<<373.0,119.0>-<366.0,86.0>-<345.5,57.5>> = 11.976132444203333
-
-	* aringacute (U+01FB): L<<373.0,0.0>--<373.0,119.0>>/B<<373.0,119.0>-<366.0,86.0>-<345.5,57.5>> = 11.976132444203333
-
-	* atilde (U+00E3): L<<373.0,0.0>--<373.0,119.0>>/B<<373.0,119.0>-<366.0,86.0>-<345.5,57.5>> = 11.976132444203333
-
-	* uni01CE (U+01CE): L<<373.0,0.0>--<373.0,119.0>>/B<<373.0,119.0>-<366.0,86.0>-<345.5,57.5>> = 11.976132444203333
-
-	* uni1EA1 (U+1EA1): L<<373.0,0.0>--<373.0,119.0>>/B<<373.0,119.0>-<366.0,86.0>-<345.5,57.5>> = 11.976132444203333 [code: found-jaggy-segments]
+	* trademark (U+2122): L<<650.0,322.0>--<650.0,486.0>>/L<<650.0,486.0>--<624.0,371.0>> = 12.739646792482095 [code: found-jaggy-segments]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 6 | 23 | 716 | 43 | 627 | 0 |
-| 0% | 0% | 2% | 51% | 3% | 44% | 0% |
+| 0 | 12 | 28 | 716 | 43 | 616 | 0 |
+| 0% | 1% | 2% | 51% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
