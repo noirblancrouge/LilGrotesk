@@ -59544,45 +59544,46 @@ unicode = 13;
 },
 {
 glyphname = .notdef;
+lastChange = "2025-01-07 22:05:46 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (24,0);
+pos = (-43,0);
 ref = braceleft;
 },
 {
 alignment = -1;
-pos = (664,0);
+pos = (597,0);
 ref = braceright;
 },
 {
 alignment = -1;
 angle = 90;
-pos = (679,-155);
+pos = (612,-155);
 ref = N;
 scale = (0.4327,0.4327);
 },
 {
 alignment = -1;
 angle = 90;
-pos = (678,123);
+pos = (611,123);
 ref = B;
 scale = (0.4327,0.4327);
 },
 {
 alignment = -1;
 angle = 90;
-pos = (678,360);
+pos = (611,360);
 ref = R;
 scale = (0.4327,0.4327);
 },
 {
 alignment = -1;
 angle = 90;
-pos = (677,637);
+pos = (610,637);
 ref = period;
 scale = (0.432,0.432);
 }
@@ -59593,34 +59594,34 @@ width = 955;
 layerId = "4DE8B86A-429B-4593-9BC8-49866BB1A430";
 shapes = (
 {
-pos = (52,0);
+pos = (-12,0);
 ref = braceleft;
 },
 {
-pos = (661,0);
+pos = (597,0);
 ref = braceright;
 },
 {
 angle = 90;
-pos = (681,-155);
+pos = (617,-155);
 ref = N;
 scale = (0.4327,0.4327);
 },
 {
 angle = 90;
-pos = (680,123);
+pos = (616,123);
 ref = B;
 scale = (0.4327,0.4327);
 },
 {
 angle = 90;
-pos = (680,363);
+pos = (616,363);
 ref = R;
 scale = (0.4327,0.4327);
 },
 {
 angle = 90;
-pos = (679,637);
+pos = (615,637);
 ref = period;
 scale = (0.432,0.432);
 }
@@ -59631,39 +59632,39 @@ width = 961;
 layerId = "0BE882A4-FC89-4865-8E81-154FB3EE808B";
 shapes = (
 {
-pos = (-18,0);
+pos = (-38,0);
 ref = braceleft;
 },
 {
-pos = (668,0);
+pos = (648,0);
 ref = braceright;
 },
 {
 angle = 90;
-pos = (676,-155);
+pos = (656,-155);
 ref = N;
 scale = (0.4327,0.4327);
 },
 {
 angle = 90;
-pos = (675,123);
+pos = (655,123);
 ref = B;
 scale = (0.4327,0.4327);
 },
 {
 angle = 90;
-pos = (675,355);
+pos = (655,355);
 ref = R;
 scale = (0.4327,0.4327);
 },
 {
 angle = 90;
-pos = (674,637);
+pos = (654,637);
 ref = period;
 scale = (0.432,0.432);
 }
 );
-width = 947;
+width = 1037;
 },
 {
 layerId = "9C2CFEA6-85BB-4338-BB26-B1BEA40B5780";
@@ -59701,7 +59702,7 @@ ref = period;
 scale = (0.432,0.432);
 }
 );
-width = 945;
+width = 1077;
 }
 );
 note = .notdef;
